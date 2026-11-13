@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kiez-events-atlas.example/schemas/venue.schema.json",
+  "title": "Kiez Events Atlas – public venue record",
+  "description": "PRELIMINARY. Derived from the CCI Atlas PLACES array without re-entering data.",
+  "type": "object",
+  "required": [
+    "venue_id",
+    "venue_name",
+    "latitude",
+    "longitude",
+    "lor_id",
+    "official_website",
+    "atlas_provenance",
+    "coordinate_precision",
+    "data_quality"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "0.1.0"
+    },
+    "venue_id": {
+      "type": "string",
+      "description": "Carried over verbatim from PLACES[].id — stable, already URL-safe."
+    },
+    "venue_name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "description": "PLACES[].cat"
+    },
+    "layer": {
+      "enum": [
+        "support",
+        "space",
+        "social"
+      ]
+    },
+    "address": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "plz": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "latitude": {
+      "type": "number",
+      "minimum": 52.3,
+      "maximum": 52.7
+    },
+    "longitude": {
+      "type": "number",
+      "minimum": 13.0,
+      "maximum": 13.8
+    },
+    "lor_id": {
+      "type": "string",
+      "pattern": "^[0-9]{6}$"
+    },
+    "lor_name": {
+      "type": "string"
+    },
+    "lor_plr_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9]{8}$"
+    },
+    "district": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "official_website": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "coordinate_precision": {
+      "enum": [
+        "street",
+        "postal",
+        "missing"
+      ]
+    },
+    "data_quality": {
+      "enum": [
+        "verified",
+        "uncertain",
+        "missing"
+      ]
+    },
+    "atlas_provenance": {
+      "type": "object",
+      "required": [
+        "source_reference"
+      ],
+      "properties": {
+        "source_reference": {
+          "type": "string",
+          "description": "Original PLACES[].src — preserved verbatim."
+        },
+        "atlas_lor_plr": {
+          "type": "string",
+          "description": "PLACES[].lor as shipped, for audit against point-in-polygon."
+        }
+      }
+    }
+  }
+}

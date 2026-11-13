@@ -1,0 +1,367 @@
+{
+ "schema_version": "0.1.0",
+ "generated_at": "2026-11-13T21:50:22+00:00",
+ "observation_window": "2026-11-13",
+ "note": "Internal registry. NOT public output. Only sources actually fetched on 2026-11-13 are marked verified/good.",
+ "sources": [
+  {
+   "source_id": "src-001",
+   "venue_id": "stadtteilzentrum-friedrichsfelde",
+   "venue_name": "Stadtteilzentrum Friedrichsfelde",
+   "website": "https://stadtteilzentrum-friedrichsfelde.de",
+   "event_listing_url": "https://stadtteilzentrum-friedrichsfelde.de/events/",
+   "source_type": "community_hub",
+   "discovered_endpoints": [
+    {
+     "type": "wp_rest",
+     "url": "https://stadtteilzentrum-friedrichsfelde.de/wp-json/tribe/events/v1/events",
+     "status": "tested_ok"
+    },
+    {
+     "type": "ics",
+     "url": "https://stadtteilzentrum-friedrichsfelde.de/events/?ical=1",
+     "status": "tested_ok"
+    },
+    {
+     "type": "wp_rest_cpt",
+     "url": "https://stadtteilzentrum-friedrichsfelde.de/wp-json/wp/v2/tribe_events",
+     "status": "tested_ok"
+    }
+   ],
+   "parser_type": "tec_rest_v1",
+   "fetch_interval_hours": 12,
+   "crawl_policy": {
+    "robots_checked": true,
+    "terms_reviewed": false,
+    "rate_limit_notes": "robots.txt only disallows /cgi-bin/; no crawl-delay"
+   },
+   "source_quality": "verified",
+   "last_successful_fetch": "2026-11-13",
+   "scraper_integration_status": "not_integrated",
+   "discovery_evidence": "GET /wp-json/tribe/events/v1/events -> 200, 3 events, full start_date/end_date/cost/venue/url",
+   "notes": "The Events Calendar 6.17.2. Best-case source: REST + ICS agree."
+  },
+  {
+   "source_id": "src-002",
+   "venue_id": "nachbarschaftszentrum-divan",
+   "venue_name": "Interkulturelles Stadtteilzentrum Divan",
+   "website": "https://www.nachbarschaftszentrum-divan.de",
+   "event_listing_url": "https://nachbarschaftszentrum-divan.de/kalender/",
+   "source_type": "community_hub",
+   "discovered_endpoints": [
+    {
+     "type": "html_microdata",
+     "url": "https://nachbarschaftszentrum-divan.de/kalender/",
+     "status": "tested_ok"
+    }
+   ],
+   "parser_type": "simcal_microdata",
+   "fetch_interval_hours": 24,
+   "crawl_policy": {
+    "robots_checked": true,
+    "terms_reviewed": false,
+    "rate_limit_notes": "robots.txt: only 'Disallow:' (empty)"
+   },
+   "source_quality": "verified",
+   "last_successful_fetch": "2026-11-13",
+   "scraper_integration_status": "not_integrated",
+   "discovery_evidence": "GET /kalender/ -> 200, 225 li.simcal-event elements with schema.org/Event microdata (startDate/endDate/content attrs)",
+   "notes": "Simple Calendar 3.5.9 rendering a Google Calendar. 683 KB page. Recurring flag present."
+  },
+  {
+   "source_id": "src-003",
+   "venue_id": "mgh-wassertor",
+   "venue_name": "Mehrgenerationenhaus Wassertor",
+   "website": "https://mgh-wassertor.de",
+   "event_listing_url": "https://mgh-wassertor.de/",
+   "source_type": "community_hub",
+   "discovered_endpoints": [
+    {
+     "type": "jsonld",
+     "url": "https://mgh-wassertor.de/",
+     "status": "tested_ok"
+    },
+    {
+     "type": "wp_rest_cpt",
+     "url": "https://mgh-wassertor.de/wp-json/wp/v2/mec-events",
+     "status": "present_not_exercised"
+    }
+   ],
+   "parser_type": "mec_jsonld",
+   "fetch_interval_hours": 24,
+   "crawl_policy": {
+    "robots_checked": true,
+    "terms_reviewed": false,
+    "rate_limit_notes": "robots.txt returned 200 with zero rules"
+   },
+   "source_quality": "verified",
+   "last_successful_fetch": "2026-11-13",
+   "scraper_integration_status": "not_integrated",
+   "discovery_evidence": "GET / -> 200, 28 ld+json blocks, 27 Event objects with name/startDate/endDate/url/location",
+   "notes": "Modern Events Calendar. TRAP: offers.priceCurrency is '$' with empty price -> must not be trusted. Only source exposing eventStatus; all 27 events were EventScheduled, so cancellation handling is unproven."
+  },
+  {
+   "source_id": "src-004",
+   "venue_id": "sprengelhaus-wedding",
+   "venue_name": "Treffpunkt SprengelHaus",
+   "website": "https://sprengelhaus-wedding.de",
+   "event_listing_url": "https://sprengelhaus-wedding.de/events/",
+   "source_type": "community_hub",
+   "discovered_endpoints": [
+    {
+     "type": "html_events_manager",
+     "url": "https://sprengelhaus-wedding.de/events/",
+     "status": "tested_ok"
+    }
+   ],
+   "parser_type": "em_html",
+   "fetch_interval_hours": 24,
+   "crawl_policy": {
+    "robots_checked": true,
+    "terms_reviewed": false,
+    "rate_limit_notes": "robots.txt: /wp-admin/ only"
+   },
+   "source_quality": "verified",
+   "last_successful_fetch": "2026-11-13",
+   "scraper_integration_status": "not_integrated",
+   "discovery_evidence": "GET /events/ -> 200, 178 .em-item nodes with data-date attrs, .em-event-date/.em-event-time/.em-event-location",
+   "notes": "Events Manager 7.4.8 server-rendered. Title needs .em-item-title selector (my first selector returned null)."
+  },
+  {
+   "source_id": "src-005",
+   "venue_id": "kgberlin",
+   "venue_name": "Kommunale Galerien Berlin (portal, 28 venues)",
+   "website": "https://kgberlin.net",
+   "event_listing_url": "https://kgberlin.net/programm/",
+   "source_type": "gallery_network",
+   "discovered_endpoints": [
+    {
+     "type": "wp_rest_acf",
+     "url": "https://kgberlin.net/wp-json/wp/v2/event?per_page=N",
+     "status": "tested_ok"
+    },
+    {
+     "type": "wp_rest_types",
+     "url": "https://kgberlin.net/wp-json/wp/v2/types",
+     "status": "tested_ok"
+    }
+   ],
+   "parser_type": "wp_rest_acf",
+   "fetch_interval_hours": 24,
+   "crawl_policy": {
+    "robots_checked": true,
+    "terms_reviewed": false,
+    "rate_limit_notes": "robots.txt: /wp-admin/ only; sitemap declared"
+   },
+   "source_quality": "verified",
+   "last_successful_fetch": "2026-11-13",
+   "scraper_integration_status": "not_integrated",
+   "discovery_evidence": "GET /wp-json/wp/v2/event -> 200 with acf.start_date (YYYYMMDD), acf.time, acf.galleries[], acf.custom{name,adress,longitude,lattitude}",
+   "notes": "ONE source covers 28 atlas venues via acf.galleries[]. Bilingual (de/en) duplicates must be deduped via polylang 'translations'. No price field."
+  },
+  {
+   "source_id": "src-006",
+   "venue_id": "berlin-de-kalender",
+   "venue_name": "berlin.de Landesredaktion event calendar (per-venue RSS)",
+   "website": "https://www.berlin.de",
+   "event_listing_url": "https://www.berlin.de/land/kalender/",
+   "source_type": "municipal_calendar",
+   "discovered_endpoints": [
+    {
+     "type": "rss",
+     "url": "https://www.berlin.de/land/kalender/index.php?rss&c=<CAL_ID>&date_start=DD.MM.YYYY",
+     "status": "tested_ok"
+    },
+    {
+     "type": "html",
+     "url": "https://www.berlin.de/land/kalender/?suchmaske&c=<CAL_ID>",
+     "status": "tested_ok"
+    }
+   ],
+   "parser_type": "rss",
+   "fetch_interval_hours": 24,
+   "crawl_policy": {
+    "robots_checked": true,
+    "terms_reviewed": true,
+    "rate_limit_notes": "robots.txt: explicit terms — UA must identify itself; must comply with REP; may be blocked at discretion"
+   },
+   "source_quality": "good",
+   "last_successful_fetch": "2026-11-13",
+   "scraper_integration_status": "not_integrated",
+   "discovery_evidence": "GET index.php?rss&c=409&date_start=13.11.2026 -> 200, 100 items, guid 'baevents:event:298259:2026-11-13:00-00-00'",
+   "notes": "Covers 112 atlas venues hosted on berlin.de (libraries, VHS, Kulturhäuser). Calendar id c=409 = Stadtbibliothek Pankow. Calendar IDs must be discovered per venue. Detail pages carry no JSON-LD."
+  },
+  {
+   "source_id": "src-007",
+   "venue_id": "hausderstatistik",
+   "venue_name": "Haus der Statistik – Haus der Materialisierung",
+   "website": "https://hausderstatistik.org",
+   "event_listing_url": "https://hausderstatistik.org/programm/",
+   "source_type": "community_hub",
+   "discovered_endpoints": [
+    {
+     "type": "html",
+     "url": "https://hausderstatistik.org/programm/",
+     "status": "tested_ok"
+    },
+    {
+     "type": "wp_rest_types",
+     "url": "https://hausderstatistik.org/wp-json/wp/v2/types",
+     "status": "tested_ok"
+    }
+   ],
+   "parser_type": "html_listing",
+   "fetch_interval_hours": 24,
+   "crawl_policy": {
+    "robots_checked": true,
+    "terms_reviewed": false,
+    "rate_limit_notes": "robots.txt: Yoast block, effectively open"
+   },
+   "source_quality": "good",
+   "last_successful_fetch": "2026-11-13",
+   "scraper_integration_status": "not_integrated",
+   "discovery_evidence": "GET /programm/ -> 200, 5+ /event/<slug>/ links; GET /event/<slug>/ -> 200 with date in og:description ('13.11.2026 • Einlass 19:30h')",
+   "notes": "Events exist as CPT but are NOT exposed via /wp-json/wp/v2/event (404). Dates only in free text -> needs regex + review."
+  },
+  {
+   "source_id": "src-008",
+   "venue_id": "zku-berlin",
+   "venue_name": "ZK/U – Zentrum für Kunst und Urbanistik",
+   "website": "https://www.zku-berlin.org",
+   "event_listing_url": "https://www.zku-berlin.org/de/events",
+   "source_type": "art_hub",
+   "discovered_endpoints": [
+    {
+     "type": "html",
+     "url": "https://www.zku-berlin.org/de/events",
+     "status": "tested_ok"
+    },
+    {
+     "type": "sitemap",
+     "url": "https://www.zku-berlin.org/sitemap.xml",
+     "status": "tested_ok"
+    }
+   ],
+   "parser_type": "html_listing",
+   "fetch_interval_hours": 48,
+   "crawl_policy": {
+    "robots_checked": true,
+    "terms_reviewed": false,
+    "rate_limit_notes": "robots.txt: only a Sitemap line, no rules"
+   },
+   "source_quality": "good",
+   "last_successful_fetch": "2026-11-13",
+   "scraper_integration_status": "not_integrated",
+   "discovery_evidence": "GET /de/events -> 200, 9 article.event-item with .event-item__date ('SO 01.03.'), .event-item__title, p.date, a.button href",
+   "notes": "TYPO3. Day+month WITHOUT year -> year must be inferred. Recurring/date-range events ('Sundays from March to November') need review."
+  },
+  {
+   "source_id": "src-009",
+   "venue_id": "orwohaus",
+   "venue_name": "ORWOhaus",
+   "website": "https://orwohaus.de",
+   "event_listing_url": "https://www.orwohaus.de/veranstaltungen/",
+   "source_type": "music_hub",
+   "discovered_endpoints": [
+    {
+     "type": "html_events_manager",
+     "url": "https://www.orwohaus.de/veranstaltungen/",
+     "status": "tested_ok"
+    }
+   ],
+   "parser_type": "em_html",
+   "fetch_interval_hours": 48,
+   "crawl_policy": {
+    "robots_checked": true,
+    "terms_reviewed": false,
+    "rate_limit_notes": "robots.txt: disallows /calendar/action~* variants only"
+   },
+   "source_quality": "good",
+   "last_successful_fetch": "2026-11-13",
+   "scraper_integration_status": "not_integrated",
+   "discovery_evidence": "GET /veranstaltungen/ -> 200, 36 /events/<slug>/ links in #em-wrapper; individual pages carry .em-event markers",
+   "notes": "Events Manager listing renders titles+links but NOT dates in the list; dates must come from detail pages (21.11.2026 found)."
+  },
+  {
+   "source_id": "src-010",
+   "venue_id": "theaterhaus-berlin",
+   "venue_name": "Theaterhaus Berlin Mitte / Schöneweide",
+   "website": "https://www.theaterhaus-berlin.com",
+   "event_listing_url": "https://www.theaterhaus-berlin.com/veranstaltungstipps/",
+   "source_type": "venue",
+   "discovered_endpoints": [
+    {
+     "type": "wp_rest_cpt",
+     "url": "https://www.theaterhaus-berlin.com/wp-json/wp/v2/event",
+     "status": "BLOCKED_BY_ROBOTS"
+    }
+   ],
+   "parser_type": "html_listing",
+   "fetch_interval_hours": 48,
+   "crawl_policy": {
+    "robots_checked": true,
+    "terms_reviewed": false,
+    "rate_limit_notes": "robots.txt DISALLOWS /wp-json/ and /?rest_route= — REST API must NOT be used"
+   },
+   "source_quality": "candidate",
+   "last_successful_fetch": null,
+   "scraper_integration_status": "not_integrated",
+   "discovery_evidence": "GET /wp-json/wp/v2/types -> 200 and lists 'event'+'venue' CPTs, BUT robots.txt forbids it",
+   "notes": "COMPLIANCE: the API works technically but is disallowed. Use /veranstaltungstipps/ HTML only."
+  },
+  {
+   "source_id": "src-011",
+   "venue_id": "uferstudios",
+   "venue_name": "Uferstudios für zeitgenössischen Tanz",
+   "website": "https://www.uferstudios.com",
+   "event_listing_url": "https://www.uferstudios.com/de/dance/veranstaltungen",
+   "source_type": "venue",
+   "discovered_endpoints": [
+    {
+     "type": "html_js",
+     "url": "https://www.uferstudios.com/de/dance/veranstaltungen",
+     "status": "JS_REQUIRED"
+    }
+   ],
+   "parser_type": "playwright",
+   "fetch_interval_hours": 48,
+   "crawl_policy": {
+    "robots_checked": true,
+    "terms_reviewed": false,
+    "rate_limit_notes": "robots.txt: 'Allow: /'"
+   },
+   "source_quality": "candidate",
+   "last_successful_fetch": null,
+   "scraper_integration_status": "not_integrated",
+   "discovery_evidence": "GET /de/dance/veranstaltungen -> 200 but renders 'Keine Veranstaltungen gefunden' plus an empty <div slot=\"calendar\">",
+   "notes": "Events are injected client-side. Only source in the sample that genuinely needs a browser."
+  },
+  {
+   "source_id": "src-012",
+   "venue_id": "kotti-berlin",
+   "venue_name": "Stadtteilzentrum Familiengarten (Kotti e.V.)",
+   "website": "https://kotti-berlin.de",
+   "event_listing_url": "https://kotti-berlin.de/kalender/",
+   "source_type": "community_hub",
+   "discovered_endpoints": [
+    {
+     "type": "html_calendar",
+     "url": "https://kotti-berlin.de/kalender/",
+     "status": "tested_ok"
+    }
+   ],
+   "parser_type": "html_listing",
+   "fetch_interval_hours": 48,
+   "crawl_policy": {
+    "robots_checked": true,
+    "terms_reviewed": false,
+    "rate_limit_notes": "robots.txt: 33 rules, all /calendar-2/action~* variants"
+   },
+   "source_quality": "candidate",
+   "last_successful_fetch": null,
+   "scraper_integration_status": "not_integrated",
+   "discovery_evidence": "GET /kalender/ -> 200, 235 KB, All-in-One Event Calendar (ai1ec) assets, date attrs like '14/11/2026'",
+   "notes": "ai1ec markup is not schema.org; needs a dedicated selector set. Not yet validated end-to-end."
+  }
+ ]
+}
