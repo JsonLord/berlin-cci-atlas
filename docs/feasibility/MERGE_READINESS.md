@@ -2,7 +2,34 @@
 
 **Verdict: READY TO MERGE — 4 open decisions do not block the merge.**
 
-`gh pr view 1` reports `mergeable: MERGEABLE`, 3 commits, 32 files, **0 deletions**.
+## Verified PR state
+
+Revalidated live against GitHub, not from a cached report:
+
+| field | value |
+|---|---|
+| state | `OPEN` (not draft) |
+| base → head | `main` → `phase1/venue-directory` |
+| **head SHA** | `a9d984d86b925573de829026e2e753941b0d5f88` |
+| mergeable | `MERGEABLE` |
+| mergeStateStatus | `CLEAN` |
+| **commits** | **4** |
+| **files changed** | **33** |
+| deletions | **0** |
+| CI checks | **none configured** (no workflows exist in the repo; `main` is unprotected) |
+| inherited frontend files touched | **0** |
+| `.github/` files | **0** |
+
+### Correction to an earlier count
+
+An earlier revision of this report said "3 commits, 32 files". Both figures were wrong:
+this report is itself a file in the PR, so writing it added a commit and a file. The
+verified figures are **4 commits / 33 files**. No implementation code was changed to
+reconcile the numbers — only this report.
+
+Because no CI workflow exists, "all required CI checks pass" is vacuously satisfied:
+there are none. The evidence that matters is the local suite below, which was re-run
+against this exact head SHA.
 
 ---
 
@@ -10,10 +37,10 @@
 
 | gate | result |
 |---|---|
-| Test suite | **80 passed** (was 49; +31 for websites / LOR / deploy boundary) |
+| Test suite | **80 passed** (was 49; +31 for websites / LOR / deploy boundary) — re-run at `a9d984d` |
 | Validation checks | **41/41 passed** (was 27; +14) |
 | Build | clean — 303 records, 251 published |
-| `index.html` integrity | `927d63a9…` = `HEAD:index.html` — **byte-identical** |
+| `index.html` integrity | `927d63a9…` — identical to **both** `HEAD:index.html` and the original upstream blob at `d548d74` |
 | Inherited files changed | **none** (`index.html`, `config.js`, `CONTRIBUTORS.md` untouched) |
 | Deletions | **0** — purely additive |
 | Mergeability | `MERGEABLE` |
@@ -145,6 +172,18 @@ They block **Phase 1 sign-off**, not the merge: the 43 records sit in
 Nothing downstream is wrong while they wait.
 
 ---
+
+## 4b. Standing caveats that survive the merge
+
+These are preserved deliberately. Merging Phase 1 does **not** resolve any of them.
+
+| # | caveat | status |
+|---|---|---|
+| 1 | **LOR boundary dataset licensing and vintage are unconfirmed.** `metadata.attribution` marks the entry `provisional`, `vintage: unknown`, `licence: unknown`, `blocks_publication: true`. | **unresolved** — upstream controller must confirm |
+| 2 | **Upstream code/data licensing and permission to publish a derivative are unresolved.** No `LICENSE` file exists in either repo. | **unresolved** |
+| 3 | **Venue websites are unverified unless actually inspected.** All 251 published records carry `verification: unverified`; `official_claims` is 0. | **by design** — no site was visited |
+| 4 | **The 43 pending-review venues remain pending** and must not be silently promoted. No source-discovery work may promote them as a side effect. | **enforced** — validation asserts status consistency |
+| 5 | **The venue classification is not proof that a venue runs eligible events.** 249 of 251 inclusions rest on rule R2 (venue *type*), not on evidence of actual programming. | **stated in §6** |
 
 ## 5. Two conditions on publishing later (not on merging)
 
