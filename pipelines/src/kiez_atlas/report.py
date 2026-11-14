@@ -242,6 +242,78 @@ def generate(repo: Path) -> str:
              "still gates republication.")
     L.append("")
 
+    # ---------------- websites ----------------
+    L.append("## 9b. What a `website` value means")
+    L.append("")
+    L.append("The inherited `PLACES[].url` is **not** a verified official website. It is a "
+             "page the compiler used to describe the venue. Audited across all 303 records:")
+    L.append("")
+    wk = Counter(x["website_assessment"]["kind"] for x in v)
+    wpub = Counter(intf["website"]["kind"] for intf in
+                   json.loads((repo / "data/public/venues.json")
+                              .read_text(encoding="utf-8"))["venues"])
+    L.append(_md_table(
+        [(k, desc, wk.get(k, 0), wpub.get(k, 0))
+         for k, desc in [
+             ("directory_reference",
+              "third-party listing/portal, not the venue's own site"),
+             ("shared_organisation_site",
+              "one URL reused by several venues under an umbrella organisation"),
+             ("venue_site_unverified",
+              "domain that appears to belong to the venue; not visited"),
+         ]],
+        ["kind", "meaning", "all 303", "published"]))
+    L.append("")
+    n_pub = sum(wpub.values())
+    L.append(f"**No record is labelled official.** `verification` is `unverified` for all "
+             f"{n_pub} published records, and `metadata.websites.official_claims` is "
+             f"{meta['websites']['official_claims']}. The strongest claim the data supports is "
+             "\"this domain appears to belong to the venue\" — the feasibility phase never "
+             "visited these sites.")
+    L.append("")
+    L.append("The most misleading case: **19 studio houses share one "
+             "`bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses` page** (16 of them are in "
+             "the review queue, 3 published). All 19 are `directory_reference`.")
+    L.append("")
+
+    # ---------------- lor provisional ----------------
+    lor = meta["attribution"]["added_by_this_pipeline"][0]
+    L.append("## 9c. LOR attribution is provisional, and says so")
+    L.append("")
+    L.append(_md_table([
+        ("status", lor.get("status")),
+        ("vintage", lor.get("vintage")),
+        ("licence", lor.get("licence")),
+        ("blocks_publication", lor.get("blocks_publication")),
+        ("confirmation_required_from", lor.get("confirmation_required_from")),
+    ], ["field", "value"]))
+    L.append("")
+    L.append("The inherited project credits the LOR geography **nowhere**, so this pipeline "
+             "adds an entry. It is marked `provisional` because both the source vintage and "
+             "the licence are unknown. `metadata.attribution.publication_blockers` names it "
+             "explicitly, and a validation check fails if the status is ever silently "
+             "promoted to confirmed.")
+    L.append("")
+
+    # ---------------- deploy boundary ----------------
+    L.append("## 9d. Public / internal boundary is enforced, not promised")
+    L.append("")
+    L.append("Two guards in `pipelines/src/kiez_atlas/deploy.py`, both exercised by tests "
+             "and by validation checks:")
+    L.append("")
+    L.append("1. `resolve_deploy_set()` expands `data/deploy-allowlist.txt` and refuses any "
+             "path that: does not exist, escapes the repository, lives under `data/internal/`, "
+             "or matches a forbidden filename.")
+    L.append("2. `assert_no_internal_leak(staged)` inspects a **staged output directory** and "
+             "fails if any internal artefact is present. It judges the output, not the "
+             "intention, so a misconfigured copy step is caught even when the allowlist looks "
+             "correct.")
+    L.append("")
+    L.append("Proven behaviour: staging `data/public/` passes; staging all of `data/` is "
+             "refused; copying a single `review_queue.json` into a staging directory is "
+             "caught.")
+    L.append("")
+
     # ---------------- limits ----------------
     L.append("## 10. Honest limits of this classification")
     L.append("")

@@ -4,70 +4,275 @@
   "title": "Kiez Events Atlas – internal auditable venue inventory record",
   "description": "INTERNAL. One per original CCI Atlas record — all 303, including excluded ones. The four classification dimensions are separate objects so a status can never be inferred from a type.",
   "type": "object",
-  "required": ["venue_id", "venue_name", "inherited", "provenance", "classification",
-               "event_source_status", "geography"],
+  "required": [
+    "venue_id",
+    "venue_name",
+    "inherited",
+    "provenance",
+    "classification",
+    "event_source_status",
+    "geography",
+    "website_assessment"
+  ],
   "additionalProperties": false,
   "properties": {
-    "venue_id": { "type": "string", "minLength": 1 },
-    "venue_name": { "type": "string", "minLength": 1 },
+    "venue_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "venue_name": {
+      "type": "string",
+      "minLength": 1
+    },
     "inherited": {
       "type": "object",
       "description": "Every original field, unmodified. Nothing inherited is lost.",
-      "required": ["cat", "layer", "sectors", "desc", "address", "plz", "url", "flag",
-                   "district", "lor_plr", "coords", "coordinate_precision"],
+      "required": [
+        "cat",
+        "layer",
+        "sectors",
+        "desc",
+        "address",
+        "plz",
+        "url",
+        "flag",
+        "district",
+        "lor_plr",
+        "coords",
+        "coordinate_precision"
+      ],
       "additionalProperties": false,
       "properties": {
-        "cat": { "type": "string" },
-        "layer": { "enum": ["support", "space", "social"] },
-        "sectors": { "type": "array", "items": { "type": "string" } },
-        "desc": { "type": "string" },
-        "address": { "type": ["string", "null"] },
-        "plz": { "type": ["string", "null"] },
-        "url": { "type": ["string", "null"] },
-        "flag": { "type": ["boolean", "null"] },
-        "district": { "type": "string" },
-        "lor_plr": { "type": "string", "pattern": "^[0-9]{8}$" },
-        "coords": { "type": "array", "items": { "type": "number" },
-                    "minItems": 2, "maxItems": 2 },
-        "coordinate_precision": { "enum": ["street", "postal", "missing"] },
-        "distance_green_m": { "type": ["number", "null"] },
-        "distance_water_m": { "type": ["number", "null"] }
+        "cat": {
+          "type": "string"
+        },
+        "layer": {
+          "enum": [
+            "support",
+            "space",
+            "social"
+          ]
+        },
+        "sectors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "desc": {
+          "type": "string"
+        },
+        "address": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "plz": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "flag": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "district": {
+          "type": "string"
+        },
+        "lor_plr": {
+          "type": "string",
+          "pattern": "^[0-9]{8}$"
+        },
+        "coords": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "coordinate_precision": {
+          "enum": [
+            "street",
+            "postal",
+            "missing"
+          ]
+        },
+        "distance_green_m": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "distance_water_m": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
       }
     },
     "provenance": {
-      "type": "object", "required": ["source_reference"], "additionalProperties": false,
-      "properties": { "source_reference": { "type": "string" } }
+      "type": "object",
+      "required": [
+        "source_reference"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "source_reference": {
+          "type": "string"
+        }
+      }
     },
     "classification": {
       "type": "object",
-      "required": ["venue_type", "community_relevance", "product_status", "rule", "reason"],
+      "required": [
+        "venue_type",
+        "community_relevance",
+        "product_status",
+        "rule",
+        "reason"
+      ],
       "additionalProperties": false,
       "properties": {
-        "venue_type": { "type": "string", "minLength": 1 },
-        "community_relevance": { "type": "array", "minItems": 1, "uniqueItems": true,
-                                 "items": { "type": "string" } },
-        "product_status": { "enum": ["included", "excluded", "pending_review"] },
-        "rule": { "enum": ["R1", "R2", "R3", "R3b", "R4", "R5", "R6"] },
-        "reason": { "type": "string", "minLength": 20,
-                    "description": "Why this decision, naming the rule input. No silent decision." }
+        "venue_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "community_relevance": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "product_status": {
+          "enum": [
+            "included",
+            "excluded",
+            "pending_review"
+          ]
+        },
+        "rule": {
+          "enum": [
+            "R1",
+            "R2",
+            "R3",
+            "R3b",
+            "R4",
+            "R5",
+            "R6"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 20,
+          "description": "Why this decision, naming the rule input. No silent decision."
+        }
       }
     },
     "event_source_status": {
-      "enum": ["not_assessed", "candidate", "qualified",
-               "temporarily_unavailable", "not_suitable"],
+      "enum": [
+        "not_assessed",
+        "candidate",
+        "qualified",
+        "temporarily_unavailable",
+        "not_suitable"
+      ],
       "description": "Independent of product_status. A venue may be included with no event source assessed."
     },
     "geography": {
       "type": "object",
-      "required": ["atlas_lor_plr", "pip_lor_plr", "lor_agrees_with_atlas"],
+      "required": [
+        "atlas_lor_plr",
+        "pip_lor_plr",
+        "lor_agrees_with_atlas"
+      ],
       "additionalProperties": false,
       "properties": {
-        "atlas_lor_plr": { "type": "string" },
-        "atlas_lor_bzr": { "type": ["string", "null"] },
-        "atlas_lor_bzr_name": { "type": ["string", "null"] },
-        "pip_lor_plr": { "type": ["string", "null"] },
-        "pip_lor_bzr": { "type": ["string", "null"] },
-        "lor_agrees_with_atlas": { "type": "boolean" }
+        "atlas_lor_plr": {
+          "type": "string"
+        },
+        "atlas_lor_bzr": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "atlas_lor_bzr_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pip_lor_plr": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pip_lor_bzr": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "lor_agrees_with_atlas": {
+          "type": "boolean"
+        }
+      }
+    },
+    "website_assessment": {
+      "type": "object",
+      "required": [
+        "url",
+        "kind",
+        "verification",
+        "host",
+        "shared_by_venue_count",
+        "note"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "kind": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "type": "string",
+          "minLength": 1
+        },
+        "host": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "shared_by_venue_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "note": {
+          "type": "string",
+          "minLength": 10
+        }
       }
     }
   }

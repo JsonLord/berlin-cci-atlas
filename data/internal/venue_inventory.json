@@ -1,6 +1,6 @@
 {
- "schema_version": "0.2.0",
- "generated_at": "2026-11-14T07:51:32Z",
+ "schema_version": "0.3.0",
+ "generated_at": "2026-11-14T09:10:57Z",
  "notice": "INTERNAL. Operational and editorial working data. Not deployed.",
  "count": 303,
  "venues": [
@@ -30,6 +30,14 @@
    },
    "provenance": {
     "source_reference": "https://musicboard-berlin.de/en/about-us/"
+   },
+   "website_assessment": {
+    "url": "https://www.musicboard-berlin.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.musicboard-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.musicboard-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "funding_body",
@@ -77,6 +85,14 @@
    "provenance": {
     "source_reference": "https://kulturprojekte.berlin/en/kontakt/"
    },
+   "website_assessment": {
+    "url": "https://www.kreativkultur.berlin",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.kreativkultur.berlin",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.kreativkultur.berlin' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "advice_centre",
     "community_relevance": [
@@ -122,6 +138,14 @@
    },
    "provenance": {
     "source_reference": "https://kulturprojekte.berlin/en/kontakt/"
+   },
+   "website_assessment": {
+    "url": "https://www.creative-city-berlin.de/en/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.creative-city-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.creative-city-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "portal",
@@ -169,6 +193,14 @@
    "provenance": {
     "source_reference": "https://www.ibb.de/en/foerderprogramme/vc-fonds.html"
    },
+   "website_assessment": {
+    "url": "https://www.ibb.de/en/foerderprogramme/vc-fonds.html",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.ibb.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.ibb.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "funding_body",
     "community_relevance": [
@@ -215,6 +247,14 @@
    "provenance": {
     "source_reference": "https://www.ibb.de/en/service/contact/contact.html"
    },
+   "website_assessment": {
+    "url": "https://www.ibb.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.ibb.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.ibb.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "funding_body",
     "community_relevance": [
@@ -260,6 +300,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/projektzukunft/ueber-projekt-zukunft/impressum-1635853.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/projektzukunft/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "funding_body",
@@ -311,6 +359,14 @@
    "provenance": {
     "source_reference": "https://service.berlin.de/dienstleistung/330370/standort/330373/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/sen/kultur/foerderung/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "funding_body",
     "community_relevance": [
@@ -357,6 +413,14 @@
    },
    "provenance": {
     "source_reference": "https://berlin.de/wirtschaft/en/imprint"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin-partner.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.berlin-partner.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.berlin-partner.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "advice_centre",
@@ -406,6 +470,14 @@
    "provenance": {
     "source_reference": "https://www.ihk.de/berlin/produktmarken/branchen/kreativwirtschaft"
    },
+   "website_assessment": {
+    "url": "https://www.ihk.de/berlin/produktmarken/branchen/kreativwirtschaft",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.ihk.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.ihk.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "advice_centre",
     "community_relevance": [
@@ -453,6 +525,14 @@
    },
    "provenance": {
     "source_reference": "https://service.berlin.de/standort/330984/pdf/"
+   },
+   "website_assessment": {
+    "url": "https://www.hwk-berlin.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.hwk-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.hwk-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "advice_centre",
@@ -502,6 +582,14 @@
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/studio-office-and-studio-commissioner"
    },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/studio-office-and-studio-commissioner",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "advice_centre",
     "community_relevance": [
@@ -548,6 +636,14 @@
    },
    "provenance": {
     "source_reference": "https://bbk-berlin.de/en/office"
+   },
+   "website_assessment": {
+    "url": "https://www.bbk-berlin.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.bbk-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.bbk-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "association_office",
@@ -596,6 +692,14 @@
    "provenance": {
     "source_reference": "https://berlin-music-commission.de/wp-content/uploads/2026/05/Programmbeschreibung-Reglement-MusicAmbassador2026-BMC_DE.pdf"
    },
+   "website_assessment": {
+    "url": "https://www.berlin-music-commission.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.berlin-music-commission.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.berlin-music-commission.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "association_office",
     "community_relevance": [
@@ -643,6 +747,14 @@
    "provenance": {
     "source_reference": "https://berlin-music-commission.de/?p=5513"
    },
+   "website_assessment": {
+    "url": "https://www.clubcommission.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.clubcommission.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.clubcommission.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "association_office",
     "community_relevance": [
@@ -688,6 +800,14 @@
    },
    "provenance": {
     "source_reference": "https://www.musicpoolberlin.net/en/services/"
+   },
+   "website_assessment": {
+    "url": "https://www.musicpoolberlin.net",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.musicpoolberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.musicpoolberlin.net' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "advice_centre",
@@ -738,6 +858,14 @@
    "provenance": {
     "source_reference": "https://landesmusikrat-berlin.de/?p=22141"
    },
+   "website_assessment": {
+    "url": "https://landesmusikrat-berlin.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "landesmusikrat-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'landesmusikrat-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "advice_centre",
     "community_relevance": [
@@ -784,6 +912,14 @@
    },
    "provenance": {
     "source_reference": "https://inm-berlin.de/en/about-us"
+   },
+   "website_assessment": {
+    "url": "https://inm-berlin.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "inm-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'inm-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "funding_body",
@@ -832,6 +968,14 @@
    "provenance": {
     "source_reference": "https://www.initiative-musik.de/en/about-us/"
    },
+   "website_assessment": {
+    "url": "https://www.initiative-musik.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.initiative-musik.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.initiative-musik.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "funding_body",
     "community_relevance": [
@@ -879,6 +1023,14 @@
    "provenance": {
     "source_reference": "https://www.lobbyregister.bundestag.de/suche/R002499"
    },
+   "website_assessment": {
+    "url": "https://www.vut.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.vut.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.vut.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "association_office",
     "community_relevance": [
@@ -924,6 +1076,14 @@
    },
    "provenance": {
     "source_reference": "https://pap-berlin.de/en/about/berlin-performing-arts-program"
+   },
+   "website_assessment": {
+    "url": "https://pap-berlin.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "pap-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'pap-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "advice_centre",
@@ -974,6 +1134,14 @@
    "provenance": {
     "source_reference": "https://pap-berlin.de/sites/default/files/2026-05/performing-arts-guide-26_de_screen_0.pdf"
    },
+   "website_assessment": {
+    "url": "https://www.laft-berlin.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.laft-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.laft-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "association_office",
     "community_relevance": [
@@ -1020,6 +1188,14 @@
    },
    "provenance": {
     "source_reference": "https://www.tanzbuero-berlin.de/en/our-offer/consultation/"
+   },
+   "website_assessment": {
+    "url": "https://www.tanzbuero-berlin.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.tanzbuero-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.tanzbuero-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "advice_centre",
@@ -1068,6 +1244,14 @@
    },
    "provenance": {
     "source_reference": "https://www.lobbyregister.bundestag.de/suche/R006483"
+   },
+   "website_assessment": {
+    "url": "https://darstellende-kuenste.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "darstellende-kuenste.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'darstellende-kuenste.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "association_office",
@@ -1119,6 +1303,14 @@
    "provenance": {
     "source_reference": "https://www.kultweet.de/jobs/Kulturraum_Berlin_Sachbearbeitung_Raumvermietung_Datenpflege.pdf"
    },
+   "website_assessment": {
+    "url": "https://www.kulturraum.berlin",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.kulturraum.berlin",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.kulturraum.berlin' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "advice_centre",
     "community_relevance": [
@@ -1164,6 +1356,14 @@
    },
    "provenance": {
     "source_reference": "https://diversity-arts-culture.berlin/en/kontakt"
+   },
+   "website_assessment": {
+    "url": "https://diversity-arts-culture.berlin",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "diversity-arts-culture.berlin",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'diversity-arts-culture.berlin' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "advice_centre",
@@ -1214,6 +1414,14 @@
    "provenance": {
     "source_reference": "https://www.touring-artists.info/en/touring-artists/imprint"
    },
+   "website_assessment": {
+    "url": "https://www.touring-artists.info",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.touring-artists.info",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.touring-artists.info' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "advice_centre",
     "community_relevance": [
@@ -1262,6 +1470,14 @@
    "provenance": {
     "source_reference": "https://www.idz.de/en/about.html"
    },
+   "website_assessment": {
+    "url": "https://www.idz.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.idz.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.idz.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "association_office",
     "community_relevance": [
@@ -1308,6 +1524,14 @@
    "provenance": {
     "source_reference": "https://www.ziw.udk-berlin.de/nc/en/service/legal-notice-privacy/"
    },
+   "website_assessment": {
+    "url": "https://udk-berlin.de/en/service/career-transfer-service-center/creative-prototyping-the-berlin-startup-scholarship-at-udk-berlin",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "udk-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'udk-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "university_facility",
     "community_relevance": [
@@ -1353,6 +1577,14 @@
    },
    "provenance": {
     "source_reference": "https://www.dffb.de/en/?p=331"
+   },
+   "website_assessment": {
+    "url": "https://filmnetzwerk-berlin.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "filmnetzwerk-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'filmnetzwerk-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "advice_centre",
@@ -1401,6 +1633,14 @@
    "provenance": {
     "source_reference": "https://www.lobbyregister.bundestag.de/suche/R005241"
    },
+   "website_assessment": {
+    "url": "https://www.medianet-bb.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.medianet-bb.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.medianet-bb.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "association_office",
     "community_relevance": [
@@ -1448,6 +1688,14 @@
    "provenance": {
     "source_reference": "https://www.game.de/en/downloads/"
    },
+   "website_assessment": {
+    "url": "https://www.game.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.game.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.game.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "association_office",
     "community_relevance": [
@@ -1494,6 +1742,14 @@
    },
    "provenance": {
     "source_reference": "https://www.lettretage.de/en/about/how-to-find-us/"
+   },
+   "website_assessment": {
+    "url": "https://www.lettretage.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.lettretage.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.lettretage.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "cultural_centre",
@@ -1543,6 +1799,14 @@
    "provenance": {
     "source_reference": "https://www.boersenverein.de/fileadmin/landesverband-berlin-brandenburg/unsortiert/boersenverein/satzung/LV_Satzung2018-05-05.pdf"
    },
+   "website_assessment": {
+    "url": "https://www.boersenverein.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.boersenverein.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.boersenverein.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "association_office",
     "community_relevance": [
@@ -1588,6 +1852,14 @@
    },
    "provenance": {
     "source_reference": "https://service.berlin.de/standort/304517/pdf/"
+   },
+   "website_assessment": {
+    "url": "https://www.ak-berlin.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.ak-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.ak-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "association_office",
@@ -1638,6 +1910,14 @@
    "provenance": {
     "source_reference": "https://www.visitberlin.de/de/exrotaprint"
    },
+   "website_assessment": {
+    "url": "https://www.exrotaprint.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.exrotaprint.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.exrotaprint.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "creative_hub",
     "community_relevance": [
@@ -1687,6 +1967,14 @@
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
    },
+   "website_assessment": {
+    "url": "https://uferhallen.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "uferhallen.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'uferhallen.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "creative_hub",
     "community_relevance": [
@@ -1735,6 +2023,14 @@
    "provenance": {
     "source_reference": "https://www.berlin-buehnen.de/en/theatres/uferstudios/"
    },
+   "website_assessment": {
+    "url": "https://www.uferstudios.com/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.uferstudios.com",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.uferstudios.com' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "rehearsal_space",
     "community_relevance": [
@@ -1780,6 +2076,14 @@
    },
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
+   },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "artist_studio_building",
@@ -1829,6 +2133,14 @@
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
    },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "artist_studio_building",
     "community_relevance": [
@@ -1876,6 +2188,14 @@
    },
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
+   },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "artist_studio_building",
@@ -1926,6 +2246,14 @@
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
    },
+   "website_assessment": {
+    "url": "https://www.gerichtshoefe.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.gerichtshoefe.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.gerichtshoefe.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "creative_hub",
     "community_relevance": [
@@ -1974,6 +2302,14 @@
    },
    "provenance": {
     "source_reference": "https://www.e-flux.com/directory/405436/kunstlerhof-frohnau-khf-berlin/"
+   },
+   "website_assessment": {
+    "url": "https://www.khf-berlin.org/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.khf-berlin.org",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.khf-berlin.org' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "creative_hub",
@@ -2026,6 +2362,14 @@
    "provenance": {
     "source_reference": "https://www.berlinbiennale.de/en/orte/1393/zk-u-center-for-arts-and-urbanistics"
    },
+   "website_assessment": {
+    "url": "https://www.zku-berlin.org/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.zku-berlin.org",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.zku-berlin.org' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "creative_hub",
     "community_relevance": [
@@ -2074,6 +2418,14 @@
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
    },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "artist_studio_building",
     "community_relevance": [
@@ -2121,6 +2473,14 @@
    },
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
+   },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "creative_hub",
@@ -2173,6 +2533,14 @@
    "provenance": {
     "source_reference": "https://ceecee.cc/en/von-atelier-bis-werkstatt-das-kreativquartier-von-haubrok-foundation-fahrbereitschaft/"
    },
+   "website_assessment": {
+    "url": "https://ceecee.cc/en/von-atelier-bis-werkstatt-das-kreativquartier-von-haubrok-foundation-fahrbereitschaft/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "ceecee.cc",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'ceecee.cc' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "creative_hub",
     "community_relevance": [
@@ -2224,6 +2592,14 @@
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
    },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "artist_studio_building",
     "community_relevance": [
@@ -2270,6 +2646,14 @@
    },
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
+   },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "artist_studio_building",
@@ -2319,6 +2703,14 @@
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
    },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "artist_studio_building",
     "community_relevance": [
@@ -2366,6 +2758,14 @@
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
    },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "artist_studio_building",
     "community_relevance": [
@@ -2411,6 +2811,14 @@
    },
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
+   },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "artist_studio_building",
@@ -2460,6 +2868,14 @@
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
    },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "artist_studio_building",
     "community_relevance": [
@@ -2506,6 +2922,14 @@
    },
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
+   },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "artist_studio_building",
@@ -2555,6 +2979,14 @@
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
    },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "artist_studio_building",
     "community_relevance": [
@@ -2601,6 +3033,14 @@
    },
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
+   },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "artist_studio_building",
@@ -2649,6 +3089,14 @@
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
    },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "artist_studio_building",
     "community_relevance": [
@@ -2695,6 +3143,14 @@
    },
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
+   },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "artist_studio_building",
@@ -2743,6 +3199,14 @@
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
    },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "artist_studio_building",
     "community_relevance": [
@@ -2790,6 +3254,14 @@
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
    },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "artist_studio_building",
     "community_relevance": [
@@ -2836,6 +3308,14 @@
    },
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses"
+   },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 19,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "creative_hub",
@@ -2887,6 +3367,14 @@
    },
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/sculpture-workshop"
+   },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/sculpture-workshop",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "makerspace",
@@ -2941,6 +3429,14 @@
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/printing-workshop"
    },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/printing-workshop",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "makerspace",
     "community_relevance": [
@@ -2992,6 +3488,14 @@
    "provenance": {
     "source_reference": "https://www.bbk-kulturwerk.de/en/media-workshop"
    },
+   "website_assessment": {
+    "url": "https://www.bbk-kulturwerk.de/en/media-workshop",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.bbk-kulturwerk.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.bbk-kulturwerk.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "makerspace",
     "community_relevance": [
@@ -3041,6 +3545,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin-buehnen.de/en/theatres/theaterhaus-berlin-mitte/"
+   },
+   "website_assessment": {
+    "url": "https://www.theaterhaus-berlin.com/",
+    "kind": "shared_organisation_site",
+    "verification": "unverified",
+    "host": "www.theaterhaus-berlin.com",
+    "shared_by_venue_count": 2,
+    "note": "This exact URL is used by 2 venues, so it belongs to a shared umbrella organisation rather than to this venue alone."
    },
    "classification": {
     "venue_type": "event_venue",
@@ -3092,6 +3604,14 @@
    "provenance": {
     "source_reference": "https://www.berlin-buehnen.de/en/theatres/theaterhaus-berlin-mitte/"
    },
+   "website_assessment": {
+    "url": "https://www.theaterhaus-berlin.com/",
+    "kind": "shared_organisation_site",
+    "verification": "unverified",
+    "host": "www.theaterhaus-berlin.com",
+    "shared_by_venue_count": 2,
+    "note": "This exact URL is used by 2 venues, so it belongs to a shared umbrella organisation rather than to this venue alone."
+   },
    "classification": {
     "venue_type": "event_venue",
     "community_relevance": [
@@ -3138,6 +3658,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/en/tickets/search/venues/orwohaus-berlin-e9160263-db6f-4b67-a9b2-208e40966257/"
+   },
+   "website_assessment": {
+    "url": "https://orwohaus.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "orwohaus.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'orwohaus.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "creative_hub",
@@ -3189,6 +3717,14 @@
    "provenance": {
     "source_reference": "https://www.visitberlin.de/de/house-music"
    },
+   "website_assessment": {
+    "url": "https://noisy-rooms.com/en",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "noisy-rooms.com",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'noisy-rooms.com' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "event_venue",
     "community_relevance": [
@@ -3238,6 +3774,14 @@
    "provenance": {
     "source_reference": "https://pirate.com/en/locations/berlin-prenzlauer-berg/"
    },
+   "website_assessment": {
+    "url": "https://pirate.com/en/locations/berlin-prenzlauer-berg/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "pirate.com",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'pirate.com' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "rehearsal_space",
     "community_relevance": [
@@ -3286,6 +3830,14 @@
    "provenance": {
     "source_reference": "https://www.onecoworking.com/es/venues/motionlab-berlin"
    },
+   "website_assessment": {
+    "url": "https://motionlab.berlin/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "motionlab.berlin",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'motionlab.berlin' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "makerspace",
     "community_relevance": [
@@ -3333,6 +3885,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-lichtenberg/angebote/makerspace/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-lichtenberg/angebote/makerspace/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "makerspace",
@@ -3383,6 +3943,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-mitte/aktuelles/pressemitteilungen/2019/pressemitteilung.857405.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-mitte/angebote/makerspace/philipp-schaeffer-bibliothek/artikel.845921.php",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "makerspace",
     "community_relevance": [
@@ -3432,6 +4000,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-mitte/angebote/makerspace/schiller-bibliothek-mit-hugo-jugendmedienetage/tutorials/tutorials-freelab-makerspace-in-der-schiller-bibliothek-999393.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-mitte/angebote/makerspace/schiller-bibliothek-mit-hugo-jugendmedienetage/tutorials/tutorials-freelab-makerspace-in-der-schiller-bibliothek-999393.php",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "makerspace",
     "community_relevance": [
@@ -3480,6 +4056,14 @@
    },
    "provenance": {
     "source_reference": "https://hausderstatistik.org/en/house-of-statistics/"
+   },
+   "website_assessment": {
+    "url": "https://hausderstatistik.org/en/house-of-statistics/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "hausderstatistik.org",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'hausderstatistik.org' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "creative_hub",
@@ -3532,6 +4116,14 @@
    "provenance": {
     "source_reference": "https://betahaus.com/locations/kreuzberg"
    },
+   "website_assessment": {
+    "url": "https://betahaus.com/locations/kreuzberg",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "betahaus.com",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'betahaus.com' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "coworking_space",
     "community_relevance": [
@@ -3579,6 +4171,14 @@
    },
    "provenance": {
     "source_reference": "https://sanktoberholz.de/en/locations-en/st-rosenthaler-en"
+   },
+   "website_assessment": {
+    "url": "https://sanktoberholz.de/en/locations-en/st-rosenthaler-en",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "sanktoberholz.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'sanktoberholz.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "coworking_space",
@@ -3628,6 +4228,14 @@
    "provenance": {
     "source_reference": "https://www.visitberlin.de/de/holzmarkt"
    },
+   "website_assessment": {
+    "url": "https://www.visitberlin.de/de/holzmarkt",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.visitberlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.visitberlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "creative_hub",
     "community_relevance": [
@@ -3675,6 +4283,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/en/tickets/search/venues/funkhaus-berlin-b9c1e7f4-3c13-4278-aa2e-07e1fc6a3998/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/en/tickets/search/venues/funkhaus-berlin-b9c1e7f4-3c13-4278-aa2e-07e1fc6a3998/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "creative_hub",
@@ -3725,6 +4341,14 @@
    "provenance": {
     "source_reference": "https://www.erih.net/i-want-to-go-there/site/malting-plant"
    },
+   "website_assessment": {
+    "url": "https://www.erih.net/i-want-to-go-there/site/malting-plant",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.erih.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.erih.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "event_venue",
     "community_relevance": [
@@ -3770,6 +4394,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-mitte/bibliotheken/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-mitte/bibliotheken-und-besuch/philipp-schaeffer-bibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -3818,6 +4450,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-mitte/bibliotheken/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-mitte/bibliotheken-und-besuch/bibliothek-am-luisenbad/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -3863,6 +4503,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-mitte/bibliotheken/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-mitte/bibliotheken-und-besuch/bruno-loesche-bibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -3910,6 +4558,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-mitte/bibliotheken/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-mitte/bibliotheken-und-besuch/schiller-bibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -3955,6 +4611,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-mitte/bibliotheken/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-mitte/bibliotheken-und-besuch/hansabibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -4002,6 +4666,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-mitte/bibliotheken/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-mitte/bibliotheken-und-besuch/kurt-tucholsky-bibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -4047,6 +4719,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-mitte/bibliotheken/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-mitte/bibliotheken-und-besuch/bibliothek-tiergarten-sued/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -4094,6 +4774,14 @@
    "provenance": {
     "source_reference": "https://www.zlb.de/"
    },
+   "website_assessment": {
+    "url": "https://www.zlb.de/",
+    "kind": "shared_organisation_site",
+    "verification": "unverified",
+    "host": "www.zlb.de",
+    "shared_by_venue_count": 2,
+    "note": "This exact URL is used by 2 venues, so it belongs to a shared umbrella organisation rather than to this venue alone."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -4139,6 +4827,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-friedrichshain-kreuzberg/bibliotheken/artikel.95669.en.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-friedrichshain-kreuzberg/bibliotheken/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 4,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -4186,6 +4882,14 @@
    "provenance": {
     "source_reference": "https://isil.staatsbibliothek-berlin.de/isil/DE-B703"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-friedrichshain-kreuzberg/bibliotheken/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 4,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -4231,6 +4935,14 @@
    },
    "provenance": {
     "source_reference": "https://isil.staatsbibliothek-berlin.de/isil/DE-B709"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-friedrichshain-kreuzberg/bibliotheken/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 4,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -4278,6 +4990,14 @@
    "provenance": {
     "source_reference": "https://www.berlinstadtservice.de/xinh/Bibliothek_Friedrichshain-Kreuzberg.html"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-friedrichshain-kreuzberg/bibliotheken/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 4,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -4323,6 +5043,14 @@
    },
    "provenance": {
     "source_reference": "https://www.zlb.de/"
+   },
+   "website_assessment": {
+    "url": "https://www.zlb.de/",
+    "kind": "shared_organisation_site",
+    "verification": "unverified",
+    "host": "www.zlb.de",
+    "shared_by_venue_count": 2,
+    "note": "This exact URL is used by 2 venues, so it belongs to a shared umbrella organisation rather than to this venue alone."
    },
    "classification": {
     "venue_type": "library",
@@ -4370,6 +5098,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/bettina-von-arnim-bibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -4416,6 +5152,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/bibliothek-am-wasserturm/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -4461,6 +5205,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/heinrich-boell-bibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -4509,6 +5261,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/janusz-korczak-bibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -4554,6 +5314,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/kurt-tucholsky-bibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -4601,6 +5369,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/stadtteilbibliothek-buch/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -4646,6 +5422,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/stadtteilbibliothek-karow/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -4693,6 +5477,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/wolfdietrich-schnurre-bibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -4738,6 +5530,14 @@
    },
    "provenance": {
     "source_reference": "https://isil.staatsbibliothek-berlin.de/isil/DE-B710"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/weiterbildung-und-kultur/stadtbibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 7,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -4786,6 +5586,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/weiterbildung-und-kultur/stadtbibliothek/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/weiterbildung-und-kultur/stadtbibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 7,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -4831,6 +5639,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/aktuelles/pressemitteilungen/2024/pressemitteilung.1406763.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/weiterbildung-und-kultur/stadtbibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 7,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -4878,6 +5694,14 @@
    "provenance": {
     "source_reference": "https://www.berlinstadtservice.de/xinh/Bibliotheken_Charlottenburg-Wilmersdorf.html"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/weiterbildung-und-kultur/stadtbibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 7,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -4923,6 +5747,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlinstadtservice.de/xinh/Bibliotheken_Charlottenburg-Wilmersdorf.html"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/weiterbildung-und-kultur/stadtbibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 7,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -4970,6 +5802,14 @@
    "provenance": {
     "source_reference": "https://berlin.kauperts.de/eintrag/Stadtbibliothek-Charlottenburg-Wilmersdorf-Johanna-Moosdorf-Bibliothek-Westendallee-45-14052-Berlin"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/weiterbildung-und-kultur/stadtbibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 7,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -5015,6 +5855,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/aktuelles/pressemitteilungen/2024/pressemitteilung.1406763.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/weiterbildung-und-kultur/stadtbibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 7,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -5062,6 +5910,14 @@
    "provenance": {
     "source_reference": "https://isil.staatsbibliothek-berlin.de/isil/DE-B711"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-spandau/bibliotheken/bezirkszentralbibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -5107,6 +5963,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-spandau/bibliotheken/falkenhagener-feld/artikel.182168.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-spandau/bibliotheken/falkenhagener-feld/artikel.182168.php",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -5155,6 +6019,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-spandau/bibliotheken/haselhorst/stadtteilbibliothek-haselhorst-182097.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-spandau/bibliotheken/haselhorst/stadtteilbibliothek-haselhorst-182097.php",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -5201,6 +6073,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-spandau/bibliotheken/heerstrasse/stadtteilbibliothek-heerstrasse-182099.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-spandau/bibliotheken/heerstrasse/stadtteilbibliothek-heerstrasse-182099.php",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -5249,6 +6129,14 @@
    "provenance": {
     "source_reference": "https://berlin.kauperts.de/eintrag/Stadtbibliothek-Spandau-Stadtteilbibliothek-Kladow-Sakrower-Landstrasse-2-14089-Berlin"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-spandau/bibliotheken/kladow/stadtteilbibliothek-kladow-182136.php",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -5294,6 +6182,14 @@
    },
    "provenance": {
     "source_reference": "https://isil.staatsbibliothek-berlin.de/isil/DE-B702"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-steglitz-zehlendorf/bibliotheken/ingeborg-drewitz-bibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -5341,6 +6237,14 @@
    "provenance": {
     "source_reference": "https://isil.staatsbibliothek-berlin.de/isil/DE-B712"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-steglitz-zehlendorf/bibliotheken/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -5386,6 +6290,14 @@
    },
    "provenance": {
     "source_reference": "https://www.ortsdienst.de/berlin/steglitz-zehlendorf/lichterfelde/bibliothek/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-steglitz-zehlendorf/bibliotheken/stadtteilbibliothek-lankwitz/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -5433,6 +6345,14 @@
    "provenance": {
     "source_reference": "https://isil.staatsbibliothek-berlin.de/isil/DE-B713"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-tempelhof-schoeneberg/bibliothek-tempelhof/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -5478,6 +6398,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-tempelhof-schoeneberg/bibliothek-schoeneberg/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-tempelhof-schoeneberg/bibliothek-schoeneberg/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -5526,6 +6454,14 @@
    "provenance": {
     "source_reference": "https://librarytechnology.org/library/61323"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-tempelhof-schoeneberg/thomas-dehler-bibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -5571,6 +6507,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-tempelhof-schoeneberg/bibliothek-lichtenrade/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-tempelhof-schoeneberg/bibliothek-lichtenrade/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -5618,6 +6562,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-tempelhof-schoeneberg/bibliothek-marienfelde/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-tempelhof-schoeneberg/bibliothek-marienfelde/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -5663,6 +6615,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-neukoelln/aktuelles/pressemitteilungen/2023/pressemitteilung.1398829.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-neukoelln/bibliotheken/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 4,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -5710,6 +6670,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-neukoelln/aktuelles/pressemitteilungen/2023/pressemitteilung.1398829.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-neukoelln/bibliotheken/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 4,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -5755,6 +6723,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-neukoelln/aktuelles/pressemitteilungen/2025/pressemitteilung.1520649.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-neukoelln/bibliotheken/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 4,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -5802,6 +6778,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-neukoelln/aktuelles/pressemitteilungen/2023/pressemitteilung.1398829.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-neukoelln/bibliotheken/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 4,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -5848,6 +6832,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-treptow-koepenick/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/aktuelles/newsletter/newsletter.1681882.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-treptow-koepenick/bibliotheken/mittelpunktbibliothek-koepenick/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -5893,6 +6885,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-treptow-koepenick/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/aktuelles/newsletter/newsletter.1681882.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-treptow-koepenick/bibliotheken/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 2,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -5941,6 +6941,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-treptow-koepenick/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/aktuelles/newsletter/newsletter.1681882.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-treptow-koepenick/bibliotheken/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 2,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -5986,6 +6994,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-treptow-koepenick/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/aktuelles/newsletter/newsletter.1681882.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-treptow-koepenick/bibliotheken/altglienicke/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -6033,6 +7049,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-treptow-koepenick/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/aktuelles/newsletter/newsletter.1681882.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-treptow-koepenick/bibliotheken/friedrichshagen/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -6078,6 +7102,14 @@
    },
    "provenance": {
     "source_reference": "https://bibinfo.kobv.de/detail/BIB000000247/stadtbibliothek-treptow-koepenick-stadtteilbibliothek-adlershof-stefan-heym.html"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-treptow-koepenick/bibliotheken/adlershof/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -6125,6 +7157,14 @@
    "provenance": {
     "source_reference": "https://berlin.de/ba-marzahn-hellersdorf/service/wegweiser/englisch/artikel.644058.en.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/bibliotheken-mh/bibliotheken/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 4,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -6170,6 +7210,14 @@
    },
    "provenance": {
     "source_reference": "https://berlin.de/ba-marzahn-hellersdorf/service/wegweiser/englisch/artikel.644058.en.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/bibliotheken-mh/bibliotheken/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 4,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -6218,6 +7266,14 @@
    "provenance": {
     "source_reference": "https://berlin.de/ba-marzahn-hellersdorf/service/wegweiser/englisch/artikel.644058.en.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/bibliotheken-mh/bibliotheken/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 4,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -6263,6 +7319,14 @@
    },
    "provenance": {
     "source_reference": "https://berlin.de/ba-marzahn-hellersdorf/service/wegweiser/englisch/artikel.644058.en.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/bibliotheken-mh/bibliotheken/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 4,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -6310,6 +7374,14 @@
    "provenance": {
     "source_reference": "https://berlin.de/ba-marzahn-hellersdorf/service/wegweiser/englisch/artikel.644058.en.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/bibliotheken-mh/bibliotheken/bibliothek-mahlsdorf/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -6356,6 +7428,14 @@
    "provenance": {
     "source_reference": "https://berlin.de/ba-marzahn-hellersdorf/service/wegweiser/englisch/artikel.644058.en.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/bibliotheken-mh/bibliotheken/erich-weinert-bibliothek/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -6401,6 +7481,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-lichtenberg/aktuelles/pressemitteilungen/2024/pressemitteilung.1480784.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-lichtenberg/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 4,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -6449,6 +7537,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-lichtenberg/aktuelles/pressemitteilungen/2024/pressemitteilung.1480784.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-lichtenberg/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 4,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -6494,6 +7590,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-lichtenberg/aktuelles/pressemitteilungen/2024/pressemitteilung.1480784.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-lichtenberg/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 4,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -6541,6 +7645,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-lichtenberg/aktuelles/pressemitteilungen/2024/pressemitteilung.1480784.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-lichtenberg/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 4,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -6586,6 +7698,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-reinickendorf/bibliotheken/humboldt-bibliothek/artikel.1173280.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-reinickendorf/bibliotheken/humboldt-bibliothek/artikel.1173280.php",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -6634,6 +7754,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-reinickendorf/bibliotheken/bibliothek-im-maerkischen-viertel/bibliothek-im-maerkischen-viertel-im-fontane-haus-336916.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-reinickendorf/bibliotheken/bibliothek-im-maerkischen-viertel/bibliothek-im-maerkischen-viertel-im-fontane-haus-336916.php",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -6681,6 +7809,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-reinickendorf/bibliotheken/bibliothek-am-schaefersee/artikel.336756.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-reinickendorf/bibliotheken/bibliothek-am-schaefersee/artikel.336756.php",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -6726,6 +7862,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-reinickendorf/bibliotheken/stadtteilbibliothek-reinickendorf-west/artikel.1191834.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-reinickendorf/bibliotheken/stadtteilbibliothek-reinickendorf-west/artikel.1191834.php",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "library",
@@ -6773,6 +7917,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/stadtbibliothek-reinickendorf/bibliotheken/stadtteilbibliothek-frohnau/artikel.336740.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/stadtbibliothek-reinickendorf/bibliotheken/stadtteilbibliothek-frohnau/artikel.336740.php",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "library",
     "community_relevance": [
@@ -6818,6 +7970,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/charlottenburg-wilmersdorf/interkulturelles-stadtteilezentrum-nachbarschaftszentrum-divan-e-v/"
+   },
+   "website_assessment": {
+    "url": "https://www.nachbarschaftszentrum-divan.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.nachbarschaftszentrum-divan.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.nachbarschaftszentrum-divan.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -6868,6 +8028,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/charlottenburg-wilmersdorf/stadtteilzentrum-charlottenburg-nord-2/"
    },
+   "website_assessment": {
+    "url": "https://stz-charlottenburg-nord.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "stz-charlottenburg-nord.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'stz-charlottenburg-nord.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -6915,6 +8083,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/charlottenburg-wilmersdorf/stadtteilzentrum-haus-der-nachbarschafft/"
+   },
+   "website_assessment": {
+    "url": "https://nachbarschafft-ev.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "nachbarschafft-ev.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'nachbarschafft-ev.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -6966,6 +8142,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/charlottenburg-wilmersdorf/stadtteilzentrum-kaete-tresenreuther-haus/"
    },
+   "website_assessment": {
+    "url": "https://www.sozialwerk-berlin.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.sozialwerk-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.sozialwerk-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -7012,6 +8196,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/charlottenburg-wilmersdorf/stadtteilzentrum-ulme-35/"
+   },
+   "website_assessment": {
+    "url": "https://interkulturanstalten.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "interkulturanstalten.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'interkulturanstalten.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -7060,6 +8252,14 @@
    "provenance": {
     "source_reference": "https://www.nachbarschaftshaus.de"
    },
+   "website_assessment": {
+    "url": "https://www.nachbarschaftshaus.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.nachbarschaftshaus.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.nachbarschaftshaus.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -7106,6 +8306,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/friedrichshain-kreuzberg/kreuzberger-stadtteilzentrum/"
+   },
+   "website_assessment": {
+    "url": "https://nhu-ev.org/kreuzberger-stadtteilzentrum/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "nhu-ev.org",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'nhu-ev.org' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -7156,6 +8364,14 @@
    "provenance": {
     "source_reference": "https://rudi-nachbarschaftshaus.de"
    },
+   "website_assessment": {
+    "url": "https://rudi-nachbarschaftshaus.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "rudi-nachbarschaftshaus.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'rudi-nachbarschaftshaus.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -7202,6 +8418,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/friedrichshain-kreuzberg/stadtteilzentrum-familiengarten/"
+   },
+   "website_assessment": {
+    "url": "https://kotti-berlin.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "kotti-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'kotti-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -7252,6 +8476,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/friedrichshain-kreuzberg/stadtteilzentrum-friedrichshain/"
    },
+   "website_assessment": {
+    "url": "https://volkssolidaritaet-berlin.de/einrichtungen/stadtteilzentrum-friedrichshain/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "volkssolidaritaet-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'volkssolidaritaet-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -7301,6 +8533,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/friedrichshain-kreuzberg/mehrgenerationenhaus-wassertor/"
    },
+   "website_assessment": {
+    "url": "https://mgh-wassertor.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "mgh-wassertor.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'mgh-wassertor.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -7346,6 +8586,14 @@
    },
    "provenance": {
     "source_reference": "https://www.kiezspinne-fas.org/unsere-orte/nachbarschaftshaus"
+   },
+   "website_assessment": {
+    "url": "https://www.kiezspinne-fas.org/unsere-orte/nachbarschaftshaus",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.kiezspinne-fas.org",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.kiezspinne-fas.org' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -7395,6 +8643,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/lichtenberg/stadtteilzentrum-hedwig/"
+   },
+   "website_assessment": {
+    "url": "https://www.sozdia.de/taetigkeitsbereiche/gemeinwesen/stadtteilzentrum-hedwig/ueber-uns",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.sozdia.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.sozdia.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -7446,6 +8702,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentrum-friedrichsfelde.de"
    },
+   "website_assessment": {
+    "url": "https://stadtteilzentrum-friedrichsfelde.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "stadtteilzentrum-friedrichsfelde.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'stadtteilzentrum-friedrichsfelde.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -7493,6 +8757,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/lichtenberg/stadtteilzentrum-im-nachbarschaftshaus-im-ostseeviertel/"
    },
+   "website_assessment": {
+    "url": "https://vav-hhausen.de/gemeinwesen-und-stadtteilarbeit/stadtteilzentrum-im-nachbarschaftshaus/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "vav-hhausen.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'vav-hhausen.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -7538,6 +8810,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/lichtenberg/stadtteilzentrum-welsekiosk/"
+   },
+   "website_assessment": {
+    "url": "https://vav-hhausen.de/gemeinwesen-und-stadtteilarbeit/stadtteilzentrum-welsekiosk/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "vav-hhausen.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'vav-hhausen.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -7587,6 +8867,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/marzahn-hellersdorf/stadtteilzentrum-marzahn-nordwest/"
    },
+   "website_assessment": {
+    "url": "https://kiekin.org/aufgabenbereich/stadtteilzentrum-marzahn-nordwest",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "kiekin.org",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'kiekin.org' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -7635,6 +8923,14 @@
    "provenance": {
     "source_reference": "https://kieztreff-west.de/"
    },
+   "website_assessment": {
+    "url": "https://kieztreff-west.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "kieztreff-west.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'kieztreff-west.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -7681,6 +8977,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-marzahn-hellersdorf/aktuelles/pressemitteilungen/2025/pressemitteilung.1553507.php"
+   },
+   "website_assessment": {
+    "url": "https://ball-ev-berlin.de/projekte-im-ball-e-v/stadtteilzentrum-biesdorf/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "ball-ev-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'ball-ev-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -7729,6 +9033,14 @@
    "provenance": {
     "source_reference": "https://www.ev-mittendrin.de/stadtteilzentrum-hellersdorf-ost/"
    },
+   "website_assessment": {
+    "url": "https://www.ev-mittendrin.de/stadtteilzentrum-hellersdorf-ost/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.ev-mittendrin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.ev-mittendrin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -7775,6 +9087,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/marzahn-hellersdorf/stadtteilzentrum-pestalozzitreff/"
+   },
+   "website_assessment": {
+    "url": "https://humanistisch.de/stz-pestalozzi",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "humanistisch.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'humanistisch.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -7827,6 +9147,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-marzahn-hellersdorf/politik-und-verwaltung/aemter/amt-fuer-soziales/artikel.1511665.php"
    },
+   "website_assessment": {
+    "url": "https://www.ev-mittendrin.de/stadtteilzentrum-hellersdorfer-terrassen/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.ev-mittendrin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.ev-mittendrin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -7876,6 +9204,14 @@
    "provenance": {
     "source_reference": "https://www.ev-mittendrin.de/stadtteilzentrum-kaulsdorf/"
    },
+   "website_assessment": {
+    "url": "https://www.ev-mittendrin.de/stadtteilzentrum-kaulsdorf/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.ev-mittendrin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.ev-mittendrin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -7922,6 +9258,14 @@
    },
    "provenance": {
     "source_reference": "https://www.klub74.de/kompass.html"
+   },
+   "website_assessment": {
+    "url": "https://www.klub74.de/kompass.html",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.klub74.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.klub74.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -7973,6 +9317,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-marzahn-hellersdorf/politik-und-verwaltung/aemter/amt-fuer-soziales/artikel.1511665.php"
    },
+   "website_assessment": {
+    "url": "https://volkssolidaritaet-berlin.de/einrichtungen/stadtteilzentrum-marzahn-mitte/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "volkssolidaritaet-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'volkssolidaritaet-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -8020,6 +9372,14 @@
    "provenance": {
     "source_reference": "https://wuhletal.de/angebote/hilfen-im-stadtteil/stadtteilzentrum-mosaik/"
    },
+   "website_assessment": {
+    "url": "https://wuhletal.de/angebote/hilfen-im-stadtteil/stadtteilzentrum-mosaik/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "wuhletal.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'wuhletal.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -8065,6 +9425,14 @@
    },
    "provenance": {
     "source_reference": "https://www.awo-spree-wuhle.de/stadtteiltreff-mahlsdorf-sued/"
+   },
+   "website_assessment": {
+    "url": "https://www.awo-spree-wuhle.de/stadtteiltreff-mahlsdorf-sued/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.awo-spree-wuhle.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.awo-spree-wuhle.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -8117,6 +9485,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/mitte/stadtschloss-moabit/"
    },
+   "website_assessment": {
+    "url": "http://moabiter-ratschlag.de/orte/stadtschloss/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "moabiter-ratschlag.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'moabiter-ratschlag.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -8167,6 +9543,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/mitte/treffpunkt-sprengelhaus/"
    },
+   "website_assessment": {
+    "url": "https://sprengelhaus-wedding.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "sprengelhaus-wedding.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'sprengelhaus-wedding.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -8215,6 +9599,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/mitte/kiez-zentrum-villa-luetzow/"
+   },
+   "website_assessment": {
+    "url": "https://www.kiez-zentrum-villa-luetzow.de/aktuelles",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.kiez-zentrum-villa-luetzow.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.kiez-zentrum-villa-luetzow.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -8265,6 +9657,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/mitte/olof-palme-zentrum/"
    },
+   "website_assessment": {
+    "url": "https://www.pfefferwerk.de/stadtteilarbeit-jugendfreizeit/olof-palme-zentrum/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.pfefferwerk.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.pfefferwerk.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -8311,6 +9711,14 @@
    },
    "provenance": {
     "source_reference": "https://www.kreativhaus-berlin.de/"
+   },
+   "website_assessment": {
+    "url": "https://www.kreativhaus-berlin.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.kreativhaus-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.kreativhaus-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -8361,6 +9769,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/mitte/nachbarschaftsetage/"
    },
+   "website_assessment": {
+    "url": "http://www.nachbarschaftsetage.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.nachbarschaftsetage.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.nachbarschaftsetage.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -8407,6 +9823,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/mitte/zukunftshaus-wedding/"
+   },
+   "website_assessment": {
+    "url": "https://www.paulgerhardtstift.de/stadtteilzentrum-arbeit",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.paulgerhardtstift.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.paulgerhardtstift.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -8458,6 +9882,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/neukoelln/nachbarschaftshaus-koernerpark/"
    },
+   "website_assessment": {
+    "url": "https://www.nbh-neukoelln.de/standorte/nachbarschaftshaeuser-und-stadtteilarbeit/nachbarschaftshaus-am-koernerpark/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.nbh-neukoelln.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.nbh-neukoelln.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -8504,6 +9936,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/neukoelln/elele-nachbarschaftszentrum/"
+   },
+   "website_assessment": {
+    "url": "http://www.elele-Berlin.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.elele-Berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.elele-Berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -8554,6 +9994,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/neukoelln/kiezbegegnungen-stadtteilzentrum-schillerpromenade/"
    },
+   "website_assessment": {
+    "url": "https://www.kiezbegegnung.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.kiezbegegnung.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.kiezbegegnung.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -8600,6 +10048,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/neukoelln/stadtteilzentrum-koellnische-heide/"
+   },
+   "website_assessment": {
+    "url": "https://www.internationaler-bund.de/standort/212181",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.internationaler-bund.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.internationaler-bund.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -8648,6 +10104,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/neukoelln/stadtteilzentrum-buckow/"
    },
+   "website_assessment": {
+    "url": "https://stz-buckow.de/standorte/stz-buckow/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "stz-buckow.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'stz-buckow.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -8694,6 +10158,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/neukoelln/nachbarschaftstreff-waschhaus-cafe/"
+   },
+   "website_assessment": {
+    "url": "https://selbsthilfe-und-stadtteilzentrum-neukoelln.berlin/nachbarschaft/waschhaus-cafe/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "selbsthilfe-und-stadtteilzentrum-neukoelln.berlin",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'selbsthilfe-und-stadtteilzentrum-neukoelln.berlin' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -8743,6 +10215,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/neukoelln/stadtteilzentrum-rudow/"
    },
+   "website_assessment": {
+    "url": "https://stadtteilzentren.de/orte/neukoelln/stadtteilzentrum-rudow/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "stadtteilzentren.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'stadtteilzentren.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -8790,6 +10270,14 @@
    },
    "provenance": {
     "source_reference": "https://www.stz-pankow.de"
+   },
+   "website_assessment": {
+    "url": "https://www.stz-pankow.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.stz-pankow.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.stz-pankow.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -8842,6 +10330,14 @@
    "provenance": {
     "source_reference": "https://www.amtshaus-buchholz.de"
    },
+   "website_assessment": {
+    "url": "https://www.amtshaus-buchholz.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.amtshaus-buchholz.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.amtshaus-buchholz.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -8891,6 +10387,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/pankow/stadtteilzentrum-prenzlauer-berg/"
+   },
+   "website_assessment": {
+    "url": "https://stz-prenzlauerberg.pfefferwerk.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "stz-prenzlauerberg.pfefferwerk.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'stz-prenzlauerberg.pfefferwerk.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -8942,6 +10446,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/pankow/kulturmarkthalle/"
    },
+   "website_assessment": {
+    "url": "https://www.kulturmarkthalle.berlin/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.kulturmarkthalle.berlin",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.kulturmarkthalle.berlin' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -8989,6 +10501,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/pankow/stadtteilzentrum-weissensee/"
    },
+   "website_assessment": {
+    "url": "https://www.stz-weissensee.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.stz-weissensee.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.stz-weissensee.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -9034,6 +10554,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/reinickendorf/stadtteilzentrum-auguste-viktoria/"
+   },
+   "website_assessment": {
+    "url": "https://albatros.social/angebote/standorte/mehrgenerationenhaus/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "albatros.social",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'albatros.social' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -9083,6 +10611,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/reinickendorf/stadtteilzentrum-quaekerkiez-2/"
    },
+   "website_assessment": {
+    "url": "https://albatros.social/angebote/standorte/stadtteilzentrum-quaekerkiez/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "albatros.social",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'albatros.social' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -9130,6 +10666,14 @@
    },
    "provenance": {
     "source_reference": "http://www.stadtteilzentrum-haus-am-see.de"
+   },
+   "website_assessment": {
+    "url": "http://www.stadtteilzentrum-haus-am-see.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.stadtteilzentrum-haus-am-see.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.stadtteilzentrum-haus-am-see.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -9181,6 +10725,14 @@
    "provenance": {
     "source_reference": "https://www.lebenswelt.de/angebote/projekte/stadtteiltreff-lettekiez"
    },
+   "website_assessment": {
+    "url": "https://www.lebenswelt.de/angebote/projekte/stadtteiltreff-lettekiez",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.lebenswelt.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.lebenswelt.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -9227,6 +10779,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/reinickendorf/stadtteilzentrum-borsigwalde/"
+   },
+   "website_assessment": {
+    "url": "https://beratung.immanuel.de/wo-wir-sind/berlin-reinickendorf/stadtteilzentrum-borsigwalde/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "beratung.immanuel.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'beratung.immanuel.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -9275,6 +10835,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/reinickendorf/stadtteilzentrum-gesobau-nachbarschaftsetage/"
    },
+   "website_assessment": {
+    "url": "https://albatros.social/angebote/standorte/stadtteilzentrum-nachbarschaftsetage-im-maerkischen-viertel/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "albatros.social",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'albatros.social' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -9320,6 +10888,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/reinickendorf/stadtteilzentrum-ribbeck-haus/"
+   },
+   "website_assessment": {
+    "url": "https://www.ribbeckhaus.de/index.php",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.ribbeckhaus.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.ribbeckhaus.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -9368,6 +10944,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentrum-rollberge.de/"
+   },
+   "website_assessment": {
+    "url": "https://stadtteilzentrum-rollberge.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "stadtteilzentrum-rollberge.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'stadtteilzentrum-rollberge.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -9418,6 +11002,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/reinickendorf/stadtteilzentrum-tegel-sued/"
    },
+   "website_assessment": {
+    "url": "https://albatros-stadtteilarbeit-reinickendorf.de/tegel-sued/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "albatros-stadtteilarbeit-reinickendorf.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'albatros-stadtteilarbeit-reinickendorf.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -9464,6 +11056,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/spandau/stadtteilbuero-siemensstadt/"
+   },
+   "website_assessment": {
+    "url": "https://casa-ev.de/sozial-kulturelle-arbeit/stadtteilarbeit-siemensstadt/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "casa-ev.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'casa-ev.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -9515,6 +11115,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/spandau/staakentreff-obstallee/"
    },
+   "website_assessment": {
+    "url": "https://gwv-heerstrasse.de/orte/staakentreff-2/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "gwv-heerstrasse.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'gwv-heerstrasse.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -9564,6 +11172,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/spandau/staakentreff-brunsbuetteler-damm/"
    },
+   "website_assessment": {
+    "url": "https://gwv-heerstrasse.de/orte/sbd/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "gwv-heerstrasse.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'gwv-heerstrasse.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -9612,6 +11228,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/spandau/nachbarschaftshaus-an-der-havel/"
    },
+   "website_assessment": {
+    "url": "https://nachbarschaftshaus-gatow.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "nachbarschaftshaus-gatow.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'nachbarschaftshaus-gatow.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -9658,6 +11282,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentrum-kladow.de/"
+   },
+   "website_assessment": {
+    "url": "https://stadtteilzentrum-kladow.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "stadtteilzentrum-kladow.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'stadtteilzentrum-kladow.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -9706,6 +11338,14 @@
    },
    "provenance": {
     "source_reference": "https://paulschneiderhaus.de/"
+   },
+   "website_assessment": {
+    "url": "https://paulschneiderhaus.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "paulschneiderhaus.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'paulschneiderhaus.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -9757,6 +11397,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/spandau/stadtteiltreffpunkt-in-haselhorst/"
    },
+   "website_assessment": {
+    "url": "https://gwv-haselhorst.de/nachbarschaft/nachbarschaftshilfe/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "gwv-haselhorst.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'gwv-haselhorst.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -9804,6 +11452,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/spandau/kiezstube-stadtteilarbeit-falkenhagener-feld/"
    },
+   "website_assessment": {
+    "url": "https://casa-ev.de/sozial-kulturelle-arbeit/stadtteilarbeit-falkenhagener-feld/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "casa-ev.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'casa-ev.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -9849,6 +11505,14 @@
    },
    "provenance": {
     "source_reference": "http://www.mittelhof.org"
+   },
+   "website_assessment": {
+    "url": "http://www.mittelhof.org",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.mittelhof.org",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.mittelhof.org' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -9899,6 +11563,14 @@
    "provenance": {
     "source_reference": "https://www.stadtteilzentrum-steglitz.de/gutshaus-lichterfelde/"
    },
+   "website_assessment": {
+    "url": "https://www.stadtteilzentrum-steglitz.de/gutshaus-lichterfelde/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.stadtteilzentrum-steglitz.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.stadtteilzentrum-steglitz.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -9945,6 +11617,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/steglitz-zehlendorf/stadtteilzentrum-markus/"
+   },
+   "website_assessment": {
+    "url": "https://dwstz.de/nachbarschaftshaus-markus-stadtpark-viertel/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "dwstz.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'dwstz.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -9996,6 +11676,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/steglitz-zehlendorf/kieztreff-stadtteilzentrum-steglitz-e-v/"
    },
+   "website_assessment": {
+    "url": "https://www.stadtteilzentrum-steglitz.de/kieztreff/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.stadtteilzentrum-steglitz.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.stadtteilzentrum-steglitz.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -10042,6 +11730,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/steglitz-zehlendorf/stadtteilzentrum-suedost/"
+   },
+   "website_assessment": {
+    "url": "https://stz-südost.de/",
+    "kind": "shared_organisation_site",
+    "verification": "unverified",
+    "host": "stz-südost.de",
+    "shared_by_venue_count": 2,
+    "note": "This exact URL is used by 2 venues, so it belongs to a shared umbrella organisation rather than to this venue alone."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -10090,6 +11786,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/steglitz-zehlendorf/stadtteilzentrum-suedost/"
    },
+   "website_assessment": {
+    "url": "https://stz-südost.de/",
+    "kind": "shared_organisation_site",
+    "verification": "unverified",
+    "host": "stz-südost.de",
+    "shared_by_venue_count": 2,
+    "note": "This exact URL is used by 2 venues, so it belongs to a shared umbrella organisation rather than to this venue alone."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -10135,6 +11839,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/tempelhof-schoeneberg/nachbarschaftshaus-friedenau/"
+   },
+   "website_assessment": {
+    "url": "https://www.nbhs.de/aktiv-im-stadtteil/nachbarschaft/stadtteilarbeit",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.nbhs.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.nbhs.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -10186,6 +11898,14 @@
    "provenance": {
     "source_reference": "https://nusz.de/wir-ueber-uns/raumangebot/"
    },
+   "website_assessment": {
+    "url": "https://nusz.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "nusz.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'nusz.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -10235,6 +11955,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/tempelhof-schoeneberg/stadtteilzentrum-schoeneberg/"
    },
+   "website_assessment": {
+    "url": "https://beratung.immanuel.de/unsere-standorte/berlin/schoeneberg/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "beratung.immanuel.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'beratung.immanuel.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -10282,6 +12010,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/tempelhof-schoeneberg/halk-koesesi-stadtteilladen/"
    },
+   "website_assessment": {
+    "url": "https://stadtteilvereinschoeneberg.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "stadtteilvereinschoeneberg.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'stadtteilvereinschoeneberg.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -10328,6 +12064,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/tempelhof-schoeneberg/nachbarschaftszentrum-bornhagenweg/"
+   },
+   "website_assessment": {
+    "url": "https://www.pfh-berlin.de/de/einrichtung/nachbarschaftszentrum-bornhagenweg-lichtenrade",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.pfh-berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.pfh-berlin.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -10377,6 +12121,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/tempelhof-schoeneberg/stadtteilzentrum-marie-li/"
    },
+   "website_assessment": {
+    "url": "https://stadtteilzentrum-lichtenrade-marienfelde.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "stadtteilzentrum-lichtenrade-marienfelde.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'stadtteilzentrum-lichtenrade-marienfelde.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -10422,6 +12174,14 @@
    },
    "provenance": {
     "source_reference": "https://www.rabenhaus.de/stadtteilzentrum/"
+   },
+   "website_assessment": {
+    "url": "https://www.rabenhaus.de/stadtteilzentrum/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.rabenhaus.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.rabenhaus.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -10473,6 +12233,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/treptow-koepenick/villa-offensiv/"
    },
+   "website_assessment": {
+    "url": "https://offensiv91.de/stadtteilarbeit/villa-offensiv/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "offensiv91.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'offensiv91.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -10518,6 +12286,14 @@
    },
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/treptow-koepenick/stadtteilzentrum-campus-kiezspindel/"
+   },
+   "website_assessment": {
+    "url": "https://www.tjfbg.de/ausserschulische-angebote/campus-kiezspindel",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.tjfbg.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.tjfbg.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -10569,6 +12345,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/treptow-koepenick/stadtteilzentrum-kungerkiezinitiative/"
    },
+   "website_assessment": {
+    "url": "https://kungerkiez.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "kungerkiez.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'kungerkiez.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -10619,6 +12403,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/treptow-koepenick/familienbegegnungszentrum-in-altglienicke/"
    },
+   "website_assessment": {
+    "url": "https://offensiv91.de/stadtteilarbeit/fbz/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "offensiv91.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'offensiv91.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -10667,6 +12459,14 @@
    "provenance": {
     "source_reference": "https://stadtteilzentren.de/orte/treptow-koepenick/wohngebietszentrum-allende-viertel/"
    },
+   "website_assessment": {
+    "url": "https://offensiv91.de/stadtteilarbeit/wgz/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "offensiv91.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'offensiv91.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "community_centre",
     "community_relevance": [
@@ -10712,6 +12512,14 @@
    },
    "provenance": {
     "source_reference": "https://service.berlin.de/standort/351636/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/vhs/volkshochschulen/mitte/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "adult_education_centre",
@@ -10760,6 +12568,14 @@
    "provenance": {
     "source_reference": "https://service.berlin.de/standort/351444/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/vhs-friedrichshain-kreuzberg/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "adult_education_centre",
     "community_relevance": [
@@ -10806,6 +12622,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-pankow/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/artikel.998819.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/vhs/volkshochschulen/pankow/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "adult_education_centre",
@@ -10854,6 +12678,14 @@
    "provenance": {
     "source_reference": "https://service.berlin.de/standort/325853/pdf/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/vhs/volkshochschulen/charlottenburg-wilmersdorf/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "adult_education_centre",
     "community_relevance": [
@@ -10900,6 +12732,14 @@
    },
    "provenance": {
     "source_reference": "https://service.berlin.de/standort/122666/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/vhs-spandau/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "adult_education_centre",
@@ -10948,6 +12788,14 @@
    "provenance": {
     "source_reference": "https://service.berlin.de/standort/325987/pdf/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/vhs/volkshochschulen/steglitz-zehlendorf/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "adult_education_centre",
     "community_relevance": [
@@ -10994,6 +12842,14 @@
    },
    "provenance": {
     "source_reference": "https://service.berlin.de/standort/351435/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/vhs/volkshochschulen/tempelhof-schoeneberg/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "adult_education_centre",
@@ -11042,6 +12898,14 @@
    "provenance": {
     "source_reference": "https://service.berlin.de/standort/122659/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/vhs/volkshochschulen/neukoelln/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "adult_education_centre",
     "community_relevance": [
@@ -11088,6 +12952,14 @@
    },
    "provenance": {
     "source_reference": "https://service.berlin.de/standort/122671/pdf/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/vhs-treptow-koepenick/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "adult_education_centre",
@@ -11136,6 +13008,14 @@
    "provenance": {
     "source_reference": "https://service.berlin.de/standort/122628/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/vhs/volkshochschulen/marzahn-hellersdorf/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "adult_education_centre",
     "community_relevance": [
@@ -11182,6 +13062,14 @@
    },
    "provenance": {
     "source_reference": "https://service.berlin.de/standort/122626/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/vhs/volkshochschulen/lichtenberg/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "adult_education_centre",
@@ -11230,6 +13118,14 @@
    "provenance": {
     "source_reference": "https://service.berlin.de/standort/122664/pdf/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/vhs/volkshochschulen/reinickendorf/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "adult_education_centre",
     "community_relevance": [
@@ -11277,6 +13173,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/sen/kultur/kultureinrichtungen/musikschulen/adressen/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-mitte/musikschule/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "music_school",
     "community_relevance": [
@@ -11323,6 +13227,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/sen/kultur/kultureinrichtungen/musikschulen/adressen/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/musikschule-friedrichshain-kreuzberg",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "music_school",
     "community_relevance": [
@@ -11368,6 +13280,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/sen/kultur/kultureinrichtungen/musikschulen/adressen/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-pankow/musikschule/index.html",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "music_school",
@@ -11416,6 +13336,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/sen/kultur/kultureinrichtungen/musikschulen/adressen/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/musikschule-charlottenburg-wilmersdorf/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "music_school",
     "community_relevance": [
@@ -11461,6 +13389,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/sen/kultur/kultureinrichtungen/musikschulen/adressen/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/musikschule-spandau/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "music_school",
@@ -11508,6 +13444,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/sen/kultur/kultureinrichtungen/musikschulen/adressen/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/musikschule-steglitz-zehlendorf/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "music_school",
     "community_relevance": [
@@ -11553,6 +13497,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/sen/kultur/kultureinrichtungen/musikschulen/adressen/"
+   },
+   "website_assessment": {
+    "url": "http://www.lkms.de",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.lkms.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.lkms.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "music_school",
@@ -11600,6 +13552,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/sen/kultur/kultureinrichtungen/musikschulen/adressen/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/musikschule-neukoelln/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "music_school",
     "community_relevance": [
@@ -11645,6 +13605,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/sen/kultur/kultureinrichtungen/musikschulen/adressen/"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/musikschule-treptow-koepenick/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "music_school",
@@ -11692,6 +13660,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/sen/kultur/kultureinrichtungen/musikschulen/adressen/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/musikschule-mh/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "music_school",
     "community_relevance": [
@@ -11737,6 +13713,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/sen/kultur/kultureinrichtungen/musikschulen/adressen/"
+   },
+   "website_assessment": {
+    "url": "http://www.musikschulelichtenberg.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.musikschulelichtenberg.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.musikschulelichtenberg.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "music_school",
@@ -11784,6 +13768,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/sen/kultur/kultureinrichtungen/musikschulen/adressen/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/musikschule-reinickendorf/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "music_school",
     "community_relevance": [
@@ -11830,6 +13822,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-mitte/aktuelles/pressemitteilungen/2026/pressemitteilung.1679046.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/kulturelle-bildung-mitte/kooperationen/mik-jugendkunstschule/artikel.401593.php",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "youth_arts_school",
@@ -11880,6 +13880,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-friedrichshain-kreuzberg/aktuelles/pressemitteilungen/2025/pressemitteilung.1579593.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-friedrichshain-kreuzberg/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "youth_arts_school",
     "community_relevance": [
@@ -11927,6 +13935,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-pankow/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/artikel.998819.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-pankow/jugendkunstschule/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "youth_arts_school",
     "community_relevance": [
@@ -11973,6 +13989,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/aktuelles/pressemitteilungen/2023/pressemitteilung.1295427.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "youth_arts_school",
@@ -12024,6 +14048,14 @@
    "provenance": {
     "source_reference": "https://jup.berlin/orte/kunstbastion-jugendkunstschule-spandau"
    },
+   "website_assessment": {
+    "url": "https://kunstbastion.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "kunstbastion.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'kunstbastion.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "youth_arts_school",
     "community_relevance": [
@@ -12070,6 +14102,14 @@
    },
    "provenance": {
     "source_reference": "https://www.youkunst.de/kontakt-und-anfahrt.html"
+   },
+   "website_assessment": {
+    "url": "https://www.youkunst.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.youkunst.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.youkunst.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
    },
    "classification": {
     "venue_type": "youth_arts_school",
@@ -12119,6 +14159,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/kunst-und-kultur/jugendkunstschule/ueber-uns-1302909.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/kunst-und-kultur/jugendkunstschule/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "youth_arts_school",
     "community_relevance": [
@@ -12165,6 +14213,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/tourismus-neukoelln/erleben/artikel.1154179.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/kunst-und-kultur-neukoelln/kunst-kreativitaet/young-arts-neukoelln/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "youth_arts_school",
@@ -12214,6 +14270,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-treptow-koepenick/aktuelles/pressemitteilungen/2024/pressemitteilung.1488302.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-treptow-koepenick/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "youth_arts_school",
     "community_relevance": [
@@ -12261,6 +14325,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-marzahn-hellersdorf/aktuelles/pressemitteilungen/2021/pressemitteilung.1086997.php"
    },
+   "website_assessment": {
+    "url": "http://www.juks-mh.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "www.juks-mh.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'www.juks-mh.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "youth_arts_school",
     "community_relevance": [
@@ -12307,6 +14379,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-lichtenberg/auf-einen-blick/buergerservice/bildung/jugendkunstschule/artikel.1609151.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-lichtenberg/auf-einen-blick/buergerservice/bildung/jugendkunstschule/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "youth_arts_school",
@@ -12358,6 +14438,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-reinickendorf/aktuelles/pressemitteilungen/2024/pressemitteilung.1503907.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-reinickendorf/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "youth_arts_school",
     "community_relevance": [
@@ -12406,6 +14494,14 @@
    "provenance": {
     "source_reference": "https://kgberlin.net/en/galleries/galerie-wedding-raum-fur-zeitgenossische-kunst/"
    },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/galerie-wedding-raum-fuer-zeitgenoessische-kunst/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "gallery",
     "community_relevance": [
@@ -12453,6 +14549,14 @@
    },
    "provenance": {
     "source_reference": "https://kgberlin.net/galleries/studio-galerie-nord/"
+   },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/studio-galerie-nord/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "gallery",
@@ -12503,6 +14607,14 @@
    "provenance": {
     "source_reference": "https://kgberlin.net/galleries/kunst-raum-mitte/"
    },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/kunst-raum-mitte/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "gallery",
     "community_relevance": [
@@ -12552,6 +14664,14 @@
    "provenance": {
     "source_reference": "https://kgberlin.net/galleries/baerenzwinger/"
    },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/baerenzwinger/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "gallery",
     "community_relevance": [
@@ -12598,6 +14718,14 @@
    },
    "provenance": {
     "source_reference": "https://kgberlin.net/galleries/klosterruine-berlin/"
+   },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/klosterruine-berlin/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "event_venue",
@@ -12646,6 +14774,14 @@
    "provenance": {
     "source_reference": "https://kgberlin.net/galleries/kunstraum-kreuzberg-bethanien/"
    },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/kunstraum-kreuzberg-bethanien/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "gallery",
     "community_relevance": [
@@ -12692,6 +14828,14 @@
    },
    "provenance": {
     "source_reference": "https://kgberlin.net/galleries/galerie-im-turm/"
+   },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/galerie-im-turm/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "gallery",
@@ -12741,6 +14885,14 @@
    "provenance": {
     "source_reference": "https://kgberlin.net/galleries/projektraum-alte-feuerwache/"
    },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/projektraum-alte-feuerwache/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "gallery",
     "community_relevance": [
@@ -12787,6 +14939,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-pankow/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/artikel.998819.php"
+   },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/galerie-pankow/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "gallery",
@@ -12836,6 +14996,14 @@
    "provenance": {
     "source_reference": "https://kgberlin.net/galleries/prater-galerie/"
    },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/prater-galerie/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "gallery",
     "community_relevance": [
@@ -12884,6 +15052,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-pankow/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/artikel.998819.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/kunst-und-kultur-pankow/einrichtungen/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 2,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "cultural_centre",
     "community_relevance": [
@@ -12930,6 +15106,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-pankow/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/artikel.998819.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/kunst-und-kultur-pankow/einrichtungen/theater-unterm-dach/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "event_venue",
@@ -12980,6 +15164,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-pankow/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/artikel.998819.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/kunst-und-kultur-pankow/einrichtungen/brotfabrik/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "cultural_centre",
     "community_relevance": [
@@ -13028,6 +15220,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-pankow/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/artikel.998819.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/kunst-und-kultur-pankow/einrichtungen/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 2,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "event_venue",
@@ -13078,6 +15278,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/aktuelles/pressemitteilungen/2024/pressemitteilung.1415347.php"
    },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/kommunale-galerie-berlin/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "gallery",
     "community_relevance": [
@@ -13125,6 +15333,14 @@
    },
    "provenance": {
     "source_reference": "https://kgberlin.net/galleries/basement/"
+   },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/basement/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "gallery",
@@ -13174,6 +15390,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-spandau/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/kultur/artikel.292942.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-spandau/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/kultur/artikel.292942.php",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "cultural_centre",
@@ -13225,6 +15449,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-spandau/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/kultur/artikel.292941.php"
    },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/zitadelle-zak-zentrum-fuer-aktuelle-kunst/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "gallery",
     "community_relevance": [
@@ -13271,6 +15503,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-spandau/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/kultur/artikel.292941.php"
+   },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/gotisches-haus/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "gallery",
@@ -13321,6 +15561,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-spandau/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/kultur/artikel.292941.php"
    },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/galerie-historischer-keller/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "gallery",
     "community_relevance": [
@@ -13369,6 +15617,14 @@
    "provenance": {
     "source_reference": "https://kgberlin.net/galleries/schwartzsche-villa/"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-steglitz-zehlendorf/auf-einen-blick/kultur/schwartzsche-villa/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "cultural_centre",
     "community_relevance": [
@@ -13416,6 +15672,14 @@
    },
    "provenance": {
     "source_reference": "https://kgberlin.net/galleries/gutshaus-steglitz/"
+   },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/gutshaus-steglitz/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "event_venue",
@@ -13466,6 +15730,14 @@
    "provenance": {
     "source_reference": "https://kgberlin.net/galleries/haus-am-kleistpark/"
    },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/haus-am-kleistpark/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "gallery",
     "community_relevance": [
@@ -13513,6 +15785,14 @@
    },
    "provenance": {
     "source_reference": "https://kgberlin.net/galleries/galerie-im-tempelhof-museum/"
+   },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/galerie-im-tempelhof-museum/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "gallery",
@@ -13562,6 +15842,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-neukoelln/aktuelles/pressemitteilungen/2024/pressemitteilung.1413520.php"
    },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/galerie-im-saalbau/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "gallery",
     "community_relevance": [
@@ -13609,6 +15897,14 @@
    },
    "provenance": {
     "source_reference": "https://kgberlin.net/galleries/galerie-im-koernerpark/"
+   },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/galerie-im-koernerpark/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "gallery",
@@ -13658,6 +15954,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/tourismus-neukoelln/erleben/artikel.1154179.php"
    },
+   "website_assessment": {
+    "url": "https://www.berlin.de/kunst-und-kultur-neukoelln/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "cultural_centre",
     "community_relevance": [
@@ -13705,6 +16009,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-treptow-koepenick/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/kultur/artikel.90669.php"
+   },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/galerie-adlershof/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "cultural_centre",
@@ -13755,6 +16067,14 @@
    "provenance": {
     "source_reference": "https://kgberlin.net/galleries/galerie-johannisthal/"
    },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/galerie-johannisthal/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "gallery",
     "community_relevance": [
@@ -13802,6 +16122,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-treptow-koepenick/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/kultur/artikel.90672.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-treptow-koepenick/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/kultur/artikel.90672.php",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "community_centre",
@@ -13854,6 +16182,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-marzahn-hellersdorf/aktuelles/pressemitteilungen/2025/pressemitteilung.1560199.php"
    },
+   "website_assessment": {
+    "url": "https://schlossbiesdorf.de/",
+    "kind": "venue_site_unverified",
+    "verification": "unverified",
+    "host": "schlossbiesdorf.de",
+    "shared_by_venue_count": 1,
+    "note": "Domain 'schlossbiesdorf.de' appears to belong to the venue, but it has not been visited or confirmed as the official site."
+   },
    "classification": {
     "venue_type": "gallery",
     "community_relevance": [
@@ -13901,6 +16237,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-marzahn-hellersdorf/aktuelles/pressemitteilungen/2025/zwei-ausstellungszentrum-pyramide.pdf"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-marzahn-hellersdorf/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "gallery",
@@ -13951,6 +16295,14 @@
    "provenance": {
     "source_reference": "https://www.visitberlin.de/en/node/844727"
    },
+   "website_assessment": {
+    "url": "https://www.visitberlin.de/en/node/844727",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.visitberlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.visitberlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "cultural_centre",
     "community_relevance": [
@@ -13997,6 +16349,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-marzahn-hellersdorf/aktuelles/pressemitteilungen/2021/pressemitteilung.1086997.php"
+   },
+   "website_assessment": {
+    "url": "https://www.visitberlin.de/en/node/2287782",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.visitberlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.visitberlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "gallery",
@@ -14046,6 +16406,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-lichtenberg/auf-einen-blick/freizeit/kultur/artikel.298234.php"
    },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/rk-galerie-fuer-zeitgenoessische-kunst/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "gallery",
     "community_relevance": [
@@ -14093,6 +16461,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-lichtenberg/auf-einen-blick/freizeit/kultur/artikel.298234.php"
+   },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/studio-im-hochhaus/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "gallery",
@@ -14143,6 +16519,14 @@
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-lichtenberg/auf-einen-blick/freizeit/kultur/artikel.298234.php"
    },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/galerie-100/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "gallery",
     "community_relevance": [
@@ -14191,6 +16575,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-lichtenberg/auf-einen-blick/freizeit/kultur/artikel.298234.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/kulturhaus-karlshorst",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "cultural_centre",
@@ -14241,6 +16633,14 @@
    "provenance": {
     "source_reference": "https://www.miesvanderrohehaus.de/fileadmin/user_upload/Bildmaterial/2021/PKMIES135.pdf"
    },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/mies-van-der-rohe-haus/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "gallery",
     "community_relevance": [
@@ -14287,6 +16687,14 @@
    },
    "provenance": {
     "source_reference": "https://kgberlin.net/en/galleries/rathaus-galerie-reinickendorf/"
+   },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/rathaus-galerie-reinickendorf/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "gallery",
@@ -14336,6 +16744,14 @@
    "provenance": {
     "source_reference": "https://kgberlin.net/galleries/galerieetage-im-museum-reinickendorf/"
    },
+   "website_assessment": {
+    "url": "https://kgberlin.net/galleries/galerieetage-im-museum-reinickendorf/",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "kgberlin.net",
+    "shared_by_venue_count": 1,
+    "note": "Host 'kgberlin.net' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
+   },
    "classification": {
     "venue_type": "gallery",
     "community_relevance": [
@@ -14383,6 +16799,14 @@
    },
    "provenance": {
     "source_reference": "https://www.berlin.de/ba-reinickendorf/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/artikel.1163021.php"
+   },
+   "website_assessment": {
+    "url": "https://www.berlin.de/ba-reinickendorf/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/artikel.1163021.php",
+    "kind": "directory_reference",
+    "verification": "unverified",
+    "host": "www.berlin.de",
+    "shared_by_venue_count": 1,
+    "note": "Host 'www.berlin.de' is a third-party directory/portal, so this is a reference to where the venue is described, not the venue's site."
    },
    "classification": {
     "venue_type": "event_venue",

@@ -18,7 +18,7 @@ deployment change, no workflow, no data publication.
 | `artifacts/sources.json` | Source registry for 12 tested hubs (internal shape) | tested 2026-11-13 |
 | `artifacts/sample_events.json` | 7 real extracted sample events with evidence + missing fields | tested 2026-11-13 |
 | `artifacts/event.schema.json` | Proposed public event schema | draft, validates |
-| `artifacts/venue.schema.json` | Proposed public venue schema (v0.2.0) | draft, validates 251 included records |
+| `artifacts/venue.schema.json` | Proposed public venue schema (v0.3.0) | draft, validates 251 included records |
 | `artifacts/venue_inventory.schema.json` | Internal auditable inventory schema | draft, validates all 303 |
 | `artifacts/event.schema.json` | Proposed public event schema | draft, validates |
 | `CLASSIFICATION_MODEL.md` | Explicit, auditable rule specification (6 ordered rules) | implemented |

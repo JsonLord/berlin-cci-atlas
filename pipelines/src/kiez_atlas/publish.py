@@ -23,8 +23,9 @@ from .classify import classify
 from .extract_embedded import load_atlas, sha256_of
 from .geo import LorIndex
 from .vocab import COMMUNITY_RELEVANCE, EVENT_SOURCE_STATUS, PRODUCT_STATUS, VENUE_TYPES
+from .websites import VERIFICATION_STATUSES, WEBSITE_KINDS, assess
 
-SCHEMA_VERSION = "0.2.0"
+SCHEMA_VERSION = "0.3.0"
 PIPELINE_VERSION = "0.1.0"
 
 # Attribution for the LOR geography. The inherited META.sources register does
@@ -44,6 +45,17 @@ LOR_ATTRIBUTION = {
             "upstream controller before republication.",
     "vintage": "unknown",
     "licence": "unknown — see docs/feasibility/REPORT.md §G.4",
+    # Explicit provisional status. This entry is OUR proposal, not an inherited
+    # fact and not a confirmed licence position. Nothing may present it as
+    # settled until the upstream controller confirms it.
+    "status": "provisional",
+    "status_note": "NOT confirmed. Added by this pipeline because the inherited "
+                   "project credits the LOR geography nowhere. Both the source "
+                   "vintage and the licence are unknown. Do not treat this "
+                   "attribution as authoritative and do not republish the "
+                   "geography on its strength alone.",
+    "confirmation_required_from": "upstream controller (kaitiwu/berlin-cci-atlas)",
+    "blocks_publication": True,
 }
 
 
@@ -57,6 +69,8 @@ def build(index_html: Path, out_root: Path) -> dict:
     lor = LorIndex.build(atlas["LOR_PLR"], atlas["LOR_BZR"])
 
     generated = _now()
+    # Assess every inherited url once; sharing counts need the whole set.
+    web_index = assess([p["url"] for p in places])
     inventory: list[dict] = []
     public_venues: list[dict] = []
     classification: list[dict] = []
@@ -64,6 +78,7 @@ def build(index_html: Path, out_root: Path) -> dict:
 
     for p in places:
         d = classify(p)
+        wa = web_index[p["url"]]
         pip_plr, pip_bzr = lor.locate(p["c"][0], p["c"][1])
         atlas_bzr = lor.bzr_of_plr(p["lor"])
         lor_agrees = pip_plr == p["lor"]
@@ -89,6 +104,14 @@ def build(index_html: Path, out_root: Path) -> dict:
                 "distance_water_m": p["dw"],
             },
             "provenance": {"source_reference": p["src"]},
+            "website_assessment": {
+                "url": wa.url,
+                "kind": wa.kind,
+                "verification": wa.verification,
+                "host": wa.host,
+                "shared_by_venue_count": wa.shared_by,
+                "note": wa.note,
+            },
             "classification": {
                 "venue_type": d.venue_type,
                 "community_relevance": d.community_relevance,
@@ -127,6 +150,7 @@ def build(index_html: Path, out_root: Path) -> dict:
                 "rule": d.rule,
                 "reason": d.reason,
                 "website": p["url"],
+                "website_kind": wa.kind,
                 "address": p["address"],
             })
 
@@ -148,7 +172,12 @@ def build(index_html: Path, out_root: Path) -> dict:
                 "lor_name": lor.bzr_by_id.get(bzr_id, {}).get("name") if bzr_id else None,
                 "lor_plr_id": pip_plr or p["lor"],
                 "coordinate_precision": p["prec"],
-                "website": p["url"],
+                "website": {
+                    "url": wa.url,
+                    "kind": wa.kind,
+                    "verification": wa.verification,
+                    "shared_by_venue_count": wa.shared_by,
+                },
                 "atlas_provenance": {
                     "source_reference": p["src"],
                     "atlas_category": p["cat"],
@@ -229,6 +258,25 @@ def build(index_html: Path, out_root: Path) -> dict:
         "attribution": {
             "inherited_register": atlas.get("META", {}).get("sources", []),
             "added_by_this_pipeline": [LOR_ATTRIBUTION],
+            "provisional_entries": 1,
+            "publication_blockers": [
+                "LOR geography attribution is provisional: vintage and licence are "
+                "unknown and require confirmation from the upstream controller.",
+            ],
+        },
+        "websites": {
+            "note": "The inherited `url` field is a page the compiler used to "
+                    "describe a venue, NOT a verified official website. No record "
+                    "has been visited. `kind` distinguishes a third-party directory "
+                    "reference from a site that appears to belong to the venue.",
+            "kinds": WEBSITE_KINDS,
+            "verification_statuses": VERIFICATION_STATUSES,
+            "distribution": {
+                k: sum(1 for v in public_venues
+                       if v["website"]["kind"] == k)
+                for k in sorted(WEBSITE_KINDS)
+            },
+            "official_claims": 0,
         },
         "vocabularies": {
             "venue_type": VENUE_TYPES,

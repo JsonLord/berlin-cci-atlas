@@ -11,7 +11,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "011001",
     "lor_name": "Tiergarten Süd",
     "district": "Mitte",
@@ -252,7 +252,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "011002",
     "lor_name": "Regierungsviertel",
     "district": "Mitte",
@@ -377,7 +377,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "011003",
     "lor_name": "Alexanderplatz",
     "district": "Mitte",
@@ -674,7 +674,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "011004",
     "lor_name": "Brunnenstraße Süd",
     "district": "Mitte",
@@ -759,7 +759,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "012005",
     "lor_name": "Moabit West",
     "district": "Mitte",
@@ -952,7 +952,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "012006",
     "lor_name": "Moabit Ost",
     "district": "Mitte",
@@ -1173,7 +1173,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "013007",
     "lor_name": "Osloer Straße",
     "district": "Mitte",
@@ -1282,7 +1282,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "013008",
     "lor_name": "Brunnenstraße Nord",
     "district": "Mitte",
@@ -1435,7 +1435,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "014009",
     "lor_name": "Parkviertel",
     "district": "Mitte",
@@ -1564,7 +1564,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "014010",
     "lor_name": "Wedding Zentrum",
     "district": "Mitte",
@@ -1653,7 +1653,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "021001",
     "lor_name": "Südliche  Friedrichstadt",
     "district": "Friedrichshain-Kreuzberg",
@@ -1786,7 +1786,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "022002",
     "lor_name": "Tempelhofer Vorstadt",
     "district": "Friedrichshain-Kreuzberg",
@@ -1975,7 +1975,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "023003",
     "lor_name": "Nördliche Luisenstadt",
     "district": "Friedrichshain-Kreuzberg",
@@ -2116,7 +2116,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "023004",
     "lor_name": "Südliche Luisenstadt",
     "district": "Friedrichshain-Kreuzberg",
@@ -2233,7 +2233,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "024005",
     "lor_name": "Karl-Marx-Allee Nord",
     "district": "Friedrichshain-Kreuzberg",
@@ -2350,7 +2350,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "024006",
     "lor_name": "Karl-Marx-Allee Süd",
     "district": "Friedrichshain-Kreuzberg",
@@ -2427,7 +2427,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "025007",
     "lor_name": "Frankfurter Allee Nord",
     "district": "Friedrichshain-Kreuzberg",
@@ -2520,7 +2520,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "025008",
     "lor_name": "Frankfurter Allee Süd FK",
     "district": "Friedrichshain-Kreuzberg",
@@ -2693,7 +2693,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "031001",
     "lor_name": "Buch",
     "district": "Pankow",
@@ -3032,7 +3032,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "032002",
     "lor_name": "Blankenfelde/Niederschönhausen",
     "district": "Pankow",
@@ -3673,7 +3673,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "032003",
     "lor_name": "Buchholz",
     "district": "Pankow",
@@ -3798,7 +3798,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "033004",
     "lor_name": "Karow",
     "district": "Pankow",
@@ -3921,7 +3921,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "033005",
     "lor_name": "Blankenburg/Heinersdorf/Märchenland",
     "district": "Pankow",
@@ -4186,7 +4186,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "034006",
     "lor_name": "Schönholz/Wilhelmsruh/Rosenthal",
     "district": "Pankow",
@@ -4435,7 +4435,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "034007",
     "lor_name": "Pankow Zentrum",
     "district": "Pankow",
@@ -4632,7 +4632,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "034008",
     "lor_name": "Pankow Süd",
     "district": "Pankow",
@@ -4761,7 +4761,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "035009",
     "lor_name": "Weißensee",
     "district": "Pankow",
@@ -4886,7 +4886,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "035010",
     "lor_name": "Weißensee Ost",
     "district": "Pankow",
@@ -5007,7 +5007,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "036011",
     "lor_name": "Prenzlauer Berg Nordwest",
     "district": "Pankow",
@@ -5108,7 +5108,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "036012",
     "lor_name": "Prenzlauer Berg Nord",
     "district": "Pankow",
@@ -5173,7 +5173,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "036013",
     "lor_name": "Helmholtzplatz",
     "district": "Pankow",
@@ -5226,7 +5226,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "036014",
     "lor_name": "Prenzlauer Berg Ost",
     "district": "Pankow",
@@ -5359,7 +5359,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "037015",
     "lor_name": "Prenzlauer Berg Südwest",
     "district": "Pankow",
@@ -5428,7 +5428,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "037016",
     "lor_name": "Prenzlauer Berg Süd",
     "district": "Pankow",
@@ -5505,7 +5505,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "041001",
     "lor_name": "Charlottenburg Nord",
     "district": "Charlottenburg-Wilmersdorf",
@@ -5646,7 +5646,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "042002",
     "lor_name": "Heerstraße",
     "district": "Charlottenburg-Wilmersdorf",
@@ -5999,7 +5999,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "042003",
     "lor_name": "Westend",
     "district": "Charlottenburg-Wilmersdorf",
@@ -6188,7 +6188,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "043004",
     "lor_name": "Schloss Charlottenburg",
     "district": "Charlottenburg-Wilmersdorf",
@@ -6385,7 +6385,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "043005",
     "lor_name": "Mierendorffplatz",
     "district": "Charlottenburg-Wilmersdorf",
@@ -6530,7 +6530,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "043006",
     "lor_name": "Otto-Suhr-Allee/Kantstraße",
     "district": "Charlottenburg-Wilmersdorf",
@@ -6715,7 +6715,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "044007",
     "lor_name": "Grunewald",
     "district": "Charlottenburg-Wilmersdorf",
@@ -6880,7 +6880,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "044008",
     "lor_name": "Schmargendorf",
     "district": "Charlottenburg-Wilmersdorf",
@@ -6989,7 +6989,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "045009",
     "lor_name": "Halensee",
     "district": "Charlottenburg-Wilmersdorf",
@@ -7138,7 +7138,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "045010",
     "lor_name": "Lietzenburger Straße",
     "district": "Charlottenburg-Wilmersdorf",
@@ -7267,7 +7267,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "045011",
     "lor_name": "Volkspark Wilmersdorf",
     "district": "Charlottenburg-Wilmersdorf",
@@ -7368,7 +7368,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "051001",
     "lor_name": "Hakenfelde",
     "district": "Spandau",
@@ -7777,7 +7777,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "051002",
     "lor_name": "Falkenhagener Feld",
     "district": "Spandau",
@@ -7946,7 +7946,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "051003",
     "lor_name": "Spandau Mitte",
     "district": "Spandau",
@@ -8323,7 +8323,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "052004",
     "lor_name": "Brunsbütteler Damm",
     "district": "Spandau",
@@ -8480,7 +8480,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "052005",
     "lor_name": "Heerstraße",
     "district": "Spandau",
@@ -8649,7 +8649,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "052006",
     "lor_name": "Wilhelmstadt",
     "district": "Spandau",
@@ -8866,7 +8866,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "053007",
     "lor_name": "Haselhorst",
     "district": "Spandau",
@@ -9059,7 +9059,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "053008",
     "lor_name": "Siemensstadt",
     "district": "Spandau",
@@ -9268,7 +9268,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "054009",
     "lor_name": "Gatow/Kladow",
     "district": "Spandau",
@@ -9489,7 +9489,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "061001",
     "lor_name": "Schloßstraße",
     "district": "Steglitz-Zehlendorf",
@@ -9634,7 +9634,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "061002",
     "lor_name": "Albrechtstraße",
     "district": "Steglitz-Zehlendorf",
@@ -9839,7 +9839,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "062003",
     "lor_name": "Lankwitz",
     "district": "Steglitz-Zehlendorf",
@@ -9984,7 +9984,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "062004",
     "lor_name": "Ostpreußendamm",
     "district": "Steglitz-Zehlendorf",
@@ -10177,7 +10177,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "063005",
     "lor_name": "Teltower Damm",
     "district": "Steglitz-Zehlendorf",
@@ -10346,7 +10346,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "063006",
     "lor_name": "Drakestraße",
     "district": "Steglitz-Zehlendorf",
@@ -10555,7 +10555,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "064007",
     "lor_name": "Zehlendorf Südwest",
     "district": "Steglitz-Zehlendorf",
@@ -11108,7 +11108,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "064008",
     "lor_name": "Zehlendorf Nord",
     "district": "Steglitz-Zehlendorf",
@@ -11297,7 +11297,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "071001",
     "lor_name": "Schöneberg Nordwest",
     "district": "Tempelhof-Schöneberg",
@@ -11362,7 +11362,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "071002",
     "lor_name": "Schöneberg Nordost",
     "district": "Tempelhof-Schöneberg",
@@ -11471,7 +11471,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "072003",
     "lor_name": "Schöneberg Südwest",
     "district": "Tempelhof-Schöneberg",
@@ -11560,7 +11560,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "072004",
     "lor_name": "Schöneberg Südost",
     "district": "Tempelhof-Schöneberg",
@@ -11681,7 +11681,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "073005",
     "lor_name": "Friedenau West",
     "district": "Tempelhof-Schöneberg",
@@ -11754,7 +11754,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "073006",
     "lor_name": "Friedenau Ost",
     "district": "Tempelhof-Schöneberg",
@@ -11895,7 +11895,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "074007",
     "lor_name": "Tempelhof Nord",
     "district": "Tempelhof-Schöneberg",
@@ -12036,7 +12036,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "074008",
     "lor_name": "Tempelhof Südwest",
     "district": "Tempelhof-Schöneberg",
@@ -12153,7 +12153,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "074009",
     "lor_name": "Tempelhof Südost",
     "district": "Tempelhof-Schöneberg",
@@ -12298,7 +12298,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "075010",
     "lor_name": "Mariendorf Nord",
     "district": "Tempelhof-Schöneberg",
@@ -12407,7 +12407,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "075011",
     "lor_name": "Mariendorf Süd",
     "district": "Tempelhof-Schöneberg",
@@ -12552,7 +12552,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "076012",
     "lor_name": "Marienfelde Nord",
     "district": "Tempelhof-Schöneberg",
@@ -12709,7 +12709,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "076013",
     "lor_name": "Marienfelde Süd",
     "district": "Tempelhof-Schöneberg",
@@ -12834,7 +12834,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "076014",
     "lor_name": "Lichtenrade Nord",
     "district": "Tempelhof-Schöneberg",
@@ -12963,7 +12963,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "076015",
     "lor_name": "Lichtenrade Süd",
     "district": "Tempelhof-Schöneberg",
@@ -13096,7 +13096,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "081001",
     "lor_name": "Schillerpromenade",
     "district": "Neukölln",
@@ -13205,7 +13205,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "081002",
     "lor_name": "Neuköllner Mitte/Zentrum",
     "district": "Neukölln",
@@ -13310,7 +13310,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "081003",
     "lor_name": "Reuterstraße",
     "district": "Neukölln",
@@ -13383,7 +13383,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "081004",
     "lor_name": "Rixdorf",
     "district": "Neukölln",
@@ -13492,7 +13492,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "081005",
     "lor_name": "Köllnische Heide",
     "district": "Neukölln",
@@ -13633,7 +13633,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "082006",
     "lor_name": "Britz Nord",
     "district": "Neukölln",
@@ -13782,7 +13782,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "082007",
     "lor_name": "Britz",
     "district": "Neukölln",
@@ -14003,7 +14003,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "082008",
     "lor_name": "Buckow",
     "district": "Neukölln",
@@ -14168,7 +14168,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "083009",
     "lor_name": "Gropiusstadt West",
     "district": "Neukölln",
@@ -14341,7 +14341,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "083010",
     "lor_name": "Gropiusstadt Ost",
     "district": "Neukölln",
@@ -14450,7 +14450,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "084011",
     "lor_name": "Buckow Nord",
     "district": "Neukölln",
@@ -14599,7 +14599,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "084012",
     "lor_name": "Rudow",
     "district": "Neukölln",
@@ -14836,7 +14836,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "091001",
     "lor_name": "Alt-Treptow",
     "district": "Treptow-Köpenick",
@@ -14985,7 +14985,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "091002",
     "lor_name": "Plänterwald",
     "district": "Treptow-Köpenick",
@@ -15126,7 +15126,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "091003",
     "lor_name": "Baumschulenweg",
     "district": "Treptow-Köpenick",
@@ -15323,7 +15323,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "091004",
     "lor_name": "Johannisthal",
     "district": "Treptow-Köpenick",
@@ -15468,7 +15468,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "092005",
     "lor_name": "Oberschöneweide",
     "district": "Treptow-Köpenick",
@@ -15665,7 +15665,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "092006",
     "lor_name": "Niederschöneweide",
     "district": "Treptow-Köpenick",
@@ -15838,7 +15838,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "092007",
     "lor_name": "Adlershof",
     "district": "Treptow-Köpenick",
@@ -15983,7 +15983,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "092008",
     "lor_name": "Köllnische Vorstadt/Spindlersfeld",
     "district": "Treptow-Köpenick",
@@ -16156,7 +16156,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "093009",
     "lor_name": "Altglienicke",
     "district": "Treptow-Köpenick",
@@ -16333,7 +16333,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "093010",
     "lor_name": "Bohnsdorf",
     "district": "Treptow-Köpenick",
@@ -16486,7 +16486,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "093011",
     "lor_name": "Grünau",
     "district": "Treptow-Köpenick",
@@ -16751,7 +16751,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "093012",
     "lor_name": "Schmöckwitz",
     "district": "Treptow-Köpenick",
@@ -17304,7 +17304,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "094013",
     "lor_name": "Köpenick Süd",
     "district": "Treptow-Köpenick",
@@ -17669,7 +17669,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "094014",
     "lor_name": "Allende-Viertel",
     "district": "Treptow-Köpenick",
@@ -17822,7 +17822,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "094015",
     "lor_name": "Altstadt Köpenick",
     "district": "Treptow-Köpenick",
@@ -17931,7 +17931,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "094016",
     "lor_name": "Müggelheim",
     "district": "Treptow-Köpenick",
@@ -18340,7 +18340,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "095017",
     "lor_name": "Friedrichshagen",
     "district": "Treptow-Köpenick",
@@ -18653,7 +18653,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "095018",
     "lor_name": "Rahnsdorf",
     "district": "Treptow-Köpenick",
@@ -19074,7 +19074,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "095019",
     "lor_name": "Dammvorstadt",
     "district": "Treptow-Köpenick",
@@ -19315,7 +19315,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "095020",
     "lor_name": "Köpenick Nord",
     "district": "Treptow-Köpenick",
@@ -19628,7 +19628,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "101001",
     "lor_name": "Marzahn Nord",
     "district": "Marzahn-Hellersdorf",
@@ -19781,7 +19781,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "101002",
     "lor_name": "Marzahn Mitte",
     "district": "Marzahn-Hellersdorf",
@@ -19954,7 +19954,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "101003",
     "lor_name": "Marzahn Süd",
     "district": "Marzahn-Hellersdorf",
@@ -20183,7 +20183,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "102004",
     "lor_name": "Hellersdorf Nord",
     "district": "Marzahn-Hellersdorf",
@@ -20316,7 +20316,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "102005",
     "lor_name": "Hellersdorf Ost",
     "district": "Marzahn-Hellersdorf",
@@ -20449,7 +20449,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "102006",
     "lor_name": "Hellersdorf Süd",
     "district": "Marzahn-Hellersdorf",
@@ -20614,7 +20614,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "103007",
     "lor_name": "Biesdorf",
     "district": "Marzahn-Hellersdorf",
@@ -20911,7 +20911,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "104008",
     "lor_name": "Kaulsdorf",
     "district": "Marzahn-Hellersdorf",
@@ -21204,7 +21204,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "104009",
     "lor_name": "Mahlsdorf",
     "district": "Marzahn-Hellersdorf",
@@ -21441,7 +21441,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "111001",
     "lor_name": "Malchow, Wartenberg und Falkenberg",
     "district": "Lichtenberg",
@@ -21746,7 +21746,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "111002",
     "lor_name": "Neu-Hohenschönhausen Nord",
     "district": "Lichtenberg",
@@ -21895,7 +21895,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "111003",
     "lor_name": "Neu-Hohenschönhausen Süd",
     "district": "Lichtenberg",
@@ -21996,7 +21996,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "112004",
     "lor_name": "Alt-Hohenschönhausen Nord",
     "district": "Lichtenberg",
@@ -22129,7 +22129,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "112005",
     "lor_name": "Alt-Hohenschönhausen Süd",
     "district": "Lichtenberg",
@@ -22246,7 +22246,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "113006",
     "lor_name": "Fennpfuhl",
     "district": "Lichtenberg",
@@ -22343,7 +22343,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "113007",
     "lor_name": "Alt-Lichtenberg",
     "district": "Lichtenberg",
@@ -22464,7 +22464,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "113008",
     "lor_name": "Frankfurter Allee Süd",
     "district": "Lichtenberg",
@@ -22553,7 +22553,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "114009",
     "lor_name": "Neu-Lichtenberg",
     "district": "Lichtenberg",
@@ -22738,7 +22738,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "114010",
     "lor_name": "Friedrichsfelde Nord",
     "district": "Lichtenberg",
@@ -22859,7 +22859,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "114011",
     "lor_name": "Friedrichsfelde Süd",
     "district": "Lichtenberg",
@@ -22972,7 +22972,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "115012",
     "lor_name": "Rummelsburger Bucht",
     "district": "Lichtenberg",
@@ -23101,7 +23101,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "115013",
     "lor_name": "Karlshorst",
     "district": "Lichtenberg",
@@ -23266,7 +23266,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "121001",
     "lor_name": "Ost 1 - Reginhardstraße",
     "district": "Reinickendorf",
@@ -23399,7 +23399,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "121002",
     "lor_name": "Ost 2 - Alt-Reinickendorf",
     "district": "Reinickendorf",
@@ -23544,7 +23544,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "122003",
     "lor_name": "West 4 - Auguste-Viktoria-Allee",
     "district": "Reinickendorf",
@@ -23665,7 +23665,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "122004",
     "lor_name": "West 1 - Tegel-Süd/Flughafensee",
     "district": "Reinickendorf",
@@ -24010,7 +24010,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "122005",
     "lor_name": "West 5 - Tegel",
     "district": "Reinickendorf",
@@ -24235,7 +24235,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "124006",
     "lor_name": "West 2 - Heiligensee/Konradshöhe",
     "district": "Reinickendorf",
@@ -24772,7 +24772,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "124007",
     "lor_name": "Nord 1 - Frohnau/Hermsdorf",
     "district": "Reinickendorf",
@@ -25289,7 +25289,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "125008",
     "lor_name": "West 3 - Borsigwalde/Freie Scholle",
     "district": "Reinickendorf",
@@ -25530,7 +25530,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "125009",
     "lor_name": "Nord 2 - Waidmannslust/Wittenau/Lübars",
     "district": "Reinickendorf",
@@ -25955,7 +25955,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "126010",
     "lor_name": "Rollbergesiedlung",
     "district": "Reinickendorf",
@@ -26044,7 +26044,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "126011",
     "lor_name": "MV Nord",
     "district": "Reinickendorf",
@@ -26137,7 +26137,7 @@
   {
    "type": "Feature",
    "properties": {
-    "schema_version": "0.2.0",
+    "schema_version": "0.3.0",
     "lor_id": "126012",
     "lor_name": "MV Süd",
     "district": "Reinickendorf",

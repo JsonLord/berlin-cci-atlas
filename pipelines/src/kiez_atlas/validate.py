@@ -161,6 +161,77 @@ def run(repo: Path) -> Check:
     c.add("public venues.json contains no internal classification fields",
           not leaked, f"{len(set(leaked))} leaked keys: {sorted(set(leaked))}")
 
+    # ---- website honesty ----
+    official = [v["venue_id"] for v in venues["venues"]
+                if v["website"]["verification"] == "verified_official"]
+    c.add("no public venue claims a verified official website",
+          not official, f"{len(official)} claims")
+
+    bad_kind = [v["venue_id"] for v in venues["venues"]
+                if v["website"]["kind"] not in ("directory_reference",
+                                                "shared_organisation_site",
+                                                "venue_site_unverified")]
+    c.add("every public website kind is a known value", not bad_kind,
+          f"{len(bad_kind)} unknown")
+
+    shared_mislabelled = [v["venue_id"] for v in venues["venues"]
+                          if v["website"]["shared_by_venue_count"] > 1
+                          and v["website"]["kind"] == "venue_site_unverified"]
+    c.add("no shared URL is labelled as a venue's own site",
+          not shared_mislabelled, f"{len(shared_mislabelled)} mislabelled")
+
+    inherited_urls = {p["url"] for p in load_atlas(repo / "index.html")["PLACES"]}
+    invented = [v["venue_id"] for v in venues["venues"]
+                if v["website"]["url"] is not None
+                and v["website"]["url"] not in inherited_urls]
+    c.add("every published website URL exists in the inherited data",
+          not invented, f"{len(invented)} invented")
+
+    c.add("metadata declares zero official-website claims",
+          metadata.get("websites", {}).get("official_claims") == 0,
+          str(metadata.get("websites", {}).get("official_claims")))
+
+    # ---- LOR attribution must stay provisional ----
+    lor_entries = [a for a in metadata["attribution"]["added_by_this_pipeline"]
+                   if "LOR" in a["title"]]
+    c.add("exactly one provisional LOR attribution entry", len(lor_entries) == 1,
+          f"{len(lor_entries)} entries")
+    if lor_entries:
+        e = lor_entries[0]
+        c.add("LOR attribution is marked provisional",
+              e.get("status") == "provisional", str(e.get("status")))
+        c.add("LOR vintage and licence are recorded as unknown",
+              e.get("vintage") == "unknown" and "unknown" in e.get("licence", ""),
+              f"vintage={e.get('vintage')}")
+        c.add("LOR attribution blocks publication until confirmed",
+              e.get("blocks_publication") is True, str(e.get("blocks_publication")))
+    c.add("metadata lists the LOR publication blocker",
+          any("LOR" in b for b in metadata["attribution"].get("publication_blockers", [])),
+          "")
+
+    # ---- deploy boundary is executable, not advisory ----
+    from kiez_atlas.deploy import (DeployBoundaryError, assert_no_internal_leak,
+                                   resolve_deploy_set)
+    try:
+        files = resolve_deploy_set(repo)
+        rels = [f.relative_to(repo.resolve()).as_posix() for f in files]
+        c.add("deploy set resolves to real files", bool(files), f"{len(files)} files")
+        c.add("deploy set contains no internal path",
+              not [r for r in rels if r.startswith("data/internal/")], str(rels))
+    except DeployBoundaryError as e:
+        c.add("deploy set resolves to real files", False, str(e)[:150])
+    try:
+        assert_no_internal_leak(repo / "data" / "public")
+        c.add("staging data/public passes the leak check", True, "")
+    except DeployBoundaryError as e:
+        c.add("staging data/public passes the leak check", False, str(e)[:150])
+    try:
+        assert_no_internal_leak(repo / "data")
+        c.add("staging all of data/ is refused (leak check works)", False,
+              "no error raised — the guard is not firing")
+    except DeployBoundaryError:
+        c.add("staging all of data/ is refused (leak check works)", True, "")
+
     # ---- deploy allowlist ----
     allow = repo / "data" / "deploy-allowlist.txt"
     if allow.exists():

@@ -1,7 +1,7 @@
 {
- "schema_version": "0.2.0",
+ "schema_version": "0.3.0",
  "pipeline_version": "0.1.0",
- "generated_at": "2026-11-14T07:51:32Z",
+ "generated_at": "2026-11-14T09:10:57Z",
  "source": {
   "repository": "JsonLord/berlin-cci-atlas",
   "upstream": "kaitiwu/berlin-cci-atlas",
@@ -137,9 +137,35 @@
     "url": "https://www.statistik-berlin-brandenburg.de/geodata",
     "note": "Polygons inherited from the CCI Atlas build. The upstream META.sources register does not credit this layer; vintage is not recorded in the source data and is therefore stated as unknown rather than assumed. Confirm licence and vintage with the upstream controller before republication.",
     "vintage": "unknown",
-    "licence": "unknown — see docs/feasibility/REPORT.md §G.4"
+    "licence": "unknown — see docs/feasibility/REPORT.md §G.4",
+    "status": "provisional",
+    "status_note": "NOT confirmed. Added by this pipeline because the inherited project credits the LOR geography nowhere. Both the source vintage and the licence are unknown. Do not treat this attribution as authoritative and do not republish the geography on its strength alone.",
+    "confirmation_required_from": "upstream controller (kaitiwu/berlin-cci-atlas)",
+    "blocks_publication": true
    }
+  ],
+  "provisional_entries": 1,
+  "publication_blockers": [
+   "LOR geography attribution is provisional: vintage and licence are unknown and require confirmation from the upstream controller."
   ]
+ },
+ "websites": {
+  "note": "The inherited `url` field is a page the compiler used to describe a venue, NOT a verified official website. No record has been visited. `kind` distinguishes a third-party directory reference from a site that appears to belong to the venue.",
+  "kinds": {
+   "directory_reference": "A listing/index page hosted by a third party (city portal, studio-house directory, tourism site). Not the venue's own website.",
+   "shared_organisation_site": "One URL reused by several venues because it belongs to their umbrella organisation rather than to the individual venue.",
+   "venue_site_unverified": "A URL on a domain that appears to belong to the venue. NOT verified as official — no record was visited during the feasibility phase."
+  },
+  "verification_statuses": {
+   "unverified": "Carried over from the inherited data. Nobody has confirmed this URL belongs to the venue, is current, or is the official site.",
+   "verified_official": "Confirmed by visiting, with the confirmation recorded. No record has this status yet; the vocabulary exists so it can be earned later."
+  },
+  "distribution": {
+   "directory_reference": 148,
+   "shared_organisation_site": 6,
+   "venue_site_unverified": 97
+  },
+  "official_claims": 0
  },
  "vocabularies": {
   "venue_type": {

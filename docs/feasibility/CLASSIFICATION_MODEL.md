@@ -233,6 +233,35 @@ looked like decisions but changed nothing. Venue ids in the source data are trun
 
 ---
 
+## 6b. What a `website` value actually means
+
+The inherited `PLACES[].url` is **not** the venue's official website. It is a page
+the compiler used to describe the venue. Auditing all 303 records gives three shapes,
+implemented in `pipelines/src/kiez_atlas/websites.py`:
+
+| `kind` | meaning | published count |
+|---|---|---|
+| `directory_reference` | third-party listing/portal (berlin.de, bbk-kulturwerk.de, visitberlin.de, kgberlin.net, erih.net) | **148** |
+| `shared_organisation_site` | one URL reused by several venues because it belongs to their umbrella organisation | **6** |
+| `venue_site_unverified` | a domain that appears to belong to the venue | **97** |
+
+**No record is ever labelled official.** `verification` is `unverified` for all 251
+published records and `metadata.websites.official_claims` is `0`. The strongest claim
+the data supports is "this domain appears to belong to the venue" — the feasibility
+phase never visited these sites.
+
+The most misleading single case: **19 studio houses share one
+`bbk-kulturwerk.de/en/art-spaces-berlin/studio-houses` page** (16 of them are in the
+review queue, 3 published). All 19 are `directory_reference`, not their own sites.
+
+Tests that enforce this (`test_websites_and_boundary.py`):
+
+- no published record has `verification: verified_official`
+- no record carries an `official` / `is_official` / `official_website` field
+- every published URL is byte-identical to the inherited value (catches invented URLs)
+- any URL shared by more than one venue is never labelled `venue_site_unverified`
+- `shared_by_venue_count` rejoins the source data exactly
+
 ## 7. What the model deliberately does not do
 
 1. **It does not verify venues are open or at that address.** Classification derives from
