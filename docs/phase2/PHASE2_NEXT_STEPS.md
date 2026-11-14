@@ -1,5 +1,11 @@
 # Phase 2 — Next Steps
 
+> **CORRECTION (2026-11-14, after `pilot/BERLIN_DE_RSS_PILOT.md`):** the "110 venues"
+> reach estimate below was tested and is **substantially refuted**. Only **13/86 (15%)**
+> of berlin.de venues expose a venue-scoped `v_ort`, **59%** expose no calendar link at
+> all, and where `v_ort` exists the feed is only **~47%** precise. Realistic reach is
+> **~17 venues**, not 110. Read the pilot before acting on §2–§3.
+
 Prioritised, evidence-based. Nothing here is a commitment to build; it is what the
 findings in `PHASE2_SOURCE_DISCOVERY.md` support.
 
@@ -12,8 +18,8 @@ findings in `PHASE2_SOURCE_DISCOVERY.md` support.
 The evidence:
 
 - **2 of 27 sources qualified** with real dated records (Divan, Lettrétage)
-- **1 mechanism can potentially reach 110 venues** (berlin.de calendar RSS, 100 dated
-  items per feed, verified on 2 calendar IDs)
+- **1 mechanism reaches ~17 venues, not 110** (berlin.de calendar RSS; `v_ort` on 15% of
+  venue pages, ~47% feed precision — see `pilot/BERLIN_DE_RSS_PILOT.md`)
 - **22 candidates exist but are unproven** — a discovery backlog, not coverage
 - **1 mechanism is provably reusable across venue types** (microdata)
 
@@ -50,9 +56,9 @@ for "empty result" and "stale content".
 
 In this order:
 
-1. **`berlin_de_rss`** — highest reach (potential 110 venues), dated items already
-   structured in the guid. **Build this first even though it is third in the source list**,
-   because it is the only mechanism whose value scales with discovery effort.
+1. **`berlin_de_rss`** — real but narrower than assumed: ~17 venue-attributable of 110.
+   Cheap to build (guid parsing) and must carry a **venue-match filter** or ~53% of
+   records will be misattributed. No longer justifiable *solely* on reach.
 2. **`microdata_event`** — simplest correct parser; `content` attrs give full ISO
    timestamps. Covers Divan and likely the library makerspaces.
 3. **`jsonld_event`** — needed for Lettrétage and later gallery/hub sites; requires
@@ -87,7 +93,7 @@ These block publication, not the pilot.
 
 | # | question | why it matters |
 |---|---|---|
-| 1 | **berlin.de terms.** robots.txt requires a self-identifying UA *and* full REP compliance, reserves discretionary blocking, and calls non-compliant access "misuse". A 429 has already been observed. | 110 venues depend on this staying permitted |
+| 1 | **berlin.de terms.** robots.txt requires a self-identifying UA *and* full REP compliance, reserves discretionary blocking, and calls non-compliant access "misuse". A 429 has already been observed. | ~17 reachable venues depend on this |
 | 2 | **Upstream code/data licence (Phase 1 Q2).** No `LICENSE` in either repo. Permission to publish a *derivative* atlas is unresolved. | Blocks publishing anything derived |
 | 3 | **LOR geometry licence + vintage** — still `provisional`, `blocks_publication: true`. | Blocks publishing the map layer |
 | 4 | **Event-level suitability.** Phase 1 policy is €20 cap with explicit price states. Phase 2 found **no reliable price source**. | Cannot gate on price; must review |
@@ -113,12 +119,35 @@ These block publication, not the pilot.
 
 ---
 
-## 7. Recommended single next step
+## 7. Recommended single next step — REVISED after the pilot
 
-> **Build the `berlin_de_rss` adapter against 3 known calendar IDs (320, 409, and one to
+The original recommendation below **was executed**. Result: `pilot/BERLIN_DE_RSS_PILOT.md`.
+Attribution works but covers ~17 venues, not 110.
+
+> **Revised: build a `berlin_de_rss` adapter parameterised by `v_ort`, with a mandatory
+> venue-match filter (venue name or alias must appear in title/description, else
+> quarantine), and measure the true per-venue event yield on the 13 confirmed `v_ort`
+> venues.**
+
+The venue-match filter is not optional. Without it ~53% of records would be attributed to
+the wrong venue — worse than showing nothing, because it looks correct.
+
+## 8. What the pilot proved about method
+
+Testing the hypothesis cost one session and changed a headline number by an order of
+magnitude. The same treatment should be applied to the remaining Phase 2 assumptions
+before any adapter is built:
+
+- `microdata_event` (Divan): 225 items confirmed, but **how many are at Divan vs sibling
+  venues?** Not yet measured. Simple Calendar renders a shared Google Calendar, so the
+  same precision question applies.
+- `jsonld_event` (Lettrétage): one event per page, so precision is structurally 100%.
+  Low risk.
+
+<details><summary>Original recommendation (superseded)</summary>
+
+> Build the `berlin_de_rss` adapter against 3 known calendar IDs (320, 409, and one to
 > discover), with the `count > 0`, staleness and date-parse guards, and measure how many
-> of the 110 berlin.de venues can be attributed from calendar IDs alone.**
+> of the 110 berlin.de venues can be attributed from calendar IDs alone.
 
-That one task either unlocks the largest venue block in the directory or proves it
-cannot be attributed — both are decisive, and both are cheap compared with writing
-per-venue HTML parsers for the imperia pages.
+</details>

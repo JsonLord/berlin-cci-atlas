@@ -1,0 +1,779 @@
+{
+ "note": "86 unique berlin.de venues tested. v_ort = venue-scoped calendar id; c_id = section calendar id.",
+ "records": [
+  {
+   "venue_id": "makerspace-anna-seghers-bibliothek",
+   "venue_name": "Makerspace Anna-Seghers-Bibliothek",
+   "page_url": "https://www.berlin.de/stadtbibliothek-lichtenberg/angebote/makerspace/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "286",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "makerspace-philipp-schaeffer-bibliothek",
+   "venue_name": "Makerspace Philipp-Schaeffer-Bibliothek",
+   "page_url": "https://www.berlin.de/stadtbibliothek-mitte/angebote/makerspace/philipp-schaeffer-bibliothek/artikel.845921.php",
+   "status": 404,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "funkhaus-berlin",
+   "venue_name": "Funkhaus Berlin",
+   "page_url": "https://www.berlin.de/en/tickets/search/venues/funkhaus-berlin-b9c1e7f4-3c13-4278-aa2e-07e1fc6a3998/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "bezirkszentralbibliothek-philipp-schaeffer-bibli",
+   "venue_name": "Bezirkszentralbibliothek Philipp-Schaeffer-Bibliothek",
+   "page_url": "https://www.berlin.de/stadtbibliothek-mitte/bibliotheken-und-besuch/philipp-schaeffer-bibliothek/",
+   "status": 200,
+   "v_ort": "38489",
+   "c_id": "327",
+   "path": "v_ort"
+  },
+  {
+   "venue_id": "bezirkszentralbibliothek-pablo-neruda",
+   "venue_name": "Bezirkszentralbibliothek Pablo Neruda",
+   "page_url": "https://www.berlin.de/stadtbibliothek-friedrichshain-kreuzberg/bibliotheken/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "bettina-von-arnim-bibliothek",
+   "venue_name": "Bettina-von-Arnim-Bibliothek",
+   "page_url": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/bettina-von-arnim-bibliothek/",
+   "status": 200,
+   "v_ort": "37538",
+   "c_id": null,
+   "path": "v_ort"
+  },
+  {
+   "venue_id": "heinrich-schulz-bibliothek",
+   "venue_name": "Heinrich-Schulz-Bibliothek (Bezirkszentralbibliothek, mit Musikabteilung)",
+   "page_url": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/weiterbildung-und-kultur/stadtbibliothek/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "4",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "bezirkszentralbibliothek-spandau",
+   "venue_name": "Bezirkszentralbibliothek Spandau (mit Kinder- und Jugendbibliothek)",
+   "page_url": "https://www.berlin.de/stadtbibliothek-spandau/bibliotheken/bezirkszentralbibliothek/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "ingeborg-drewitz-bibliothek",
+   "venue_name": "Ingeborg-Drewitz-Bibliothek (Bezirkszentralbibliothek)",
+   "page_url": "https://www.berlin.de/stadtbibliothek-steglitz-zehlendorf/bibliotheken/ingeborg-drewitz-bibliothek/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "67",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "bezirkszentralbibliothek-eva-maria-buch-haus",
+   "venue_name": "Bezirkszentralbibliothek Eva-Maria-Buch-Haus (Bibliothek Tempelhof)",
+   "page_url": "https://www.berlin.de/stadtbibliothek-tempelhof-schoeneberg/bibliothek-tempelhof/",
+   "status": 200,
+   "v_ort": "38304",
+   "c_id": null,
+   "path": "v_ort"
+  },
+  {
+   "venue_id": "theodor-heuss-bibliothek",
+   "venue_name": "Theodor-Heuss-Bibliothek (Bibliothek Schöneberg)",
+   "page_url": "https://www.berlin.de/stadtbibliothek-tempelhof-schoeneberg/bibliothek-schoeneberg/",
+   "status": 200,
+   "v_ort": "38422",
+   "c_id": null,
+   "path": "v_ort"
+  },
+  {
+   "venue_id": "thomas-dehler-bibliothek",
+   "venue_name": "Thomas-Dehler-Bibliothek",
+   "page_url": "https://www.berlin.de/stadtbibliothek-tempelhof-schoeneberg/thomas-dehler-bibliothek/",
+   "status": 200,
+   "v_ort": "50700",
+   "c_id": null,
+   "path": "v_ort"
+  },
+  {
+   "venue_id": "edith-stein-bibliothek",
+   "venue_name": "Edith-Stein-Bibliothek (Bibliothek Lichtenrade)",
+   "page_url": "https://www.berlin.de/stadtbibliothek-tempelhof-schoeneberg/bibliothek-lichtenrade/",
+   "status": 200,
+   "v_ort": "48594",
+   "c_id": null,
+   "path": "v_ort"
+  },
+  {
+   "venue_id": "bibliothek-marienfelde",
+   "venue_name": "Bibliothek Marienfelde",
+   "page_url": "https://www.berlin.de/stadtbibliothek-tempelhof-schoeneberg/bibliothek-marienfelde/",
+   "status": 200,
+   "v_ort": "38427",
+   "c_id": null,
+   "path": "v_ort"
+  },
+  {
+   "venue_id": "helene-nathan-bibliothek",
+   "venue_name": "Helene-Nathan-Bibliothek",
+   "page_url": "https://www.berlin.de/stadtbibliothek-neukoelln/bibliotheken/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "mittelpunktbibliothek-kopenick-alter-markt",
+   "venue_name": "Mittelpunktbibliothek Köpenick \"Alter Markt\"",
+   "page_url": "https://www.berlin.de/stadtbibliothek-treptow-koepenick/bibliotheken/mittelpunktbibliothek-koepenick/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "bezirkszentralbibliothek-mark-twain",
+   "venue_name": "Bezirkszentralbibliothek Mark Twain (mit Musikbibliothek)",
+   "page_url": "https://www.berlin.de/bibliotheken-mh/bibliotheken/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "anna-seghers-bibliothek",
+   "venue_name": "Anna-Seghers-Bibliothek",
+   "page_url": "https://www.berlin.de/stadtbibliothek-lichtenberg/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "286",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "humboldt-bibliothek",
+   "venue_name": "Humboldt-Bibliothek",
+   "page_url": "https://www.berlin.de/stadtbibliothek-reinickendorf/bibliotheken/humboldt-bibliothek/artikel.1173280.php",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "230",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "volkshochschule-mitte",
+   "venue_name": "Volkshochschule Mitte (Antonstraße)",
+   "page_url": "https://www.berlin.de/vhs/volkshochschulen/mitte/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "gilberto-bosques-volkshochschule-friedrichshain-",
+   "venue_name": "Gilberto-Bosques-Volkshochschule Friedrichshain-Kreuzberg",
+   "page_url": "https://www.berlin.de/vhs-friedrichshain-kreuzberg/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "volkshochschule-spandau",
+   "venue_name": "Volkshochschule Spandau",
+   "page_url": "https://www.berlin.de/vhs-spandau/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "volkshochschule-treptow-kopenick",
+   "venue_name": "Volkshochschule Treptow-Köpenick",
+   "page_url": "https://www.berlin.de/vhs-treptow-koepenick/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "musikschule-fanny-hensel",
+   "venue_name": "Musikschule Fanny Hensel",
+   "page_url": "https://www.berlin.de/ba-mitte/musikschule/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "6",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "musikschule-friedrichshain-kreuzberg",
+   "venue_name": "Musikschule Friedrichshain-Kreuzberg",
+   "page_url": "https://www.berlin.de/musikschule-friedrichshain-kreuzberg",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "musikschule-bela-bartok",
+   "venue_name": "Musikschule Béla Bartók",
+   "page_url": "https://www.berlin.de/ba-pankow/musikschule/index.html",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "8",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "musikschule-city-west",
+   "venue_name": "Musikschule City West",
+   "page_url": "https://www.berlin.de/musikschule-charlottenburg-wilmersdorf/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "232",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "musikschule-spandau",
+   "venue_name": "Musikschule Spandau",
+   "page_url": "https://www.berlin.de/musikschule-spandau/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "leo-borchard-musikschule",
+   "venue_name": "Leo-Borchard-Musikschule",
+   "page_url": "https://www.berlin.de/musikschule-steglitz-zehlendorf/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "musikschule-paul-hindemith",
+   "venue_name": "Musikschule Paul Hindemith",
+   "page_url": "https://www.berlin.de/musikschule-neukoelln/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "joseph-schmidt-musikschule",
+   "venue_name": "Joseph-Schmidt-Musikschule",
+   "page_url": "https://www.berlin.de/musikschule-treptow-koepenick/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "hans-werner-henze-musikschule",
+   "venue_name": "Hans-Werner-Henze-Musikschule",
+   "page_url": "https://www.berlin.de/musikschule-mh/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "musikschule-reinickendorf",
+   "venue_name": "Musikschule Reinickendorf",
+   "page_url": "https://www.berlin.de/musikschule-reinickendorf/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "mik-jugendkunstschule-berlin-mitte",
+   "venue_name": "MiK Jugendkunstschule Berlin-Mitte",
+   "page_url": "https://www.berlin.de/kulturelle-bildung-mitte/kooperationen/mik-jugendkunstschule/artikel.401593.php",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "jugendkunstschule-fri-x-berg",
+   "venue_name": "Jugendkunstschule FRI-X BERG",
+   "page_url": "https://www.berlin.de/ba-friedrichshain-kreuzberg/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "2",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "jugendkunstschule-pankow",
+   "venue_name": "Jugendkunstschule Pankow",
+   "page_url": "https://www.berlin.de/ba-pankow/jugendkunstschule/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "jugendkunstschule-charlottenburg-wilmersdorf",
+   "venue_name": "Jugendkunstschule Charlottenburg-Wilmersdorf",
+   "page_url": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "4",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "jugendkunstschule-tempelhof-schoneberg",
+   "venue_name": "Jugendkunstschule Tempelhof-Schöneberg",
+   "page_url": "https://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/kunst-und-kultur/jugendkunstschule/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "young-arts-neukolln-jugendkunstschule",
+   "venue_name": "Young Arts Neukölln / Jugendkunstschule",
+   "page_url": "https://www.berlin.de/kunst-und-kultur-neukoelln/kunst-kreativitaet/young-arts-neukoelln/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "jugendkunstschule-treptow-kopenick",
+   "venue_name": "Jugendkunstschule Treptow-Köpenick",
+   "page_url": "https://www.berlin.de/ba-treptow-koepenick/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "jugendkunstschule-lichtenberg",
+   "venue_name": "Jugendkunstschule Lichtenberg",
+   "page_url": "https://www.berlin.de/ba-lichtenberg/auf-einen-blick/buergerservice/bildung/jugendkunstschule/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "jugendkunstschule-atrium",
+   "venue_name": "Jugendkunstschule ATRIUM",
+   "page_url": "https://www.berlin.de/ba-reinickendorf/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "wabe",
+   "venue_name": "WABE",
+   "page_url": "https://www.berlin.de/kunst-und-kultur-pankow/einrichtungen/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "kulturhaus-spandau",
+   "venue_name": "Kulturhaus Spandau",
+   "page_url": "https://www.berlin.de/ba-spandau/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/kultur/artikel.292942.php",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "10",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "kulturhaus-schwartzsche-villa",
+   "venue_name": "Kulturhaus Schwartzsche Villa",
+   "page_url": "https://www.berlin.de/ba-steglitz-zehlendorf/auf-einen-blick/kultur/schwartzsche-villa/",
+   "status": 200,
+   "v_ort": "45889",
+   "c_id": "22",
+   "path": "v_ort"
+  },
+  {
+   "venue_id": "gemeinschaftshaus-gropiusstadt",
+   "venue_name": "Gemeinschaftshaus Gropiusstadt",
+   "page_url": "https://www.berlin.de/kunst-und-kultur-neukoelln/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "7",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "altglienicker-burgerzentrum-im-burgerhaus-altgli",
+   "venue_name": "Altglienicker Bürgerzentrum im Bürgerhaus Altglienicke",
+   "page_url": "https://www.berlin.de/ba-treptow-koepenick/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/kultur/artikel.90672.php",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "ausstellungszentrum-pyramide",
+   "venue_name": "Ausstellungszentrum Pyramide",
+   "page_url": "https://www.berlin.de/ba-marzahn-hellersdorf/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "25",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "kulturhaus-karlshorst",
+   "venue_name": "Kulturhaus Karlshorst",
+   "page_url": "https://www.berlin.de/kulturhaus-karlshorst",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "fontane-haus-im-markischen-viertel",
+   "venue_name": "Fontane-Haus im Märkischen Viertel",
+   "page_url": "https://www.berlin.de/ba-reinickendorf/politik-und-verwaltung/aemter/amt-fuer-weiterbildung-und-kultur/artikel.1163021.php",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "bibliothek-am-luisenbad",
+   "venue_name": "Bibliothek am Luisenbad",
+   "page_url": "https://www.berlin.de/stadtbibliothek-mitte/bibliotheken-und-besuch/bibliothek-am-luisenbad/",
+   "status": 200,
+   "v_ort": "45740",
+   "c_id": "327",
+   "path": "v_ort"
+  },
+  {
+   "venue_id": "bruno-losche-bibliothek",
+   "venue_name": "Bruno-Lösche-Bibliothek",
+   "page_url": "https://www.berlin.de/stadtbibliothek-mitte/bibliotheken-und-besuch/bruno-loesche-bibliothek/",
+   "status": 200,
+   "v_ort": "38497",
+   "c_id": "327",
+   "path": "v_ort"
+  },
+  {
+   "venue_id": "schiller-bibliothek",
+   "venue_name": "Schiller-Bibliothek",
+   "page_url": "https://www.berlin.de/stadtbibliothek-mitte/bibliotheken-und-besuch/schiller-bibliothek/",
+   "status": 200,
+   "v_ort": "40189",
+   "c_id": "327",
+   "path": "v_ort"
+  },
+  {
+   "venue_id": "mittelpunktbibliothek-wilhelm-liebknecht-namik-k",
+   "venue_name": "Mittelpunktbibliothek Wilhelm Liebknecht / Namik Kemal",
+   "page_url": "https://www.berlin.de/stadtbibliothek-friedrichshain-kreuzberg/bibliotheken/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-friedrich-von-raumer",
+   "venue_name": "Stadtteilbibliothek Friedrich von Raumer",
+   "page_url": "https://www.berlin.de/stadtbibliothek-friedrichshain-kreuzberg/bibliotheken/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "familienbibliothek-else-ury",
+   "venue_name": "Familienbibliothek Else Ury",
+   "page_url": "https://www.berlin.de/stadtbibliothek-friedrichshain-kreuzberg/bibliotheken/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "bibliothek-am-wasserturm",
+   "venue_name": "Bibliothek am Wasserturm",
+   "page_url": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/bibliothek-am-wasserturm/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "heinrich-boll-bibliothek",
+   "venue_name": "Heinrich-Böll-Bibliothek",
+   "page_url": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/heinrich-boell-bibliothek/",
+   "status": 200,
+   "v_ort": "41678",
+   "c_id": null,
+   "path": "v_ort"
+  },
+  {
+   "venue_id": "janusz-korczak-bibliothek",
+   "venue_name": "Janusz-Korczak-Bibliothek",
+   "page_url": "https://www.berlin.de/stadtbibliothek-pankow/bibliotheken/janusz-korczak-bibliothek/",
+   "status": 200,
+   "v_ort": "37556",
+   "c_id": null,
+   "path": "v_ort"
+  },
+  {
+   "venue_id": "dietrich-bonhoeffer-bibliothek",
+   "venue_name": "Dietrich-Bonhoeffer-Bibliothek",
+   "page_url": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/weiterbildung-und-kultur/stadtbibliothek/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "4",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "eberhard-alexander-burgh-bibliothek",
+   "venue_name": "Eberhard-Alexander-Burgh-Bibliothek",
+   "page_url": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/weiterbildung-und-kultur/stadtbibliothek/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "4",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "adolf-reichwein-bibliothek",
+   "venue_name": "Adolf-Reichwein-Bibliothek",
+   "page_url": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/weiterbildung-und-kultur/stadtbibliothek/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "4",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-falkenhagener-feld",
+   "venue_name": "Stadtteilbibliothek Falkenhagener Feld",
+   "page_url": "https://www.berlin.de/stadtbibliothek-spandau/bibliotheken/falkenhagener-feld/artikel.182168.php",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-haselhorst",
+   "venue_name": "Stadtteilbibliothek Haselhorst",
+   "page_url": "https://www.berlin.de/stadtbibliothek-spandau/bibliotheken/haselhorst/stadtteilbibliothek-haselhorst-182097.php",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-heerstrasse",
+   "venue_name": "Stadtteilbibliothek Heerstraße",
+   "page_url": "https://www.berlin.de/stadtbibliothek-spandau/bibliotheken/heerstrasse/stadtteilbibliothek-heerstrasse-182099.php",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "margarete-kubicka-bibliothek",
+   "venue_name": "Margarete-Kubicka-Bibliothek",
+   "page_url": "https://www.berlin.de/stadtbibliothek-neukoelln/bibliotheken/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "gertrud-junge-bibliothek",
+   "venue_name": "Gertrud-Junge-Bibliothek",
+   "page_url": "https://www.berlin.de/stadtbibliothek-neukoelln/bibliotheken/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "gertrud-hass-bibliothek",
+   "venue_name": "Gertrud-Haß-Bibliothek",
+   "page_url": "https://www.berlin.de/stadtbibliothek-neukoelln/bibliotheken/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "mittelpunktbibliothek-treptow-alte-feuerwache",
+   "venue_name": "Mittelpunktbibliothek Treptow \"Alte Feuerwache\"",
+   "page_url": "https://www.berlin.de/stadtbibliothek-treptow-koepenick/bibliotheken/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-alt-treptow-manfred-bofinger",
+   "venue_name": "Stadtteilbibliothek Alt-Treptow \"Manfred Bofinger\"",
+   "page_url": "https://www.berlin.de/stadtbibliothek-treptow-koepenick/bibliotheken/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-altglienicke",
+   "venue_name": "Stadtteilbibliothek Altglienicke",
+   "page_url": "https://www.berlin.de/stadtbibliothek-treptow-koepenick/bibliotheken/altglienicke/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "mittelpunktbibliothek-ehm-welk",
+   "venue_name": "Mittelpunktbibliothek Ehm Welk",
+   "page_url": "https://www.berlin.de/bibliotheken-mh/bibliotheken/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-heinrich-von-kleist",
+   "venue_name": "Stadtteilbibliothek Heinrich von Kleist",
+   "page_url": "https://www.berlin.de/bibliotheken-mh/bibliotheken/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-kaulsdorf-nord",
+   "venue_name": "Stadtteilbibliothek Kaulsdorf-Nord",
+   "page_url": "https://www.berlin.de/bibliotheken-mh/bibliotheken/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "anton-saefkow-bibliothek",
+   "venue_name": "Anton-Saefkow-Bibliothek",
+   "page_url": "https://www.berlin.de/stadtbibliothek-lichtenberg/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "286",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "bodo-uhse-bibliothek",
+   "venue_name": "Bodo-Uhse-Bibliothek",
+   "page_url": "https://www.berlin.de/stadtbibliothek-lichtenberg/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "286",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "egon-erwin-kisch-bibliothek",
+   "venue_name": "Egon-Erwin-Kisch-Bibliothek",
+   "page_url": "https://www.berlin.de/stadtbibliothek-lichtenberg/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "286",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "bibliothek-im-markischen-viertel",
+   "venue_name": "Bibliothek im Märkischen Viertel (Fontane-Haus)",
+   "page_url": "https://www.berlin.de/stadtbibliothek-reinickendorf/bibliotheken/bibliothek-im-maerkischen-viertel/bibliothek-im-maerkischen-viertel-im-fontane-haus-336916.php",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "230",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "bibliothek-am-schafersee",
+   "venue_name": "Bibliothek am Schäfersee (Ausweichstandort)",
+   "page_url": "https://www.berlin.de/stadtbibliothek-reinickendorf/bibliotheken/bibliothek-am-schaefersee/artikel.336756.php",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "230",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-reinickendorf-west",
+   "venue_name": "Stadtteilbibliothek Reinickendorf-West",
+   "page_url": "https://www.berlin.de/stadtbibliothek-reinickendorf/bibliotheken/stadtteilbibliothek-reinickendorf-west/artikel.1191834.php",
+   "status": 200,
+   "v_ort": null,
+   "c_id": "230",
+   "path": "c_only"
+  },
+  {
+   "venue_id": "volkshochschule-pankow",
+   "venue_name": "Volkshochschule Pankow",
+   "page_url": "https://www.berlin.de/vhs/volkshochschulen/pankow/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "volkshochschule-city-west",
+   "venue_name": "Volkshochschule City West",
+   "page_url": "https://www.berlin.de/vhs/volkshochschulen/charlottenburg-wilmersdorf/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "volkshochschule-steglitz-zehlendorf",
+   "venue_name": "Volkshochschule Steglitz-Zehlendorf (Goethestraße)",
+   "page_url": "https://www.berlin.de/vhs/volkshochschulen/steglitz-zehlendorf/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "theater-unterm-dach",
+   "venue_name": "Theater unterm Dach",
+   "page_url": "https://www.berlin.de/kunst-und-kultur-pankow/einrichtungen/theater-unterm-dach/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "brotfabrik",
+   "venue_name": "Brotfabrik",
+   "page_url": "https://www.berlin.de/kunst-und-kultur-pankow/einrichtungen/brotfabrik/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  },
+  {
+   "venue_id": "freilichtbuhne-weissensee",
+   "venue_name": "Freilichtbühne Weißensee",
+   "page_url": "https://www.berlin.de/kunst-und-kultur-pankow/einrichtungen/",
+   "status": 200,
+   "v_ort": null,
+   "c_id": null,
+   "path": "none"
+  }
+ ]
+}

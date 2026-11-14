@@ -114,9 +114,9 @@ Each item carries a `guid` encoding id+date+time:
 `baevents:event:297509:2026-11-14:10-00-00`, and titles embed date and time
 (`FamilienSamstag | Asja Bonitz … (14.11.2026 10:00 Uhr)`).
 
-**This one mechanism can potentially serve 110 berlin.de-hosted venues** — but each
-needs its calendar ID discovered from its own page, and the feed is *calendar-wide*, so
-venue-level filtering is still required. That work is unbuilt and unproven at venue level.
+**This mechanism can serve ~17 berlin.de-hosted venues, not 110** — tested and refuted
+in `pilot/BERLIN_DE_RSS_PILOT.md`: only 13/86 venue pages expose a venue-scoped `v_ort`,
+59% expose no calendar link at all, and a `v_ort` feed is only ~47% venue-precise.
 
 ### 2.4 Platform architecture, by venue count
 
@@ -170,8 +170,9 @@ These are the cases that make the number 2 credible rather than 20.
 
 1. **Do not estimate a yield from this sample.** 2/27 with a deliberately strict bar is a
    signal to invest in *breadth of discovery*, not a conversion rate.
-2. **Prioritise the berlin.de RSS path** before per-venue HTML parsers: one mechanism,
-   potentially 110 venues, already producing 100 dated items per feed.
+2. **Prioritise the berlin.de RSS path only for the ~17 venues where `v_ort` exists** —
+   the 110-venue reach was tested and refuted (15% coverage, ~47% precision). See
+   `pilot/BERLIN_DE_RSS_PILOT.md`.
 3. **Promote candidates to `qualified` only by extracting and sampling real records** —
    the same bar Divan and Lettrétage met.
 4. **Add a staleness guard** to any extractor before it ships; ceecee.cc is the test case.
@@ -179,6 +180,9 @@ These are the cases that make the number 2 credible rather than 20.
    case for "declared endpoint, empty result".
 6. **Resolve the berlin.de term question** (identifying UA, REP compliance, discretionary
    blocking, observed 429) before any recurring use.
+
+**Pilot follow-up:** `pilot/BERLIN_DE_RSS_PILOT.md` tests the berlin.de reach claim and
+revises it downward by an order of magnitude.
 
 Full per-source evidence: `PHASE2_SOURCE_REGISTRY.json` / `.csv`.
 Technical detail: `PHASE2_TECHNICAL_FINDINGS.md`. Priorities: `PHASE2_NEXT_STEPS.md`.
