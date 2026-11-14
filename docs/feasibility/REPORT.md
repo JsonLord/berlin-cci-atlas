@@ -790,6 +790,14 @@ anything ambiguous; keep an LLM out of the publication path.
 
 ---
 
+## Classification model (Phase 1 — implemented)
+
+Explicit rule specification: [`CLASSIFICATION_MODEL.md`](CLASSIFICATION_MODEL.md) — 6 ordered rules, two evidence tiers, every decision records which rule fired and why. Generated outcome report: [`CLASSIFICATION_REPORT.md`](CLASSIFICATION_REPORT.md).
+
+Three bugs were found and fixed during implementation: a VC fund included for the word "stage", two theatre associations included for the word "theatre", and 12 libraries retyped as makerspaces because patterns matched the description not the name. Each is pinned by a regression test. See the model document §5.
+
+---
+
 ## E. Implementation roadmap
 
 Six phases. Each ends with a checkable acceptance criterion, not a vibe.

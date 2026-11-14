@@ -1,120 +1,45 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://kiez-events-atlas.example/schemas/venue.schema.json",
-  "title": "Kiez Events Atlas – public venue record",
-  "description": "PRELIMINARY. Derived from the CCI Atlas PLACES array without re-entering data.",
+  "title": "Kiez Events Atlas – public venue record (v0.2.0)",
+  "description": "PRELIMINARY. Derived from the CCI Atlas PLACES array without re-entering data. additionalProperties:false prevents internal classification metadata from leaking into public output. Extensibility: venue_type and community_relevance are validated against external registries (pipelines/src/kiez_atlas/vocab.py), NOT closed enums, so new venue types are addable without a schema change.",
   "type": "object",
   "required": [
-    "venue_id",
-    "venue_name",
-    "latitude",
-    "longitude",
-    "lor_id",
-    "official_website",
-    "atlas_provenance",
-    "coordinate_precision",
-    "data_quality"
+    "venue_id", "venue_name", "venue_type", "community_relevance",
+    "latitude", "longitude", "lor_id", "coordinate_precision", "atlas_provenance"
   ],
   "additionalProperties": false,
   "properties": {
-    "schema_version": {
-      "const": "0.1.0"
+    "schema_version": { "const": "0.2.0" },
+    "venue_id": { "type": "string", "minLength": 1,
+      "description": "Carried over verbatim from PLACES[].id. NOTE: ids in the source data are truncated at ~48 chars, so they are unique but not human-complete." },
+    "venue_name": { "type": "string", "minLength": 1 },
+    "venue_type": { "type": "string", "minLength": 1,
+      "description": "Open vocabulary; see vocab.py VENUE_TYPES." },
+    "community_relevance": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Open vocabulary; see vocab.py COMMUNITY_RELEVANCE."
     },
-    "venue_id": {
-      "type": "string",
-      "description": "Carried over verbatim from PLACES[].id — stable, already URL-safe."
-    },
-    "venue_name": {
-      "type": "string"
-    },
-    "category": {
-      "type": "string",
-      "description": "PLACES[].cat"
-    },
-    "layer": {
-      "enum": [
-        "support",
-        "space",
-        "social"
-      ]
-    },
-    "address": {
-      "type": [
-        "string",
-        "null"
-      ]
-    },
-    "plz": {
-      "type": [
-        "string",
-        "null"
-      ]
-    },
-    "latitude": {
-      "type": "number",
-      "minimum": 52.3,
-      "maximum": 52.7
-    },
-    "longitude": {
-      "type": "number",
-      "minimum": 13.0,
-      "maximum": 13.8
-    },
-    "lor_id": {
-      "type": "string",
-      "pattern": "^[0-9]{6}$"
-    },
-    "lor_name": {
-      "type": "string"
-    },
-    "lor_plr_id": {
-      "type": [
-        "string",
-        "null"
-      ],
-      "pattern": "^[0-9]{8}$"
-    },
-    "district": {
-      "type": [
-        "string",
-        "null"
-      ]
-    },
-    "official_website": {
-      "type": [
-        "string",
-        "null"
-      ],
-      "format": "uri"
-    },
-    "coordinate_precision": {
-      "enum": [
-        "street",
-        "postal",
-        "missing"
-      ]
-    },
-    "data_quality": {
-      "enum": [
-        "verified",
-        "uncertain",
-        "missing"
-      ]
-    },
+    "latitude": { "type": "number", "minimum": 52.3, "maximum": 52.7 },
+    "longitude": { "type": "number", "minimum": 13.0, "maximum": 13.8 },
+    "address": { "type": ["string", "null"] },
+    "plz": { "type": ["string", "null"] },
+    "district": { "type": ["string", "null"] },
+    "lor_id": { "type": ["string", "null"], "pattern": "^[0-9]{6}$",
+      "description": "6-digit LOR Bezirksregion id. The join key. Never join on lor_name: names are not unique." },
+    "lor_name": { "type": ["string", "null"] },
+    "lor_plr_id": { "type": ["string", "null"], "pattern": "^[0-9]{8}$" },
+    "coordinate_precision": { "enum": ["street", "postal", "missing"] },
+    "website": { "type": ["string", "null"] },
     "atlas_provenance": {
       "type": "object",
-      "required": [
-        "source_reference"
-      ],
+      "required": ["source_reference"],
+      "additionalProperties": false,
       "properties": {
-        "source_reference": {
-          "type": "string",
-          "description": "Original PLACES[].src — preserved verbatim."
-        },
-        "atlas_lor_plr": {
-          "type": "string",
-          "description": "PLACES[].lor as shipped, for audit against point-in-polygon."
-        }
+        "source_reference": { "type": "string", "description": "Original PLACES[].src, preserved verbatim." },
+        "atlas_category": { "type": "string", "description": "Original PLACES[].cat, preserved." },
+        "atlas_layer": { "enum": ["support", "space", "social"] }
       }
     }
   }
