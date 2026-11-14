@@ -23,6 +23,7 @@ deployment change, no workflow, no data publication.
 | `artifacts/event.schema.json` | Proposed public event schema | draft, validates |
 | `CLASSIFICATION_MODEL.md` | Explicit, auditable rule specification (6 ordered rules) | implemented |
 | `CLASSIFICATION_REPORT.md` | Generated outcome report (numbers from data, cannot drift) | generated |
+| `MERGE_READINESS.md` | PR #1 merge-readiness audit | current |
 
 ## Built products (Phase 1)
 
