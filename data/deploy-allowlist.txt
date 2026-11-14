@@ -1,0 +1,16 @@
+# Deploy allowlist — the ONLY paths a Pages deploy may publish.
+#
+# This is an allowlist, not a denylist, on purpose. A denylist silently fails
+# the first time someone adds a file to data/internal/. Anything not listed
+# here is internal working data and must not reach the deployed site.
+#
+# Nothing consumes this file yet: Phase 1 does not deploy. It exists so Phase 4/5
+# has one unambiguous source of truth, and validate.py asserts that no internal
+# path appears in it.
+
+index.html
+config.js
+CONTRIBUTORS.md
+data/public/venues.json
+data/public/neighbourhoods.geojson
+data/public/metadata.json

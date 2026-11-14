@@ -1,0 +1,2733 @@
+{
+ "generated_at": "2026-11-14T09:10:57Z",
+ "count": 303,
+ "records": [
+  {
+   "venue_id": "musicboard-berlin-gmbh",
+   "venue_name": "Musicboard Berlin GmbH",
+   "inherited_cat": "funding",
+   "venue_type": "funding_body",
+   "product_status": "excluded",
+   "rule": "R3",
+   "reason": "Administrative or funding body with no public community programme evidenced. category map cat='funding'; desc=\"State-backed body that funds Berlin's pop music scene and also acts as a contact point, adviser and broker for musicians and music businesses.\""
+  },
+  {
+   "venue_id": "kreativ-kultur-berlin",
+   "venue_name": "Kreativ Kultur Berlin",
+   "inherited_cat": "advice",
+   "venue_type": "advice_centre",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='advice'; WEAK hints []; desc='Advisory centre run by Kulturprojekte Berlin that gives artists, creatives and cultural businesses guidance on funding, financing and business questio'"
+  },
+  {
+   "venue_id": "creative-city-berlin",
+   "venue_name": "Creative City Berlin",
+   "inherited_cat": "network",
+   "venue_type": "portal",
+   "product_status": "excluded",
+   "rule": "R1",
+   "reason": "No public physical venue of its own (portal or online resource). desc: 'Online community portal of Kulturprojekte Berlin'. The address is 'Klosterstraße 68 (c/o Kulturprojekte Berlin GmbH)' — a postal c/o for an online service, not a public venue."
+  },
+  {
+   "venue_id": "ibb-ventures-vc-fonds-kreativwirtschaft",
+   "venue_name": "IBB Ventures – VC Fonds Kreativwirtschaft",
+   "inherited_cat": "funding",
+   "venue_type": "funding_body",
+   "product_status": "excluded",
+   "rule": "R3",
+   "reason": "Administrative or funding body with no public community programme evidenced. category map cat='funding'; desc=\"Berlin's public venture capital arm, which takes minority stakes (typically EUR 200k–1m) in scalable early-stage Berlin companies, with creative indus\""
+  },
+  {
+   "venue_id": "investitionsbank-berlin",
+   "venue_name": "Investitionsbank Berlin (IBB)",
+   "inherited_cat": "funding",
+   "venue_type": "funding_body",
+   "product_status": "excluded",
+   "rule": "R3",
+   "reason": "Administrative or funding body with no public community programme evidenced. category map cat='funding'; desc=\"Berlin's state development bank, which runs most of the city's grant, loan and startup-finance programmes for SMEs, including creative businesses.\""
+  },
+  {
+   "venue_id": "projekt-zukunft-senatsverwaltung-fur-wirtschaft-",
+   "venue_name": "Projekt Zukunft – Senatsverwaltung für Wirtschaft, Energie und Betriebe",
+   "inherited_cat": "funding",
+   "venue_type": "funding_body",
+   "product_status": "excluded",
+   "rule": "R3",
+   "reason": "Administrative or funding body with no public community programme evidenced. category map cat='funding'; desc=\"The Berlin economics department's initiative for the digital and creative economy, funding sector projects, design programmes and international presen\""
+  },
+  {
+   "venue_id": "senatsverwaltung-fur-kultur-und-gesellschaftlich",
+   "venue_name": "Senatsverwaltung für Kultur und Gesellschaftlichen Zusammenhalt – Kulturförderung (incl. Hauptstadtkulturfonds)",
+   "inherited_cat": "funding",
+   "venue_type": "funding_body",
+   "product_status": "excluded",
+   "rule": "R3",
+   "reason": "Administrative or funding body with no public community programme evidenced. category map cat='funding'; desc=\"The Berlin culture department's funding office, which handles project, venue, stipend and studio funding for artists and administers the Hauptstadtkul\""
+  },
+  {
+   "venue_id": "berlin-partner-fur-wirtschaft-und-technologie-gm",
+   "venue_name": "Berlin Partner für Wirtschaft und Technologie GmbH",
+   "inherited_cat": "advice",
+   "venue_type": "advice_centre",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='advice'; WEAK hints []; desc=\"Berlin's business development and investment agency, which supports companies, including creative and media firms, with relocation, expansion, funding\""
+  },
+  {
+   "venue_id": "ihk-berlin-kreativwirtschaft",
+   "venue_name": "IHK Berlin – Kreativwirtschaft",
+   "inherited_cat": "advice",
+   "venue_type": "advice_centre",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='advice'; WEAK hints []; desc=\"Berlin's chamber of commerce, with dedicated creative-industries contacts who provide sector information, networks and a first point of contact for me\""
+  },
+  {
+   "venue_id": "handwerkskammer-berlin",
+   "venue_name": "Handwerkskammer Berlin",
+   "inherited_cat": "advice",
+   "venue_type": "advice_centre",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='advice'; WEAK hints ['workshops']; desc='Chamber of crafts that registers and advises craft businesses in Berlin, including designer-makers and applied-arts workshops.'"
+  },
+  {
+   "venue_id": "atelierburo-im-kulturwerk-des-bbk-berlin",
+   "venue_name": "Atelierbüro im kulturwerk des bbk berlin",
+   "inherited_cat": "advice",
+   "venue_type": "advice_centre",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='advice'; WEAK hints []; desc='Central contact point for Berlin visual artists looking for or trying to keep a studio, and the operator of the allocation process for publicly funded'"
+  },
+  {
+   "venue_id": "bbk-berlin-berufsverband-bildender-kunstler-inne",
+   "venue_name": "bbk berlin – Berufsverband Bildender Künstler*innen Berlin",
+   "inherited_cat": "network",
+   "venue_type": "association_office",
+   "product_status": "pending_review",
+   "rule": "R3b",
+   "reason": "Function could support community activity but the record does not settle it. category map cat='network'; only WEAK function hints [], no public-access construction. desc='Professional association of Berlin visual artists that lobbies on their behalf and offers members legal, tax and insurance advice.'"
+  },
+  {
+   "venue_id": "berlin-music-commission-eg",
+   "venue_name": "Berlin Music Commission eG",
+   "inherited_cat": "network",
+   "venue_type": "association_office",
+   "product_status": "pending_review",
+   "rule": "R3b",
+   "reason": "Function could support community activity but the record does not settle it. category map cat='network'; only WEAK function hints [], no public-access construction. desc=\"Cooperative network of Berlin's music businesses that represents the sector and runs programmes such as the Music Ambassador travel grants with Musicb\""
+  },
+  {
+   "venue_id": "clubcommission-berlin-e-v",
+   "venue_name": "Clubcommission Berlin e.V.",
+   "inherited_cat": "network",
+   "venue_type": "association_office",
+   "product_status": "pending_review",
+   "rule": "R3b",
+   "reason": "Function could support community activity but the record does not settle it. category map cat='network'; only WEAK function hints [], no public-access construction. desc='Association of about 140 Berlin clubs, festival and event organisers that represents club culture to politics, authorities and the press.'"
+  },
+  {
+   "venue_id": "music-pool-berlin",
+   "venue_name": "Music Pool Berlin",
+   "inherited_cat": "advice",
+   "venue_type": "advice_centre",
+   "product_status": "included",
+   "rule": "R4",
+   "reason": "Record evidences a public programme, so treated as community-relevant despite its category. category map cat='advice'; STRONG evidence 'free one-hour consultations' in 'Advice and professional-development centre for musicians and music professionals, offering free one-hour consultations, subsidised coaching, workshops'"
+  },
+  {
+   "venue_id": "landesmusikrat-berlin-beratung",
+   "venue_name": "Landesmusikrat Berlin – Beratung",
+   "inherited_cat": "advice",
+   "venue_type": "advice_centre",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='advice'; WEAK hints []; desc=\"The Berlin music council's advisory service, helping freelance musicians with career start, grants, artists' social insurance (KSK) and dealings with \""
+  },
+  {
+   "venue_id": "initiative-neue-musik-berlin-e-v",
+   "venue_name": "initiative neue musik berlin e.V. (inm)",
+   "inherited_cat": "funding",
+   "venue_type": "funding_body",
+   "product_status": "excluded",
+   "rule": "R3",
+   "reason": "Administrative or funding body with no public community programme evidenced. category map cat='funding'; desc=\"Association of Berlin's independent contemporary music scene that allocates the state's project funds for new music and sound art and advocates for fr\""
+  },
+  {
+   "venue_id": "initiative-musik-ggmbh",
+   "venue_name": "Initiative Musik gGmbH",
+   "inherited_cat": "funding",
+   "venue_type": "funding_body",
+   "product_status": "excluded",
+   "rule": "R3",
+   "reason": "Administrative or funding body with no public community programme evidenced. category map cat='funding'; desc='Federally funded body based in Berlin that funds pop and jazz artists, live venues and music companies and supports music export.'"
+  },
+  {
+   "venue_id": "vut-verband-unabhangiger-musikunternehmer-innen-",
+   "venue_name": "VUT – Verband unabhängiger Musikunternehmer*innen e.V.",
+   "inherited_cat": "network",
+   "venue_type": "association_office",
+   "product_status": "pending_review",
+   "rule": "R3b",
+   "reason": "Function could support community activity but the record does not settle it. category map cat='network'; only WEAK function hints [], no public-access construction. desc='National trade association of independent labels, publishers and self-releasing artists, based in Berlin, representing their business and political in'"
+  },
+  {
+   "venue_id": "performing-arts-programm-berlin",
+   "venue_name": "Performing Arts Programm Berlin (PAP)",
+   "inherited_cat": "advice",
+   "venue_type": "advice_centre",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='advice'; WEAK hints []; desc='LAFT Berlin programme that offers independent performing artists an information centre, advice, mentoring, qualification and an online compass to fund'"
+  },
+  {
+   "venue_id": "laft-berlin-landesverband-freie-darstellende-kun",
+   "venue_name": "LAFT Berlin – Landesverband freie darstellende Künste Berlin e.V.",
+   "inherited_cat": "network",
+   "venue_type": "association_office",
+   "product_status": "pending_review",
+   "rule": "R3b",
+   "reason": "Function could support community activity but the record does not settle it. category map cat='network'; only WEAK function hints ['theatre'], no public-access construction. desc=\"State association of Berlin's independent theatre and dance scene that represents its interests and operates the Performing Arts Programm.\""
+  },
+  {
+   "venue_id": "tanzburo-berlin",
+   "venue_name": "Tanzbüro Berlin",
+   "inherited_cat": "advice",
+   "venue_type": "advice_centre",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='advice'; WEAK hints ['workshops']; desc='Information and advice office for Berlin dance artists, offering individual consultations, workshops on applications and budgeting, and peer support.'"
+  },
+  {
+   "venue_id": "bundesverband-freie-darstellende-kunste-e-v",
+   "venue_name": "Bundesverband Freie Darstellende Künste e.V.",
+   "inherited_cat": "network",
+   "venue_type": "association_office",
+   "product_status": "pending_review",
+   "rule": "R3b",
+   "reason": "Function could support community activity but the record does not settle it. category map cat='network'; only WEAK function hints ['theatre'], no public-access construction. desc='Berlin-based national umbrella association for the independent performing arts that lobbies for freelance theatre and dance makers.'"
+  },
+  {
+   "venue_id": "kulturraum-berlin-ggmbh",
+   "venue_name": "Kulturraum Berlin gGmbH",
+   "inherited_cat": "advice",
+   "venue_type": "advice_centre",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='advice'; WEAK hints []; desc=\"State-funded company that secures, develops and lets work and presentation spaces for the independent arts scene and runs the city's Arbeitsraumprogra\""
+  },
+  {
+   "venue_id": "diversity-arts-culture",
+   "venue_name": "Diversity Arts Culture",
+   "inherited_cat": "advice",
+   "venue_type": "advice_centre",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='advice'; WEAK hints ['workshops']; desc=\"Berlin's centre for diversity development in culture, offering consultations, anti-discrimination advice, empowerment programmes and workshops for art\""
+  },
+  {
+   "venue_id": "touring-artists",
+   "venue_name": "touring artists",
+   "inherited_cat": "advice",
+   "venue_type": "advice_centre",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='advice'; WEAK hints []; desc='Information portal and help desk for internationally mobile artists covering visas, taxes, social insurance and contracts, run jointly by ITI Germany,'"
+  },
+  {
+   "venue_id": "idz-internationales-design-zentrum-berlin",
+   "venue_name": "IDZ – Internationales Design Zentrum Berlin",
+   "inherited_cat": "network",
+   "venue_type": "association_office",
+   "product_status": "pending_review",
+   "rule": "R3b",
+   "reason": "Function could support community activity but the record does not settle it. category map cat='network'; only WEAK function hints [], no public-access construction. desc='Independent design institution, founded in 1968, that links businesses with designers and promotes design as a driver of economic and social innovatio'"
+  },
+  {
+   "venue_id": "berlin-career-college-berliner-startup-stipendiu",
+   "venue_name": "Berlin Career College (UdK Berlin) – Berliner Startup Stipendium / Creative Prototyping",
+   "inherited_cat": "incubator",
+   "venue_type": "university_facility",
+   "product_status": "excluded",
+   "rule": "R3",
+   "reason": "Administrative or funding body with no public community programme evidenced. type_override (desc: 'UdK Berlin's career and transfer unit'); desc=\"UdK Berlin's career and transfer unit, which runs the Creative Prototyping startup scholarship (EUR 2,200/month for 6 months, coworking and mentoring)\""
+  },
+  {
+   "venue_id": "filmnetzwerk-berlin",
+   "venue_name": "Filmnetzwerk Berlin (dffb)",
+   "inherited_cat": "network",
+   "venue_type": "advice_centre",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. type_override (desc: 'meeting point ... with events, pitches, a coffee club'); WEAK hints []; desc='dffb-run meeting point for professional Berlin filmmakers with events, pitches, a coffee club and a 3–6 month mentoring programme.'"
+  },
+  {
+   "venue_id": "media-net-berlinbrandenburg-e-v",
+   "venue_name": "media:net berlinbrandenburg e.V. (incl. games:net)",
+   "inherited_cat": "network",
+   "venue_type": "association_office",
+   "product_status": "pending_review",
+   "rule": "R3b",
+   "reason": "Function could support community activity but the record does not settle it. category map cat='network'; only WEAK function hints [], no public-access construction. desc='Regional network of media and digital companies whose games:net initiative connects studios and publishers through events, trade-fair pavilions and de'"
+  },
+  {
+   "venue_id": "game-verband-der-deutschen-games-branche-e-v",
+   "venue_name": "game – Verband der deutschen Games-Branche e.V.",
+   "inherited_cat": "network",
+   "venue_type": "association_office",
+   "product_status": "pending_review",
+   "rule": "R3b",
+   "reason": "Function could support community activity but the record does not settle it. category map cat='network'; only WEAK function hints [], no public-access construction. desc=\"Berlin-headquartered national trade association of the games industry that represents developers and publishers and supports the sector's growth.\""
+  },
+  {
+   "venue_id": "lettretage",
+   "venue_name": "Lettrétage",
+   "inherited_cat": "network",
+   "venue_type": "cultural_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'Anchor institution ... runs a public programme and projects'); type 'cultural_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "borsenverein-des-deutschen-buchhandels-landesver",
+   "venue_name": "Börsenverein des Deutschen Buchhandels – Landesverband Berlin-Brandenburg",
+   "inherited_cat": "network",
+   "venue_type": "association_office",
+   "product_status": "pending_review",
+   "rule": "R3b",
+   "reason": "Function could support community activity but the record does not settle it. category map cat='network'; only WEAK function hints [], no public-access construction. desc='Regional association of publishers and booksellers that represents the book trade in Berlin and Brandenburg.'"
+  },
+  {
+   "venue_id": "architektenkammer-berlin",
+   "venue_name": "Architektenkammer Berlin",
+   "inherited_cat": "network",
+   "venue_type": "association_office",
+   "product_status": "pending_review",
+   "rule": "R3b",
+   "reason": "Function could support community activity but the record does not settle it. category map cat='network'; only WEAK function hints [], no public-access construction. desc=\"Statutory professional chamber for Berlin architects and planners that maintains the architects' register and supports members professionally.\""
+  },
+  {
+   "venue_id": "exrotaprint",
+   "venue_name": "ExRotaprint",
+   "inherited_cat": "studios",
+   "venue_type": "creative_hub",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: former factory renting to artists, small businesses and social organisations); type 'creative_hub' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "ateliers-uferhallen",
+   "venue_name": "Ateliers Uferhallen",
+   "inherited_cat": "studios",
+   "venue_type": "creative_hub",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: studios plus dance and rehearsal rooms); type 'creative_hub' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "uferstudios-fur-zeitgenossischen-tanz",
+   "venue_name": "Uferstudios für zeitgenössischen Tanz",
+   "inherited_cat": "rehearsal",
+   "venue_type": "rehearsal_space",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='rehearsal'; WEAK hints []; desc='Contemporary dance centre with 16 studios combining rehearsal, training and venue space, with studios rentable for artistic projects.'"
+  },
+  {
+   "venue_id": "atelierhaus-mengerzeile",
+   "venue_name": "Atelierhaus Mengerzeile",
+   "inherited_cat": "studios",
+   "venue_type": "artist_studio_building",
+   "product_status": "included",
+   "rule": "R4",
+   "reason": "Record evidences a public programme, so treated as community-relevant despite its category. category map cat='studios'; STRONG evidence 'open studios' in 'Artist-run studio house in a former piano factory in Alt-Treptow where more than 40 artists work, with regular open studios.'"
+  },
+  {
+   "venue_id": "ateliergemeinschaft-milchhof",
+   "venue_name": "Ateliergemeinschaft Milchhof",
+   "inherited_cat": "studios",
+   "venue_type": "artist_studio_building",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='studios'; WEAK hints ['exhibition']; desc=\"Artists' association running a shared studio building in a former dairy yard in Prenzlauer Berg/Mitte, with exhibition and event space.\""
+  },
+  {
+   "venue_id": "kunst-in-kreuzberg-e-v",
+   "venue_name": "Kunst in Kreuzberg e.V. (Atelierhof Kreuzberg)",
+   "inherited_cat": "studios",
+   "venue_type": "artist_studio_building",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='studios'; WEAK hints []; desc='Association-run studio courtyard in Kreuzberg 61 providing long-term artist studios.'"
+  },
+  {
+   "venue_id": "kunst-in-den-gerichtshofen",
+   "venue_name": "Kunst in den Gerichtshöfen",
+   "inherited_cat": "studios",
+   "venue_type": "creative_hub",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: courtyard complex run by an artists' association); type 'creative_hub' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "kunstlerhof-frohnau",
+   "venue_name": "Künstlerhof Frohnau",
+   "inherited_cat": "studios",
+   "venue_type": "creative_hub",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'rents studios and runs residencies, exhibitions, workshops'); type 'creative_hub' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "zk-u-zentrum-fur-kunst-und-urbanistik",
+   "venue_name": "ZK/U – Zentrum für Kunst und Urbanistik",
+   "inherited_cat": "hub",
+   "venue_type": "creative_hub",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "category map cat='hub'; type 'creative_hub' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "blo-ateliers",
+   "venue_name": "BLO-Ateliers",
+   "inherited_cat": "studios",
+   "venue_type": "artist_studio_building",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='studios'; WEAK hints []; desc='Association-run artist and craft studios on a former railway site next to S-Bahnhof Nöldnerplatz in Lichtenberg.'"
+  },
+  {
+   "venue_id": "kunstfabrik-hb55",
+   "venue_name": "Kunstfabrik HB55",
+   "inherited_cat": "studios",
+   "venue_type": "creative_hub",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'Studio and workshop centre for arts and crafts'); type 'creative_hub' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "fahrbereitschaft",
+   "venue_name": "Fahrbereitschaft (haubrok foundation)",
+   "inherited_cat": "studios",
+   "venue_type": "creative_hub",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'creative quarter with artist studios and workshops'); type 'creative_hub' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "studios-id-berlin",
+   "venue_name": "Studios ID / Berlin",
+   "inherited_cat": "studios",
+   "venue_type": "artist_studio_building",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='studios'; WEAK hints []; desc='Large studio complex on a former state-security site in Hohenschönhausen with around 270 artist studios.'"
+  },
+  {
+   "venue_id": "k19-studios-berlin",
+   "venue_name": "K19 Studios Berlin",
+   "inherited_cat": "studios",
+   "venue_type": "artist_studio_building",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='studios'; WEAK hints []; desc='Association-run studio house in Zehlendorf (Schlachtensee) providing artist studios in the south-west of the city.'"
+  },
+  {
+   "venue_id": "kunstzentrum-tegel-sud",
+   "venue_name": "Kunstzentrum Tegel-Süd",
+   "inherited_cat": "studios",
+   "venue_type": "artist_studio_building",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='studios'; WEAK hints []; desc=\"Studio centre in Reinickendorf's Tegel area with artist studios listed in the city's studio-house directory.\""
+  },
+  {
+   "venue_id": "atelieretage-ar-29",
+   "venue_name": "Atelieretage AR_29",
+   "inherited_cat": "studios",
+   "venue_type": "artist_studio_building",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='studios'; WEAK hints []; desc='Studio floor in a former factory in Alt-Reinickendorf, part of the Berlin Arbeitsraumprogramm with GSE gGmbH as tenant.'"
+  },
+  {
+   "venue_id": "atelierhaus-prenzlauer-promenade",
+   "venue_name": "Atelierhaus Prenzlauer Promenade",
+   "inherited_cat": "studios",
+   "venue_type": "artist_studio_building",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='studios'; WEAK hints []; desc='Association-run studio house in Pankow-Heinersdorf offering artist studios.'"
+  },
+  {
+   "venue_id": "culturlawine",
+   "venue_name": "Culturlawine",
+   "inherited_cat": "studios",
+   "venue_type": "artist_studio_building",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='studios'; WEAK hints []; desc=\"Artists' association in Weißensee running studios and cultural space.\""
+  },
+  {
+   "venue_id": "ecc-berlin-weissensee",
+   "venue_name": "ECC Berlin Weißensee",
+   "inherited_cat": "studios",
+   "venue_type": "artist_studio_building",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='studios'; WEAK hints []; desc='Studio house in Weißensee listed in the bbk kulturwerk studio-house directory.'"
+  },
+  {
+   "venue_id": "motorwerk-berlin",
+   "venue_name": "Motorwerk Berlin",
+   "inherited_cat": "studios",
+   "venue_type": "artist_studio_building",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='studios'; WEAK hints []; desc=\"Converted industrial building in Weißensee's industrial estate with artist studios and event space.\""
+  },
+  {
+   "venue_id": "atelierhaus-nonnendamm",
+   "venue_name": "Atelierhaus Nonnendamm",
+   "inherited_cat": "studios",
+   "venue_type": "artist_studio_building",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='studios'; WEAK hints []; desc=\"Studio house in Spandau's Siemensstadt, one of the few artist studio buildings in the western outer districts.\""
+  },
+  {
+   "venue_id": "kunstlerhof-lietzow12",
+   "venue_name": "Künstlerhof Lietzow12",
+   "inherited_cat": "studios",
+   "venue_type": "artist_studio_building",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='studios'; WEAK hints []; desc=\"Artist courtyard with studios in Charlottenburg's historic Alt-Lietzow quarter.\""
+  },
+  {
+   "venue_id": "kreativfabrik",
+   "venue_name": "Kreativfabrik",
+   "inherited_cat": "studios",
+   "venue_type": "artist_studio_building",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='studios'; WEAK hints []; desc='Studio building in Wilmersdorf listed in the bbk kulturwerk directory of studio houses.'"
+  },
+  {
+   "venue_id": "kunstfabrik-am-flutgraben",
+   "venue_name": "Kunstfabrik am Flutgraben",
+   "inherited_cat": "studios",
+   "venue_type": "artist_studio_building",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='studios'; WEAK hints []; desc='Association-run studio building on the Treptow canal with studios and an artist-in-residence programme.'"
+  },
+  {
+   "venue_id": "ateliers-der-karl-hofer-gesellschaft",
+   "venue_name": "Ateliers der Karl Hofer Gesellschaft (Schöneweide)",
+   "inherited_cat": "studios",
+   "venue_type": "artist_studio_building",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='studios'; WEAK hints []; desc='Studios run by the Karl Hofer Gesellschaft on the former industrial riverside site in Oberschöneweide, which also hosts Atelierhaus79 and Xtro Atelier'"
+  },
+  {
+   "venue_id": "haus-schwarzenberg",
+   "venue_name": "Haus Schwarzenberg",
+   "inherited_cat": "hub",
+   "venue_type": "creative_hub",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (type: studio-house complex with public courtyard); type 'creative_hub' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "bildhauerwerkstatt-im-kulturwerk-des-bbk-berlin",
+   "venue_name": "Bildhauerwerkstatt im kulturwerk des bbk berlin",
+   "inherited_cat": "makerspace",
+   "venue_type": "makerspace",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "category map cat='makerspace'; type 'makerspace' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "druckwerkstatt-im-kulturwerk-des-bbk-berlin",
+   "venue_name": "Druckwerkstatt im kulturwerk des bbk berlin",
+   "inherited_cat": "makerspace",
+   "venue_type": "makerspace",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "category map cat='makerspace'; type 'makerspace' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "medienwerkstatt-im-kulturwerk-des-bbk-berlin",
+   "venue_name": "Medienwerkstatt im kulturwerk des bbk berlin",
+   "inherited_cat": "makerspace",
+   "venue_type": "makerspace",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "category map cat='makerspace'; type 'makerspace' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "theaterhaus-berlin-mitte",
+   "venue_name": "Theaterhaus Berlin Mitte",
+   "inherited_cat": "rehearsal",
+   "venue_type": "event_venue",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'theater|freilichtbühne|bühne'; type 'event_venue' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "theaterhaus-berlin-schoneweide",
+   "venue_name": "Theaterhaus Berlin Schöneweide",
+   "inherited_cat": "rehearsal",
+   "venue_type": "event_venue",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'theater|freilichtbühne|bühne'; type 'event_venue' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "orwohaus",
+   "venue_name": "ORWOhaus",
+   "inherited_cat": "rehearsal",
+   "venue_type": "creative_hub",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'about 100 rehearsal rooms, recording studios' plus a public concert programme); type 'creative_hub' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "house-of-music-noisy-rooms",
+   "venue_name": "House of Music / noisy Rooms",
+   "inherited_cat": "rehearsal",
+   "venue_type": "event_venue",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'a stage and seminar rooms'); type 'event_venue' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "pirate-studios-berlin-prenzlauer-berg",
+   "venue_name": "Pirate Studios Berlin Prenzlauer Berg",
+   "inherited_cat": "rehearsal",
+   "venue_type": "rehearsal_space",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='rehearsal'; WEAK hints []; desc='Self-service 24/7 rehearsal, DJ, recording and podcast studios bookable by the hour.'"
+  },
+  {
+   "venue_id": "motionlab-berlin",
+   "venue_name": "MotionLab.Berlin",
+   "inherited_cat": "makerspace",
+   "venue_type": "makerspace",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'Hardware makerspace and coworking hub'); type 'makerspace' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "makerspace-anna-seghers-bibliothek",
+   "venue_name": "Makerspace Anna-Seghers-Bibliothek",
+   "inherited_cat": "makerspace",
+   "venue_type": "makerspace",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Makerspace|FreeLab'; type 'makerspace' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "makerspace-philipp-schaeffer-bibliothek",
+   "venue_name": "Makerspace Philipp-Schaeffer-Bibliothek",
+   "inherited_cat": "makerspace",
+   "venue_type": "makerspace",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Makerspace|FreeLab'; type 'makerspace' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "freelab-makerspace-schiller-bibliothek",
+   "venue_name": "FreeLab – Makerspace Schiller-Bibliothek",
+   "inherited_cat": "makerspace",
+   "venue_type": "makerspace",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Makerspace|FreeLab'; type 'makerspace' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "haus-der-statistik-haus-der-materialisierung",
+   "venue_name": "Haus der Statistik – Haus der Materialisierung",
+   "inherited_cat": "hub",
+   "venue_type": "creative_hub",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'material-reuse initiatives, textile and repair workshops and event spaces'); type 'creative_hub' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "betahaus-kreuzberg",
+   "venue_name": "betahaus Kreuzberg",
+   "inherited_cat": "coworking",
+   "venue_type": "coworking_space",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='coworking'; WEAK hints []; desc='Established coworking space with desks, private offices, meeting rooms and event spaces popular with freelancers and startups.'"
+  },
+  {
+   "venue_id": "st-oberholz-rosenthaler-strasse",
+   "venue_name": "St. Oberholz Rosenthaler Straße",
+   "inherited_cat": "coworking",
+   "venue_type": "coworking_space",
+   "product_status": "pending_review",
+   "rule": "R5",
+   "reason": "Physical, but the record evidences only private workspace or commercial hire; no public activity. category map cat='coworking'; WEAK hints []; desc='Pioneering café-coworking space at Rosenthaler Platz with flex offices, team rooms, meeting rooms and an event space.'"
+  },
+  {
+   "venue_id": "holzmarkt-25",
+   "venue_name": "Holzmarkt 25",
+   "inherited_cat": "hub",
+   "venue_type": "creative_hub",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (type: multi-use creative quarter); type 'creative_hub' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "funkhaus-berlin",
+   "venue_name": "Funkhaus Berlin",
+   "inherited_cat": "hub",
+   "venue_type": "creative_hub",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (type: large multi-use creative quarter); type 'creative_hub' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "malzfabrik",
+   "venue_name": "Malzfabrik",
+   "inherited_cat": "hub",
+   "venue_type": "event_venue",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (type: converted malting plant used as an event venue); type 'event_venue' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "bezirkszentralbibliothek-philipp-schaeffer-bibli",
+   "venue_name": "Bezirkszentralbibliothek Philipp-Schaeffer-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "bibliothek-am-luisenbad",
+   "venue_name": "Bibliothek am Luisenbad",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "bruno-losche-bibliothek",
+   "venue_name": "Bruno-Lösche-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "schiller-bibliothek",
+   "venue_name": "Schiller-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "hansabibliothek",
+   "venue_name": "Hansabibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "kurt-tucholsky-bibliothek",
+   "venue_name": "Kurt-Tucholsky-Bibliothek (Mitte)",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "bibliothek-tiergarten-sud",
+   "venue_name": "Bibliothek Tiergarten-Süd",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "berliner-stadtbibliothek",
+   "venue_name": "Berliner Stadtbibliothek (ZLB)",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "bezirkszentralbibliothek-pablo-neruda",
+   "venue_name": "Bezirkszentralbibliothek Pablo Neruda",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "mittelpunktbibliothek-wilhelm-liebknecht-namik-k",
+   "venue_name": "Mittelpunktbibliothek Wilhelm Liebknecht / Namik Kemal",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-friedrich-von-raumer",
+   "venue_name": "Stadtteilbibliothek Friedrich von Raumer",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "familienbibliothek-else-ury",
+   "venue_name": "Familienbibliothek Else Ury",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "amerika-gedenkbibliothek",
+   "venue_name": "Amerika-Gedenkbibliothek (ZLB)",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "bettina-von-arnim-bibliothek",
+   "venue_name": "Bettina-von-Arnim-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "bibliothek-am-wasserturm",
+   "venue_name": "Bibliothek am Wasserturm",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "heinrich-boll-bibliothek",
+   "venue_name": "Heinrich-Böll-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "janusz-korczak-bibliothek",
+   "venue_name": "Janusz-Korczak-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "kurt-tucholsky-bibliothek-2",
+   "venue_name": "Kurt-Tucholsky-Bibliothek (Pankow)",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-buch",
+   "venue_name": "Stadtteilbibliothek Buch",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-karow",
+   "venue_name": "Stadtteilbibliothek Karow",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "wolfdietrich-schnurre-bibliothek",
+   "venue_name": "Wolfdietrich-Schnurre-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "heinrich-schulz-bibliothek",
+   "venue_name": "Heinrich-Schulz-Bibliothek (Bezirkszentralbibliothek, mit Musikabteilung)",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "dietrich-bonhoeffer-bibliothek",
+   "venue_name": "Dietrich-Bonhoeffer-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "eberhard-alexander-burgh-bibliothek",
+   "venue_name": "Eberhard-Alexander-Burgh-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "adolf-reichwein-bibliothek",
+   "venue_name": "Adolf-Reichwein-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "ingeborg-bachmann-bibliothek",
+   "venue_name": "Ingeborg-Bachmann-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "johanna-moosdorf-bibliothek",
+   "venue_name": "Johanna-Moosdorf-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-halemweg",
+   "venue_name": "Stadtteilbibliothek Halemweg",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "bezirkszentralbibliothek-spandau",
+   "venue_name": "Bezirkszentralbibliothek Spandau (mit Kinder- und Jugendbibliothek)",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-falkenhagener-feld",
+   "venue_name": "Stadtteilbibliothek Falkenhagener Feld",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-haselhorst",
+   "venue_name": "Stadtteilbibliothek Haselhorst",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-heerstrasse",
+   "venue_name": "Stadtteilbibliothek Heerstraße",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-kladow",
+   "venue_name": "Stadtteilbibliothek Kladow",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "ingeborg-drewitz-bibliothek",
+   "venue_name": "Ingeborg-Drewitz-Bibliothek (Bezirkszentralbibliothek)",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "gottfried-benn-bibliothek",
+   "venue_name": "Gottfried-Benn-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-lankwitz",
+   "venue_name": "Stadtteilbibliothek Lankwitz",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "bezirkszentralbibliothek-eva-maria-buch-haus",
+   "venue_name": "Bezirkszentralbibliothek Eva-Maria-Buch-Haus (Bibliothek Tempelhof)",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "theodor-heuss-bibliothek",
+   "venue_name": "Theodor-Heuss-Bibliothek (Bibliothek Schöneberg)",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "thomas-dehler-bibliothek",
+   "venue_name": "Thomas-Dehler-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "edith-stein-bibliothek",
+   "venue_name": "Edith-Stein-Bibliothek (Bibliothek Lichtenrade)",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "bibliothek-marienfelde",
+   "venue_name": "Bibliothek Marienfelde",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "helene-nathan-bibliothek",
+   "venue_name": "Helene-Nathan-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "margarete-kubicka-bibliothek",
+   "venue_name": "Margarete-Kubicka-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "gertrud-junge-bibliothek",
+   "venue_name": "Gertrud-Junge-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "gertrud-hass-bibliothek",
+   "venue_name": "Gertrud-Haß-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "mittelpunktbibliothek-kopenick-alter-markt",
+   "venue_name": "Mittelpunktbibliothek Köpenick \"Alter Markt\"",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "mittelpunktbibliothek-treptow-alte-feuerwache",
+   "venue_name": "Mittelpunktbibliothek Treptow \"Alte Feuerwache\"",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-alt-treptow-manfred-bofinger",
+   "venue_name": "Stadtteilbibliothek Alt-Treptow \"Manfred Bofinger\"",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-altglienicke",
+   "venue_name": "Stadtteilbibliothek Altglienicke",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-friedrichshagen-johannes-bob",
+   "venue_name": "Stadtteilbibliothek Friedrichshagen \"Johannes Bobrowski\"",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-adlershof-stefan-heym",
+   "venue_name": "Stadtteilbibliothek Adlershof \"Stefan Heym\"",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "bezirkszentralbibliothek-mark-twain",
+   "venue_name": "Bezirkszentralbibliothek Mark Twain (mit Musikbibliothek)",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "mittelpunktbibliothek-ehm-welk",
+   "venue_name": "Mittelpunktbibliothek Ehm Welk",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-heinrich-von-kleist",
+   "venue_name": "Stadtteilbibliothek Heinrich von Kleist",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-kaulsdorf-nord",
+   "venue_name": "Stadtteilbibliothek Kaulsdorf-Nord",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-mahlsdorf",
+   "venue_name": "Stadtteilbibliothek Mahlsdorf",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-erich-weinert",
+   "venue_name": "Stadtteilbibliothek Erich Weinert",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "anna-seghers-bibliothek",
+   "venue_name": "Anna-Seghers-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "anton-saefkow-bibliothek",
+   "venue_name": "Anton-Saefkow-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "bodo-uhse-bibliothek",
+   "venue_name": "Bodo-Uhse-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "egon-erwin-kisch-bibliothek",
+   "venue_name": "Egon-Erwin-Kisch-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "humboldt-bibliothek",
+   "venue_name": "Humboldt-Bibliothek",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "bibliothek-im-markischen-viertel",
+   "venue_name": "Bibliothek im Märkischen Viertel (Fontane-Haus)",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "bibliothek-am-schafersee",
+   "venue_name": "Bibliothek am Schäfersee (Ausweichstandort)",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-reinickendorf-west",
+   "venue_name": "Stadtteilbibliothek Reinickendorf-West",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilbibliothek-frohnau",
+   "venue_name": "Stadtteilbibliothek Frohnau",
+   "inherited_cat": "library",
+   "venue_type": "library",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Bibliothek|Bücherei|ZLB'; type 'library' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "interkulturelles-stadtteilzentrum-divan",
+   "venue_name": "Interkulturelles Stadtteilzentrum Divan",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-charlottenburg-nord",
+   "venue_name": "Stadtteilzentrum Charlottenburg-Nord",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-haus-der-nachbarschafft",
+   "venue_name": "Stadtteilzentrum Haus der Nachbarschafft",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-kate-tresenreuther-haus",
+   "venue_name": "Stadtteilzentrum Käte-Tresenreuther-Haus",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-ulme-35",
+   "venue_name": "Stadtteilzentrum Ulme 35",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "nachbarschaftshaus-urbanstrasse",
+   "venue_name": "Nachbarschaftshaus Urbanstraße",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "kreuzberger-stadtteilzentrum",
+   "venue_name": "Kreuzberger Stadtteilzentrum",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "rudi-nachbarschaftshaus",
+   "venue_name": "RuDi Nachbarschaftshaus",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-familiengarten",
+   "venue_name": "Stadtteilzentrum Familiengarten",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-friedrichshain",
+   "venue_name": "Stadtteilzentrum Friedrichshain",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "mehrgenerationenhaus-wassertor",
+   "venue_name": "Mehrgenerationenhaus Wassertor",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "nachbarschaftshaus-orangerie",
+   "venue_name": "Nachbarschaftshaus Orangerie",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-hedwig",
+   "venue_name": "Stadtteilzentrum Hedwig",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-friedrichsfelde",
+   "venue_name": "Stadtteilzentrum Friedrichsfelde",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-im-nachbarschaftshaus-im-ostsee",
+   "venue_name": "Stadtteilzentrum im Nachbarschaftshaus im Ostseeviertel",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-welsekiosk",
+   "venue_name": "Stadtteilzentrum Welsekiosk",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "nachbarschafts-und-familienzentrum-kiek-in",
+   "venue_name": "Nachbarschafts- und Familienzentrum Kiek in (Stadtteilzentrum Marzahn-NordWest)",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "begegnungsstatte-kiez-treff-west",
+   "venue_name": "Begegnungsstätte Kiez-Treff West",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-biesdorf",
+   "venue_name": "Stadtteilzentrum Biesdorf",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-hellersdorf-ost",
+   "venue_name": "Stadtteilzentrum Hellersdorf-Ost",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-pestalozzitreff",
+   "venue_name": "Stadtteilzentrum PestalozziTreff",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-hellersdorfer-terrassen",
+   "venue_name": "Stadtteilzentrum Hellersdorfer Terrassen",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-kaulsdorf",
+   "venue_name": "Stadtteilzentrum Kaulsdorf",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-im-kompass-haus",
+   "venue_name": "Stadtteilzentrum im KOMPASS-Haus",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-marzahn-mitte",
+   "venue_name": "Stadtteilzentrum Marzahn-Mitte",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-mosaik",
+   "venue_name": "Stadtteilzentrum Mosaik",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteiltreff-mahlsdorf-sud-haus-der-begegnung",
+   "venue_name": "Stadtteiltreff Mahlsdorf-Süd \"Haus der Begegnung\"",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtschloss-moabit",
+   "venue_name": "Stadtschloss Moabit",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "treffpunkt-sprengelhaus",
+   "venue_name": "Treffpunkt SprengelHaus",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "category map cat='community'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "kiez-zentrum-villa-lutzow",
+   "venue_name": "Kiez Zentrum Villa Lützow",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "olof-palme-zentrum",
+   "venue_name": "Olof-Palme-Zentrum",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "category map cat='community'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-kreativhaus",
+   "venue_name": "Stadtteilzentrum Kreativhaus",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "nachbarschaftsetage-fabrik-osloer-strasse",
+   "venue_name": "NachbarschaftsEtage Fabrik Osloer Straße",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-zukunftshaus-wedding",
+   "venue_name": "Stadtteilzentrum Zukunftshaus Wedding",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "nachbarschaftshaus-am-kornerpark",
+   "venue_name": "Nachbarschaftshaus am Körnerpark",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "elele-nachbarschaftszentrum",
+   "venue_name": "elele Nachbarschaftszentrum",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "kiezbegegnung-stadtteilzentrum-schillerpromenade",
+   "venue_name": "Kiezbegegnung - Stadtteilzentrum Schillerpromenade",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-kollnische-heide",
+   "venue_name": "Stadtteilzentrum Köllnische Heide",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-buckow",
+   "venue_name": "Stadtteilzentrum Buckow",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "nachbarschaftstreff-waschhaus-cafe",
+   "venue_name": "Nachbarschaftstreff Waschhaus-Café",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-rudow",
+   "venue_name": "Stadtteilzentrum Rudow",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-pankow",
+   "venue_name": "Stadtteilzentrum Pankow",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "nachbarschaftszentrum-amtshaus-buchholz",
+   "venue_name": "Nachbarschaftszentrum Amtshaus Buchholz",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-prenzlauer-berg",
+   "venue_name": "Stadtteilzentrum Prenzlauer Berg",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "kulturmarkthalle",
+   "venue_name": "KulturMarktHalle (Stadtteilzentrum Prenzlauer Berg Ost)",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-weissensee",
+   "venue_name": "Stadtteilzentrum Weißensee (Frei-Zeit-Haus)",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-auguste-viktoria-allee",
+   "venue_name": "Stadtteilzentrum Auguste-Viktoria-Allee (Mehrgenerationenhaus)",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-quakerkiez",
+   "venue_name": "Stadtteilzentrum Quäkerkiez",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-haus-am-see",
+   "venue_name": "Stadtteilzentrum Haus am See",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteiltreff-lettekiez",
+   "venue_name": "Stadtteiltreff LetteKiez",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-borsigwalde",
+   "venue_name": "Stadtteilzentrum Borsigwalde",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-gesobau-nachbarschaftsetage",
+   "venue_name": "Stadtteilzentrum GESOBAU-Nachbarschaftsetage",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-ribbeck-haus",
+   "venue_name": "Stadtteilzentrum Ribbeck-Haus",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-rollberge",
+   "venue_name": "Stadtteilzentrum Rollberge",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilladen-tegel-sud",
+   "venue_name": "Stadtteilladen Tegel-Süd",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-siemensstadt",
+   "venue_name": "Stadtteilzentrum Siemensstadt",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "staakentreff-obstallee",
+   "venue_name": "Staakentreff Obstallee",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "staakentreff-brunsbutteler-damm",
+   "venue_name": "Staakentreff Brunsbütteler Damm",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "nachbarschaftshaus-an-der-havel",
+   "venue_name": "Nachbarschaftshaus an der Havel",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-kladow",
+   "venue_name": "Stadtteilzentrum Kladow",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "nachbarschaftszentrum-paul-schneider-haus",
+   "venue_name": "Nachbarschaftszentrum Paul-Schneider-Haus",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteiltreffpunkt-haselhorst",
+   "venue_name": "Stadtteiltreffpunkt Haselhorst",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "kiezstube-stadtteilarbeit-falkenhagener-feld",
+   "venue_name": "Kiezstube Stadtteilarbeit Falkenhagener Feld",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-villa-mittelhof",
+   "venue_name": "Stadtteilzentrum Villa Mittelhof",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "gutshaus-lichterfelde",
+   "venue_name": "Gutshaus Lichterfelde",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "category map cat='community'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "nachbarschaftshaus-markus",
+   "venue_name": "Nachbarschaftshaus Markus",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "kieztreff-celsiusstrasse",
+   "venue_name": "Kieztreff Celsiusstraße",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-sudost-nachbarschaftsladen-leon",
+   "venue_name": "Stadtteilzentrum SüdOst - Nachbarschaftsladen Leonie",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-sudost-nachbarschaftshaus-lilie",
+   "venue_name": "Stadtteilzentrum SüdOst - Nachbarschaftshaus Lilienthal",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "nachbarschaftshaus-friedenau",
+   "venue_name": "Nachbarschaftshaus Friedenau",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "nachbarschafts-und-selbsthilfezentrum-in-der-ufa",
+   "venue_name": "Nachbarschafts- und Selbsthilfezentrum in der ufaFabrik (NUSZ)",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "category map cat='community'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-schoneberg",
+   "venue_name": "Stadtteilzentrum Schöneberg",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "halk-kosesi-stadtteilladen",
+   "venue_name": "Halk Kösesi Stadtteilladen",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "nachbarschaftszentrum-bornhagenweg",
+   "venue_name": "Nachbarschaftszentrum Bornhagenweg",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-marie-li",
+   "venue_name": "Stadtteilzentrum Marie-Li (Standort Marienfelde)",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-rabenhaus",
+   "venue_name": "Stadtteilzentrum Rabenhaus",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "nachbarschaftshaus-villa-offensiv",
+   "venue_name": "Nachbarschaftshaus Villa offensiv",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-campus-kiezspindel",
+   "venue_name": "Stadtteilzentrum Campus Kiezspindel",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "stadtteilzentrum-kungerkiezinitiative",
+   "venue_name": "Stadtteilzentrum KungerKiezInitiative (K20)",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "familienbegegnungszentrum-altglienicke",
+   "venue_name": "FamilienBegegnungsZentrum Altglienicke",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "category map cat='community'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "wohngebietszentrum-allende-viertel",
+   "venue_name": "Wohngebietszentrum Allende-Viertel",
+   "inherited_cat": "community",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Stadtteilzentrum|Stadtteiltreff|Stad'; type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "volkshochschule-mitte",
+   "venue_name": "Volkshochschule Mitte (Antonstraße)",
+   "inherited_cat": "vhs",
+   "venue_type": "adult_education_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern '\\\\bVolkshochschule\\\\b'; type 'adult_education_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "gilberto-bosques-volkshochschule-friedrichshain-",
+   "venue_name": "Gilberto-Bosques-Volkshochschule Friedrichshain-Kreuzberg",
+   "inherited_cat": "vhs",
+   "venue_type": "adult_education_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern '\\\\bVolkshochschule\\\\b'; type 'adult_education_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "volkshochschule-pankow",
+   "venue_name": "Volkshochschule Pankow",
+   "inherited_cat": "vhs",
+   "venue_type": "adult_education_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern '\\\\bVolkshochschule\\\\b'; type 'adult_education_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "volkshochschule-city-west",
+   "venue_name": "Volkshochschule City West",
+   "inherited_cat": "vhs",
+   "venue_type": "adult_education_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern '\\\\bVolkshochschule\\\\b'; type 'adult_education_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "volkshochschule-spandau",
+   "venue_name": "Volkshochschule Spandau",
+   "inherited_cat": "vhs",
+   "venue_type": "adult_education_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern '\\\\bVolkshochschule\\\\b'; type 'adult_education_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "volkshochschule-steglitz-zehlendorf",
+   "venue_name": "Volkshochschule Steglitz-Zehlendorf (Goethestraße)",
+   "inherited_cat": "vhs",
+   "venue_type": "adult_education_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern '\\\\bVolkshochschule\\\\b'; type 'adult_education_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "volkshochschule-tempelhof-schoneberg",
+   "venue_name": "Volkshochschule Tempelhof-Schöneberg",
+   "inherited_cat": "vhs",
+   "venue_type": "adult_education_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern '\\\\bVolkshochschule\\\\b'; type 'adult_education_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "volkshochschule-neukolln",
+   "venue_name": "Volkshochschule Neukölln",
+   "inherited_cat": "vhs",
+   "venue_type": "adult_education_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern '\\\\bVolkshochschule\\\\b'; type 'adult_education_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "volkshochschule-treptow-kopenick",
+   "venue_name": "Volkshochschule Treptow-Köpenick",
+   "inherited_cat": "vhs",
+   "venue_type": "adult_education_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern '\\\\bVolkshochschule\\\\b'; type 'adult_education_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "volkshochschule-marzahn-hellersdorf",
+   "venue_name": "Volkshochschule Marzahn-Hellersdorf",
+   "inherited_cat": "vhs",
+   "venue_type": "adult_education_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern '\\\\bVolkshochschule\\\\b'; type 'adult_education_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "volkshochschule-lichtenberg",
+   "venue_name": "Volkshochschule Lichtenberg",
+   "inherited_cat": "vhs",
+   "venue_type": "adult_education_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern '\\\\bVolkshochschule\\\\b'; type 'adult_education_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "volkshochschule-reinickendorf",
+   "venue_name": "Volkshochschule Reinickendorf",
+   "inherited_cat": "vhs",
+   "venue_type": "adult_education_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern '\\\\bVolkshochschule\\\\b'; type 'adult_education_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "musikschule-fanny-hensel",
+   "venue_name": "Musikschule Fanny Hensel",
+   "inherited_cat": "musicschool",
+   "venue_type": "music_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Musikschule'; type 'music_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "musikschule-friedrichshain-kreuzberg",
+   "venue_name": "Musikschule Friedrichshain-Kreuzberg",
+   "inherited_cat": "musicschool",
+   "venue_type": "music_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Musikschule'; type 'music_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "musikschule-bela-bartok",
+   "venue_name": "Musikschule Béla Bartók",
+   "inherited_cat": "musicschool",
+   "venue_type": "music_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Musikschule'; type 'music_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "musikschule-city-west",
+   "venue_name": "Musikschule City West",
+   "inherited_cat": "musicschool",
+   "venue_type": "music_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Musikschule'; type 'music_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "musikschule-spandau",
+   "venue_name": "Musikschule Spandau",
+   "inherited_cat": "musicschool",
+   "venue_type": "music_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Musikschule'; type 'music_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "leo-borchard-musikschule",
+   "venue_name": "Leo-Borchard-Musikschule",
+   "inherited_cat": "musicschool",
+   "venue_type": "music_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Musikschule'; type 'music_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "musikschule-leo-kestenberg",
+   "venue_name": "Musikschule Leo Kestenberg",
+   "inherited_cat": "musicschool",
+   "venue_type": "music_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Musikschule'; type 'music_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "musikschule-paul-hindemith",
+   "venue_name": "Musikschule Paul Hindemith",
+   "inherited_cat": "musicschool",
+   "venue_type": "music_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Musikschule'; type 'music_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "joseph-schmidt-musikschule",
+   "venue_name": "Joseph-Schmidt-Musikschule",
+   "inherited_cat": "musicschool",
+   "venue_type": "music_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Musikschule'; type 'music_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "hans-werner-henze-musikschule",
+   "venue_name": "Hans-Werner-Henze-Musikschule",
+   "inherited_cat": "musicschool",
+   "venue_type": "music_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Musikschule'; type 'music_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "schostakowitsch-musikschule",
+   "venue_name": "Schostakowitsch-Musikschule",
+   "inherited_cat": "musicschool",
+   "venue_type": "music_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Musikschule'; type 'music_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "musikschule-reinickendorf",
+   "venue_name": "Musikschule Reinickendorf",
+   "inherited_cat": "musicschool",
+   "venue_type": "music_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Musikschule'; type 'music_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "mik-jugendkunstschule-berlin-mitte",
+   "venue_name": "MiK Jugendkunstschule Berlin-Mitte",
+   "inherited_cat": "artschool",
+   "venue_type": "youth_arts_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Jugendkunstschule|KUNSTBASTION|Young'; type 'youth_arts_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "jugendkunstschule-fri-x-berg",
+   "venue_name": "Jugendkunstschule FRI-X BERG",
+   "inherited_cat": "artschool",
+   "venue_type": "youth_arts_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Jugendkunstschule|KUNSTBASTION|Young'; type 'youth_arts_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "jugendkunstschule-pankow",
+   "venue_name": "Jugendkunstschule Pankow",
+   "inherited_cat": "artschool",
+   "venue_type": "youth_arts_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Jugendkunstschule|KUNSTBASTION|Young'; type 'youth_arts_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "jugendkunstschule-charlottenburg-wilmersdorf",
+   "venue_name": "Jugendkunstschule Charlottenburg-Wilmersdorf",
+   "inherited_cat": "artschool",
+   "venue_type": "youth_arts_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Jugendkunstschule|KUNSTBASTION|Young'; type 'youth_arts_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "kunstbastion-jugendkunstschule-spandau",
+   "venue_name": "KUNSTBASTION Jugendkunstschule Spandau",
+   "inherited_cat": "artschool",
+   "venue_type": "youth_arts_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Jugendkunstschule|KUNSTBASTION|Young'; type 'youth_arts_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "youkunst-jugendkunstschule-steglitz-zehlendorf",
+   "venue_name": "YouKunst Jugendkunstschule Steglitz-Zehlendorf",
+   "inherited_cat": "artschool",
+   "venue_type": "youth_arts_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Jugendkunstschule|KUNSTBASTION|Young'; type 'youth_arts_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "jugendkunstschule-tempelhof-schoneberg",
+   "venue_name": "Jugendkunstschule Tempelhof-Schöneberg",
+   "inherited_cat": "artschool",
+   "venue_type": "youth_arts_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Jugendkunstschule|KUNSTBASTION|Young'; type 'youth_arts_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "young-arts-neukolln-jugendkunstschule",
+   "venue_name": "Young Arts Neukölln / Jugendkunstschule",
+   "inherited_cat": "artschool",
+   "venue_type": "youth_arts_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Jugendkunstschule|KUNSTBASTION|Young'; type 'youth_arts_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "jugendkunstschule-treptow-kopenick",
+   "venue_name": "Jugendkunstschule Treptow-Köpenick",
+   "inherited_cat": "artschool",
+   "venue_type": "youth_arts_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Jugendkunstschule|KUNSTBASTION|Young'; type 'youth_arts_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "jugendkunstschule-lin-jaldati",
+   "venue_name": "Jugendkunstschule Lin Jaldati (Kulturforum Hellersdorf)",
+   "inherited_cat": "artschool",
+   "venue_type": "youth_arts_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Jugendkunstschule|KUNSTBASTION|Young'; type 'youth_arts_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "jugendkunstschule-lichtenberg",
+   "venue_name": "Jugendkunstschule Lichtenberg",
+   "inherited_cat": "artschool",
+   "venue_type": "youth_arts_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Jugendkunstschule|KUNSTBASTION|Young'; type 'youth_arts_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "jugendkunstschule-atrium",
+   "venue_name": "Jugendkunstschule ATRIUM",
+   "inherited_cat": "artschool",
+   "venue_type": "youth_arts_school",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Jugendkunstschule|KUNSTBASTION|Young'; type 'youth_arts_school' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "galerie-wedding-raum-fur-zeitgenossische-kunst",
+   "venue_name": "Galerie Wedding – Raum für zeitgenössische Kunst",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "studio-galerie-nord",
+   "venue_name": "Studio | Galerie Nord",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "kunst-raum-mitte",
+   "venue_name": "Kunst Raum Mitte",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "barenzwinger",
+   "venue_name": "Bärenzwinger",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "klosterruine-berlin",
+   "venue_name": "Klosterruine Berlin",
+   "inherited_cat": "culture",
+   "venue_type": "event_venue",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'used by the district for art and events'); type 'event_venue' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "kunstraum-kreuzberg-bethanien",
+   "venue_name": "Kunstraum Kreuzberg/Bethanien",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "galerie-im-turm",
+   "venue_name": "Galerie im Turm",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "projektraum-alte-feuerwache",
+   "venue_name": "projektraum alte feuerwache",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "galerie-pankow",
+   "venue_name": "Galerie Pankow",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "prater-galerie",
+   "venue_name": "Prater Galerie",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "wabe",
+   "venue_name": "WABE",
+   "inherited_cat": "culture",
+   "venue_type": "cultural_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'District-run cultural centre'); type 'cultural_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "theater-unterm-dach",
+   "venue_name": "Theater unterm Dach",
+   "inherited_cat": "culture",
+   "venue_type": "event_venue",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'District theatre'); type 'event_venue' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "brotfabrik",
+   "venue_name": "Brotfabrik",
+   "inherited_cat": "culture",
+   "venue_type": "cultural_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'Cultural centre with stage, cinema and gallery'); type 'cultural_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "freilichtbuhne-weissensee",
+   "venue_name": "Freilichtbühne Weißensee",
+   "inherited_cat": "culture",
+   "venue_type": "event_venue",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'District open-air stage'); type 'event_venue' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "kommunale-galerie-berlin",
+   "venue_name": "Kommunale Galerie Berlin",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "basement",
+   "venue_name": "Basement",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "category map cat='culture'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "kulturhaus-spandau",
+   "venue_name": "Kulturhaus Spandau",
+   "inherited_cat": "culture",
+   "venue_type": "cultural_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'District cultural centre'); type 'cultural_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "zitadelle-spandau-zak-zentrum-fur-aktuelle-kunst",
+   "venue_name": "Zitadelle Spandau – ZAK Zentrum für Aktuelle Kunst",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'centre for contemporary art'); type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "gotisches-haus",
+   "venue_name": "Gotisches Haus",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "galerie-im-historischen-keller",
+   "venue_name": "Galerie im Historischen Keller",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "kulturhaus-schwartzsche-villa",
+   "venue_name": "Kulturhaus Schwartzsche Villa",
+   "inherited_cat": "culture",
+   "venue_type": "cultural_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'District cultural centre and gallery'); type 'cultural_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "gutshaus-steglitz",
+   "venue_name": "Gutshaus Steglitz",
+   "inherited_cat": "culture",
+   "venue_type": "event_venue",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'used by the district for exhibitions and events'); type 'event_venue' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "haus-am-kleistpark",
+   "venue_name": "Haus am Kleistpark",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'municipal gallery with an adjoining project room'); type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "galerie-im-tempelhof-museum",
+   "venue_name": "Galerie im Tempelhof Museum",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "galerie-im-saalbau",
+   "venue_name": "Galerie im Saalbau",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "galerie-im-kornerpark",
+   "venue_name": "Galerie im Körnerpark",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "gemeinschaftshaus-gropiusstadt",
+   "venue_name": "Gemeinschaftshaus Gropiusstadt",
+   "inherited_cat": "culture",
+   "venue_type": "cultural_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'Largest cultural centre in southern Neukölln'); type 'cultural_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "kulturzentrum-alte-schule-adlershof-galerie-adle",
+   "venue_name": "Kulturzentrum Alte Schule Adlershof / Galerie Adlershof",
+   "inherited_cat": "culture",
+   "venue_type": "cultural_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'District cultural centre with municipal gallery'); type 'cultural_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "galerie-johannisthal",
+   "venue_name": "Galerie Johannisthal",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "altglienicker-burgerzentrum-im-burgerhaus-altgli",
+   "venue_name": "Altglienicker Bürgerzentrum im Bürgerhaus Altglienicke",
+   "inherited_cat": "culture",
+   "venue_type": "community_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'Socio-cultural centre ... with music, theatre and courses'); type 'community_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "schloss-biesdorf",
+   "venue_name": "Schloss Biesdorf",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'housing a municipal gallery'); type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "ausstellungszentrum-pyramide",
+   "venue_name": "Ausstellungszentrum Pyramide",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "freizeitforum-marzahn",
+   "venue_name": "Freizeitforum Marzahn",
+   "inherited_cat": "culture",
+   "venue_type": "cultural_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'Large cultural and leisure centre'); type 'cultural_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "projektraum-galerie-m",
+   "venue_name": "Projektraum Galerie M",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "rk-galerie-fur-zeitgenossische-kunst",
+   "venue_name": "rk – Galerie für zeitgenössische Kunst",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "studio-im-hochhaus",
+   "venue_name": "studio im HOCHHAUS",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "galerie-100-und-kunstverleih",
+   "venue_name": "Galerie 100 und Kunstverleih",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "kulturhaus-karlshorst",
+   "venue_name": "Kulturhaus Karlshorst",
+   "inherited_cat": "culture",
+   "venue_type": "cultural_centre",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'District cultural centre with concerts, theatre and a gallery'); type 'cultural_centre' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "mies-van-der-rohe-haus",
+   "venue_name": "Mies van der Rohe Haus",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'showing contemporary art and architecture'); type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "rathaus-galerie-reinickendorf",
+   "venue_name": "Rathaus-Galerie Reinickendorf",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "galerieetage-im-museum-reinickendorf",
+   "venue_name": "GalerieETAGE im Museum Reinickendorf",
+   "inherited_cat": "culture",
+   "venue_type": "gallery",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "name pattern 'Galerie|Ausstellungszentrum|Kunst Ra'; type 'gallery' is public community infrastructure by definition"
+  },
+  {
+   "venue_id": "fontane-haus-im-markischen-viertel",
+   "venue_name": "Fontane-Haus im Märkischen Viertel",
+   "inherited_cat": "culture",
+   "venue_type": "event_venue",
+   "product_status": "included",
+   "rule": "R2",
+   "reason": "type_override (desc: 'District event venue with halls for concerts, theatre and community events'); type 'event_venue' is public community infrastructure by definition"
+  }
+ ]
+}

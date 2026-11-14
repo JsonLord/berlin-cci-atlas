@@ -1,0 +1,156 @@
+{
+ "schema_version": "0.1.0",
+ "observed_at": "2026-11-13",
+ "note": "Every record below was produced by an actual HTTP fetch on 2026-11-13. Fields that could not be extracted are null and listed in missing_fields.",
+ "samples": [
+  {
+   "venue_id": "stadtteilzentrum-friedrichsfelde",
+   "venue_name": "Stadtteilzentrum Friedrichsfelde",
+   "extraction_method": "tec_rest_v1 / tec_ics (cross-checked, identical)",
+   "source_url": "https://stadtteilzentrum-friedrichsfelde.de/wp-json/tribe/events/v1/events",
+   "original_event_url": "https://stadtteilzentrum-friedrichsfelde.de/event/neue-dinge-aus-altem-material-upcycling-workshop-im-stadtteilzentrum-8/",
+   "title": "Neue Dinge aus altem Material: Upcycling-Workshop im Stadtteilzentrum",
+   "start_datetime": "2026-11-17T15:30:00+01:00",
+   "end_datetime": "2026-11-17T17:30:00+01:00",
+   "timezone": "Europe/Berlin",
+   "price_status": "unknown",
+   "price_amount": null,
+   "price_currency": "EUR",
+   "price_note": "TEC cost field is empty string; cost_details.currency_symbol='€' but no amount. Per policy: unknown, NOT free.",
+   "category": "sustainability",
+   "evidence": "REST event id 3138; ICS UID 3138-1794929400-1794936600@stadtteilzentrum-friedrichsfelde.de",
+   "missing_fields": [
+    "price"
+   ]
+  },
+  {
+   "venue_id": "nachbarschaftszentrum-divan",
+   "venue_name": "Interkulturelles Stadtteilzentrum Divan",
+   "extraction_method": "simcal_microdata",
+   "source_url": "https://nachbarschaftszentrum-divan.de/kalender/",
+   "original_event_url": null,
+   "title": "Melee e.V. Videospiel-Turnier",
+   "start_datetime": "2026-11-01T12:00:00+01:00",
+   "end_datetime": "2026-11-01T22:00:00+01:00",
+   "timezone": "Europe/Berlin",
+   "price_status": "unknown",
+   "price_amount": null,
+   "price_currency": "EUR",
+   "category": "community",
+   "evidence": "li.simcal-event[itemtype=schema.org/Event], itemprop=startDate content attr",
+   "missing_fields": [
+    "original_event_url",
+    "price"
+   ],
+   "note": "Recurring (class simcal-event-recurring, description says 'Jeden ersten Sonntag'). Occurrence-level record, not a series."
+  },
+  {
+   "venue_id": "mgh-wassertor",
+   "venue_name": "Mehrgenerationenhaus Wassertor",
+   "extraction_method": "mec_jsonld",
+   "source_url": "https://mgh-wassertor.de/",
+   "original_event_url": "https://mgh-wassertor.de/events/malkurs/",
+   "title": "Malkurs",
+   "start_datetime": "2026-11-16T00:00:00+01:00",
+   "end_datetime": "2026-11-16T00:00:00+01:00",
+   "timezone": "Europe/Berlin",
+   "price_status": "free",
+   "price_amount": 0,
+   "price_currency": "EUR",
+   "price_note": "Description states 'Kostenlos und ohne Anmeldung'. offers.price is empty and priceCurrency is '$' — the JSON-LD offers block must be IGNORED; free status comes from the description text.",
+   "category": "participatory_workshop",
+   "evidence": "ld+json Event name/startDate/endDate/url; eventStatus=https://schema.org/EventScheduled",
+   "missing_fields": [
+    "start time (date-only in JSON-LD)"
+   ],
+   "event_status": "scheduled"
+  },
+  {
+   "venue_id": "kgberlin",
+   "venue_name": "Kommunale Galerien Berlin (portal, 28 venues)",
+   "extraction_method": "wp_rest_acf",
+   "source_url": "https://kgberlin.net/wp-json/wp/v2/event",
+   "original_event_url": "https://kgberlin.net/en/events/finissage-with-guided-tour-and-concert/",
+   "title": "Finissage with guided tour and concert",
+   "start_datetime": "2026-10-11T18:00:00+02:00",
+   "end_datetime": null,
+   "timezone": "Europe/Berlin",
+   "price_status": "unknown",
+   "price_amount": null,
+   "price_currency": "EUR",
+   "category": "arts_culture",
+   "evidence": "WP post id 4831, acf.start_date=20261011, acf.time='18:00', acf.galleries=[1473]",
+   "missing_fields": [
+    "end time",
+    "price"
+   ],
+   "note": "German twin post id 4827 (/events/finissage-2/, galleries [1470]) is the same event — must be deduped. Gallery 1473 maps to one of the 28 atlas venues."
+  },
+  {
+   "venue_id": "berlin-de-kalender",
+   "venue_name": "Stadtbibliothek Pankow (berlin.de calendar c=409)",
+   "extraction_method": "rss",
+   "source_url": "https://www.berlin.de/land/kalender/index.php?rss&c=409&date_start=13.11.2026",
+   "original_event_url": "https://www.berlin.de/land/kalender/index.php?detail=279628&ls=0&c=409&date_start=13.11.2026",
+   "title": "Book a librarian (13.11.2026 10:00 - 15:00 Uhr)",
+   "start_datetime": "2026-11-13T10:00:00+01:00",
+   "end_datetime": "2026-11-13T15:00:00+01:00",
+   "timezone": "Europe/Berlin",
+   "price_status": "free",
+   "price_amount": 0,
+   "price_currency": "EUR",
+   "price_note": "Description: 'kostenloses Beratungsangebot' — explicit free wording.",
+   "category": "civic_participation",
+   "evidence": "RSS guid baevents:event:279628:2026-11-13:10-00-00",
+   "missing_fields": [
+    "structured price field"
+   ],
+   "note": "Date+time are encoded in the TITLE string and the guid, not in RSS date fields. Parsing must rely on guid structure."
+  },
+  {
+   "venue_id": "zku-berlin",
+   "venue_name": "ZK/U – Zentrum für Kunst und Urbanistik",
+   "extraction_method": "html_listing",
+   "source_url": "https://www.zku-berlin.org/de/events",
+   "original_event_url": "https://www.zku-berlin.org/de/timeline/berliner-fahrradmarkt-2026",
+   "title": "Berlin Bike Market 2026",
+   "start_datetime": null,
+   "end_datetime": null,
+   "timezone": "Europe/Berlin",
+   "price_status": "unknown",
+   "price_amount": null,
+   "price_currency": "EUR",
+   "category": "sustainability",
+   "evidence": ".event-item__date='SO 01.03.', p.date='Sundays from March to November / 10:00 – 15:00'",
+   "missing_fields": [
+    "year",
+    "concrete start_date",
+    "price"
+   ],
+   "note": "Year missing from listing; recurring series. MUST go to review queue, not auto-published."
+  },
+  {
+   "venue_id": "sprengelhaus-wedding",
+   "venue_name": "Treffpunkt SprengelHaus",
+   "extraction_method": "em_html",
+   "source_url": "https://sprengelhaus-wedding.de/events/",
+   "original_event_url": null,
+   "title": "(title selector not yet confirmed — .em-item-title)",
+   "start_datetime": "2026-10-26T10:00:00+01:00",
+   "end_datetime": "2026-10-26T11:30:00+01:00",
+   "timezone": "Europe/Berlin",
+   "price_status": "unknown",
+   "price_amount": null,
+   "price_currency": "EUR",
+   "price_note": "Listing contains 'Kostenbeitrag: 2,50€' for one item — a contribution, not a fixed admission price.",
+   "category": "community_meal",
+   "evidence": "div.em-event.em-item with data-date='2026-10-26', .em-event-time='10:00 - 11:30', .em-event-location=Nachbarschaftsladen",
+   "missing_fields": [
+    "title",
+    "original_event_url",
+    "price"
+   ],
+   "note": "Proves the parser is not yet complete: dates/locations extract, titles do not. Honest status = candidate."
+  }
+ ]
+}

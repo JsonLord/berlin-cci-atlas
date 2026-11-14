@@ -1,0 +1,227 @@
+{
+ "schema_version": "0.3.0",
+ "pipeline_version": "0.1.0",
+ "generated_at": "2026-11-14T09:10:57Z",
+ "source": {
+  "repository": "JsonLord/berlin-cci-atlas",
+  "upstream": "kaitiwu/berlin-cci-atlas",
+  "extracted_from": "index.html window.ATLAS.PLACES",
+  "index_html_sha256": "f11801839446f498bb47f773cb318d4923991addd79fcd5ee3f0250be2101ebb",
+  "atlas_data_checked": "October 2026"
+ },
+ "counts": {
+  "original_records": 303,
+  "included": 251,
+  "excluded": 9,
+  "pending_review": 43,
+  "public_venues": 251,
+  "bezirksregionen": 143,
+  "bezirksregionen_with_venues": 107,
+  "planning_raeume": 542
+ },
+ "venue_type_distribution": {
+  "community_centre": 82,
+  "library": 66,
+  "gallery": 28,
+  "artist_studio_building": 17,
+  "advice_centre": 13,
+  "adult_education_centre": 12,
+  "creative_hub": 12,
+  "music_school": 12,
+  "youth_arts_school": 12,
+  "association_office": 11,
+  "cultural_centre": 9,
+  "event_venue": 9,
+  "funding_body": 7,
+  "makerspace": 7,
+  "coworking_space": 2,
+  "rehearsal_space": 2,
+  "portal": 1,
+  "university_facility": 1
+ },
+ "geography": {
+  "model": "Berlin LOR Bezirksregionen (primary) / Planungsräume (detail)",
+  "join_key": "lor_id",
+  "warning": "Bezirksregion names are not unique (e.g. 'Heerstraße' is both 042002 and 052005). Always join on lor_id, never on name.",
+  "duplicate_bzr_names": {
+   "Heerstraße": [
+    "042002",
+    "052005"
+   ]
+  },
+  "lor_agrees_with_atlas": 295,
+  "lor_disagreements": [
+   {
+    "venue_id": "bbk-berlin-berufsverband-bildender-kunstler-inne",
+    "atlas_lor_plr": "02100101",
+    "pip_lor_plr": "01100102"
+   },
+   {
+    "venue_id": "kunst-in-den-gerichtshofen",
+    "atlas_lor_plr": "01300836",
+    "pip_lor_plr": "01401043"
+   },
+   {
+    "venue_id": "medienwerkstatt-im-kulturwerk-des-bbk-berlin",
+    "atlas_lor_plr": "02300314",
+    "pip_lor_plr": "02300315"
+   },
+   {
+    "venue_id": "egon-erwin-kisch-bibliothek",
+    "atlas_lor_plr": "11300724",
+    "pip_lor_plr": null
+   },
+   {
+    "venue_id": "stadtteilzentrum-quakerkiez",
+    "atlas_lor_plr": "12200308",
+    "pip_lor_plr": "12200309"
+   },
+   {
+    "venue_id": "musikschule-friedrichshain-kreuzberg",
+    "atlas_lor_plr": "02300314",
+    "pip_lor_plr": "02300315"
+   },
+   {
+    "venue_id": "haus-am-kleistpark",
+    "atlas_lor_plr": "07200409",
+    "pip_lor_plr": "07100204"
+   },
+   {
+    "venue_id": "galerie-im-saalbau",
+    "atlas_lor_plr": "08100314",
+    "pip_lor_plr": "08100206"
+   }
+  ]
+ },
+ "attribution": {
+  "inherited_register": [
+   {
+    "title": "Amt für Statistik Berlin-Brandenburg: Statistischer Bericht D II 1 – j/24, Rechtliche Einheiten und Niederlassungen in Berlin",
+    "url": "https://www.statistik-berlin-brandenburg.de/d-ii-1-j",
+    "note": "Table 12, establishments by district and WZ section; business register as of 30 Sept 2025."
+   },
+   {
+    "title": "Amt für Statistik Berlin-Brandenburg: Statistischer Bericht A I 5 – hj 2/25, Einwohnerbestand in Berlin",
+    "url": "https://www.statistik-berlin-brandenburg.de/a-i-5-hj/",
+    "note": "Registered residents by district, 31 Dec 2025."
+   },
+   {
+    "title": "IBB Wohnungsmarktbericht 2025, Tabellenband",
+    "url": "https://www.ibb.de/media/dokumente/publikationen/berliner-wohnungsmarkt/wohnungsmarktbericht/2025/ibb-wmb_tabellenband_2025_bf.pdf",
+    "note": "Table 25, residential asking rents by district, 2025."
+   },
+   {
+    "title": "Berliner Morgenpost: Berlin-Geodaten (GitHub)",
+    "url": "https://github.com/funkeinteraktiv/Berlin-Geodaten",
+    "note": "District and postal-area polygons."
+   },
+   {
+    "title": "vbb-stations (VBB open data)",
+    "url": "https://github.com/derhuerst/vbb-stations",
+    "note": "S- and U-Bahn station locations."
+   },
+   {
+    "title": "Kreativ Kultur Berlin",
+    "url": "https://www.kreativkultur.berlin/en/",
+    "note": "Free advice centre and funding database for Berlin's cultural and creative scene."
+   },
+   {
+    "title": "Projekt Zukunft: funding overview",
+    "url": "https://projektzukunft.berlin.de/en/projekt-zukunft/services/funding",
+    "note": "State programmes for the digital and creative economy."
+   }
+  ],
+  "added_by_this_pipeline": [
+   {
+    "title": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen / Amt für Statistik Berlin-Brandenburg: Lifelines of Regions (LOR) Berlin — Planungsräume (542) and Bezirksregionen (143)",
+    "url": "https://www.statistik-berlin-brandenburg.de/geodata",
+    "note": "Polygons inherited from the CCI Atlas build. The upstream META.sources register does not credit this layer; vintage is not recorded in the source data and is therefore stated as unknown rather than assumed. Confirm licence and vintage with the upstream controller before republication.",
+    "vintage": "unknown",
+    "licence": "unknown — see docs/feasibility/REPORT.md §G.4",
+    "status": "provisional",
+    "status_note": "NOT confirmed. Added by this pipeline because the inherited project credits the LOR geography nowhere. Both the source vintage and the licence are unknown. Do not treat this attribution as authoritative and do not republish the geography on its strength alone.",
+    "confirmation_required_from": "upstream controller (kaitiwu/berlin-cci-atlas)",
+    "blocks_publication": true
+   }
+  ],
+  "provisional_entries": 1,
+  "publication_blockers": [
+   "LOR geography attribution is provisional: vintage and licence are unknown and require confirmation from the upstream controller."
+  ]
+ },
+ "websites": {
+  "note": "The inherited `url` field is a page the compiler used to describe a venue, NOT a verified official website. No record has been visited. `kind` distinguishes a third-party directory reference from a site that appears to belong to the venue.",
+  "kinds": {
+   "directory_reference": "A listing/index page hosted by a third party (city portal, studio-house directory, tourism site). Not the venue's own website.",
+   "shared_organisation_site": "One URL reused by several venues because it belongs to their umbrella organisation rather than to the individual venue.",
+   "venue_site_unverified": "A URL on a domain that appears to belong to the venue. NOT verified as official — no record was visited during the feasibility phase."
+  },
+  "verification_statuses": {
+   "unverified": "Carried over from the inherited data. Nobody has confirmed this URL belongs to the venue, is current, or is the official site.",
+   "verified_official": "Confirmed by visiting, with the confirmation recorded. No record has this status yet; the vocabulary exists so it can be earned later."
+  },
+  "distribution": {
+   "directory_reference": 148,
+   "shared_organisation_site": 6,
+   "venue_site_unverified": 97
+  },
+  "official_claims": 0
+ },
+ "vocabularies": {
+  "venue_type": {
+   "community_centre": "Neighbourhood/community centre: Stadtteilzentrum, Nachbarschaftshaus, Mehrgenerationenhaus, Bürgerzentrum, Kiez-Treff, Begegnungsstätte.",
+   "cultural_centre": "Cultural centre with a public programme: Kulturhaus, Kulturzentrum, sozio-cultural centre, Freizeitforum, Gemeinschaftshaus.",
+   "library": "Public or community library, including district and central libraries.",
+   "adult_education_centre": "Public adult education centre (Volkshochschule).",
+   "music_school": "Public music school (Musikschule).",
+   "youth_arts_school": "Youth arts school (Jugendkunstschule).",
+   "gallery": "Exhibition space, typically municipally run: Kommunale Galerie, project space.",
+   "event_venue": "Venue whose primary function is hosting events: halls, stages, converted industrial event spaces.",
+   "creative_hub": "Multi-use creative quarter or hub combining studios, workshops and public programme space.",
+   "makerspace": "Shared making space with public access: 3D printing, textiles, electronics.",
+   "workshop_space": "Subsidised craft/art workshop with public or subsidised access.",
+   "rehearsal_space": "Rehearsal or production space for performing arts and music.",
+   "artist_studio_building": "Building let primarily as artist studios.",
+   "coworking_space": "Commercial coworking space, sometimes with public event space.",
+   "advice_centre": "Advice and counselling service for creatives or residents.",
+   "association_office": "Office of a membership association, chamber or professional body.",
+   "funding_body": "Grant-making or funding institution.",
+   "bank": "Public development bank.",
+   "government_office": "Public administration office.",
+   "university_facility": "University unit or facility.",
+   "portal": "Online-only resource: portal, directory or information service with no public physical venue of its own."
+  },
+  "community_relevance": {
+   "public_events": "Hosts events open to the general public.",
+   "open_access": "Drop-in access without membership or appointment.",
+   "participatory_workshops": "Runs courses, workshops or making sessions open to participation.",
+   "neighbourhood_gathering": "Provides social space: café, lounge, meeting rooms, garden.",
+   "learning": "Offers structured learning (courses, tuition, qualifications).",
+   "making_repair": "Provides tools, materials or repair facilities.",
+   "arts_presentation": "Presents art, performance or exhibitions to the public.",
+   "rehearsal_production": "Provides space for producing or rehearsing work.",
+   "advice_support": "Offers counselling, advice or support services.",
+   "sector_networking": "Professional/B2B networking for a sector.",
+   "funding_access": "Provides access to grants, loans or finance.",
+   "private_workspace": "Rents workspace privately; not public by default.",
+   "information_resource": "Provides information online or by remote enquiry."
+  },
+  "product_status": {
+   "included": "Part of the Kiez Events Atlas venue directory.",
+   "excluded": "Not part of the directory; reason recorded.",
+   "pending_review": "Physical venue whose community relevance is ambiguous; needs a human decision."
+  },
+  "event_source_status": {
+   "not_assessed": "No source discovery attempted yet.",
+   "candidate": "A plausible source exists but extraction is unproven or incomplete.",
+   "qualified": "A source was fetched and yielded usable, dated events.",
+   "temporarily_unavailable": "Source unreachable at last check (DNS, 404, outage).",
+   "not_suitable": "The known URL publishes no usable event data."
+  }
+ },
+ "not_public": [
+  "data/internal/venue_inventory.json",
+  "data/internal/classification.json",
+  "data/internal/review_queue.json"
+ ]
+}
