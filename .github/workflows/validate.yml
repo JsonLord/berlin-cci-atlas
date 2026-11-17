@@ -1,0 +1,101 @@
+name: validate
+
+# Runs the four commands documented in docs/phase2/divan/DIVAN_ATTRIBUTION_AUDIT.md
+# §6. Nothing here deploys, publishes or writes: the pipeline is read-only with
+# respect to the site, and this workflow only checks that claim still holds.
+#
+# No schedule trigger, deliberately. This is a per-change gate, not a crawler:
+# the audit's fixture exists precisely so nothing needs to fetch a third-party
+# site on a timer.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: tests and validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # `cli validate` shells out to `git rev-parse HEAD:index.html` and
+          # `git hash-object index.html` to prove the pipeline never rewrote the
+          # site. That needs the HEAD commit's tree, not its history, so depth 1
+          # is sufficient — verified against a shallow clone before this
+          # workflow existed. Full history would only slow the job down.
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip -r requirements-dev.txt
+
+      - name: Run test suite
+        env:
+          PYTHONPATH: ./pipelines/src
+        run: python -m pytest pipelines/tests -v
+
+      # The next three commands are ordered so that the two that can write come
+      # before the check that nothing was written.
+      #
+      # `divan_audit` regenerates DIVAN_ATTRIBUTION_SUMMARY.json from the results
+      # file. That is a write, and it is intended: the summary is a derived
+      # artefact and regenerating it is how drift is caught. `divan_fixture` and
+      # `cli validate` are read-only.
+      #
+      # The final step then asserts the worktree is unchanged. Without it, a
+      # regenerated summary that differed from the committed one would pass CI
+      # silently — the command exits 0 whether or not the bytes changed — and the
+      # committed artefact would drift from its generator while the badge stayed
+      # green. Regeneration and certification stay separate: this workflow
+      # regenerates, then certifies the committed bytes were the right ones.
+
+      - name: Verify fixture reproduces the audited results
+        env:
+          PYTHONPATH: ./pipelines/src
+        run: python -m kiez_atlas.divan_fixture --repo .
+
+      - name: Regenerate the attribution summary
+        env:
+          PYTHONPATH: ./pipelines/src
+        run: python -m kiez_atlas.divan_audit --repo .
+
+      - name: Validate the built products
+        env:
+          PYTHONPATH: ./pipelines/src
+        run: python -m kiez_atlas.cli validate --repo .
+
+      - name: Assert the pipeline did not modify tracked files
+        shell: bash
+        run: |
+          # `git status` is checked twice, before and after the diff, because
+          # they answer different questions:
+          #   --porcelain  catches modified, deleted, added and untracked files
+          #   git diff     catches content changes to tracked files only
+          # A clean --porcelain implies the diff is empty, but the diff is what
+          # names the offending file, so the failure message stays useful.
+          #
+          # pytest's cache does not appear here: it writes its own
+          # .pytest_cache/.gitignore, so the directory ignores itself. That is
+          # load-bearing for this check and is why .pytest_cache is not in the
+          # repository's .gitignore — if it ever starts showing up, this step is
+          # telling the truth and the ignore file needs updating.
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "::error::The pipeline modified tracked files. Regenerating an"
+            echo "::error::artefact must reproduce the committed bytes exactly."
+            echo
+            echo "Changed paths:"
+            git status --porcelain
+            echo
+            echo "Diff:"
+            git diff
+            exit 1
+          fi
+          echo "Worktree unchanged: every artefact regenerates to its committed bytes."

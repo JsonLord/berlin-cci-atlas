@@ -124,11 +124,25 @@ PYTHONPATH=./pipelines/src python -m kiez_atlas.cli validate --repo .
 All four exit 0 on a clean checkout. Expected: 137 tests passed, and 46/46
 validation checks.
 
+`.github/workflows/validate.yml` runs these four commands on every pull request
+and on every push to `main`, then asserts `git status --porcelain` is empty. That
+last step is the one worth understanding: `divan_audit` **writes** the summary,
+and it exits 0 whether or not the bytes it writes match what was committed. So
+without the check, a summary that had drifted from its generator would pass CI
+silently — the badge stays green while the committed artefact is wrong. The
+workflow therefore regenerates and then certifies that regeneration reproduced
+the committed bytes, which is the same separation the two commands make
+explicitly.
+
+The workflow is a per-change gate, not a crawler: no schedule trigger, no
+network fetch of the source site. The frozen fixture exists so that nothing
+needs to touch a third-party page on a timer.
+
 The suite used to be unrunnable from a fresh clone: `pytest`, `jsonschema` and
 `shapely` were all imported but none were declared anywhere, so `requirements-dev.txt`
 is what makes the commands above work on someone else's machine. `jsonschema` and
 `shapely` are imported from `pipelines/src`, not from tests, so they are needed by
-`cli validate` itself — a pytest-only install still cannot run the 41-check
+`cli validate` itself — a pytest-only install still cannot run the 46-check
 validation command.
 
 `divan_audit` regenerates the summary **from** the results file and verifies the fixture digest.
