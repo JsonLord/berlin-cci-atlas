@@ -138,6 +138,34 @@ class TestWeakEvidenceNeverEstablishesVenue(unittest.TestCase):
         result = classify("", title="Divan Divan Divan")
         self.assertFalse(result.is_publishable_at_venue())
 
+    def test_title_and_description_are_currently_inert(self):
+        """Pin the real reason the two tests above pass.
+
+        `classify_location` accepts `title` and `description` but does not read
+        them, so the tests above pass because the *location* fails to match,
+        not because weak evidence was weighed and rejected. Asserting the
+        no-op explicitly keeps that from being mistaken for implemented
+        weak-evidence logic — see EVENT_ATTRIBUTION_DESIGN.md §3.
+
+        If organiser/programme-page evidence is ever implemented, this test
+        must be replaced with one that asserts the new behaviour, not deleted.
+        """
+        for weak in ("Yoga im Divan", "Divan präsentiert", "MEHRGENERATIONENHAUS"):
+            with_text = classify_location(
+                location_text="Irgendwo, 10115 Berlin",
+                venue=DIVAN_8,
+                other_venues=[DIVAN_26],
+                title=weak,
+                description=weak,
+            )
+            without_text = classify_location(
+                location_text="Irgendwo, 10115 Berlin",
+                venue=DIVAN_8,
+                other_venues=[DIVAN_26],
+            )
+            self.assertEqual(without_text, with_text)
+            self.assertEqual("ambiguous", with_text.classification)
+
 
 class TestDivanAuditRegression(unittest.TestCase):
     @classmethod

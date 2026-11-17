@@ -25,7 +25,8 @@ artefact was never committed, so it cannot be inspected — only re-derived. The
 reconstructed from the live page and frozen as a fixture, so this audit is reproducible without
 re-fetching a third-party site.
 
-Fixture integrity is machine-checked, not asserted:
+Fixture integrity is machine-checked, not asserted. `python -m kiez_atlas.divan_fixture --repo .`
+produces every row below and exits non-zero if any of them fail:
 
 | | |
 |---|---|
@@ -33,6 +34,12 @@ Fixture integrity is machine-checked, not asserted:
 | raw / gzipped bytes | 676682 / 85701 |
 | independent recount from fixture | **221** `li.simcal-event` (220 recurring + 1 not) |
 | fixture vs results JSON, record-for-record | identical on (title, start, end, location) |
+| distinct (title, start, end, location) tuples | 220 on both sides — one source duplicate, carried symmetrically |
+
+Until this branch, only the SHA-256 row was machine-checked. The recount and the
+record-for-record comparison were assertions in this table with nothing computing them: a digest
+proves the archive decompresses to the bytes it recorded, not that anyone counted the events
+inside those bytes. The two rows are now output of a command rather than prose.
 
 ## 3. Attribution is the real finding
 
@@ -71,7 +78,7 @@ Publishing 221 markers would render one monthly calendar as 221 programmes, of w
 already finished. There is no per-event URL, so no stable event identity is available from
 this source.
 
-## 5. Three defects the audit exposed
+## 5. Four defects the audit exposed
 
 1. **Multi-venue promotion (a real bug).** 9 records naming both buildings were classified
    `divan_hosted` because the target address appeared in the string. Membership among several
@@ -85,14 +92,30 @@ this source.
    `distinct_titles_current_mapped` said 41, `distinct_titles_current_mapped_venue` said 40;
    the data support **40**. The summary is now generated from the results file
    (`python -m kiez_atlas.divan_audit --repo .`), so counts are computed rather than recalled.
+4. **A reproducibility claim nothing executed.** §2 asserted an independent recount and a
+   record-for-record match, but the only automated check was a gzip digest. Re-deriving the
+   extraction from scratch to write `kiez_atlas.divan_fixture` found the rules were not
+   recoverable from the repo: reading `data-event-start` instead of `content` shifts all 442
+   timestamps by an hour (UTC epoch vs the source's `+01:00`), 31 fields need HTML-entity
+   decoding, and one record carries its location only in a `<meta>` element with an empty span.
+   None of that was written down, so the audit was reproducible in principle and not in
+   practice. The rules are now documented in `kiez_atlas.divan_fixture` and pinned by tests.
 
 ## 6. Reproducibility
 
 ```
 PYTHONPATH=./pipelines/src python -m pytest pipelines/tests -v
 PYTHONPATH=./pipelines/src python -m kiez_atlas.divan_audit --repo .
+PYTHONPATH=./pipelines/src python -m kiez_atlas.divan_fixture --repo .
 PYTHONPATH=./pipelines/src python -m kiez_atlas.cli validate --repo .
 ```
+
+`divan_audit` regenerates the summary **from** the results file and verifies the fixture digest.
+`divan_fixture` does the different, harder job: it re-extracts all 221 records from the frozen
+HTML and compares them with the results file, failing non-zero on any missing, additional,
+duplicate or mismatched record. They are separate commands on purpose — a step that regenerates
+an artefact must not also be the check that certifies it. `divan_fixture` has no write path at
+all, so it cannot silently repair the file it audits.
 
 `TestDivanAuditRegression` replays the module over all 221 records and asserts
 175 / 36 / 10 and exactly 175 publishable. It **fails** rather than skips when the results file
