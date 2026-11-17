@@ -46,7 +46,9 @@ a **per-platform** design is the right one:
 ```
 
 `content` carries a full ISO-8601 timestamp with offset — no date guessing needed.
-225 items on one page. **No per-event URL**, so identity = (venue, date, title).
+225 items on one page at probe time; the audit re-counted **221** and the 225 did not
+reproduce. **No per-event URL**, so identity = (venue, date, title) — and with no URL there
+is no stable event identity available from this source at all.
 
 ### 2.2 JSON-LD detail pages (Lettrétage) — easy but two-step
 
@@ -137,7 +139,8 @@ and exponential backoff that treats 429 as a first-class signal.
 
 ### 3.6 Platform detection is not evidence
 
-Three WordPress sites, three outcomes: Divan (225 events, qualified), Steglitz
+Three WordPress sites, three outcomes: Divan (221 events, `qualified_with_filter` after the
+attribution audit — 79.2% map precision), Steglitz
 (Tribe markers, 0 events), ExRotaprint (no events at all). Detecting a CMS tells you
 which parser to *try*; it says nothing about whether events exist.
 

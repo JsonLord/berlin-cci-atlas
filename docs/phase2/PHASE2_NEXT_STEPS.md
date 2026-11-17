@@ -35,7 +35,7 @@ Ordered by (evidence × reach) / effort.
 
 | # | venue | mechanism | evidence | effort |
 |---|---|---|---|---|
-| 1 | **Interkulturelles Stadtteilzentrum Divan** | microdata | 225 events, ISO dates, verified | low |
+| 1 | **Interkulturelles Stadtteilzentrum Divan** | microdata | 221 events, ISO dates, verified; 175 at the mapped venue | low |
 | 2 | **Lettrétage** | jsonld | 2 dated events with stable URLs, verified | low |
 | 3 | **Anna-Seghers-Bibliothek** (Lichtenberg) | berlin.de RSS `c=320` | 100 dated items verified | low |
 | 4 | **Anton-Saefkow-Bibliothek** (same system) | berlin.de RSS `c=320` | same feed; tests venue-level filtering | low |
@@ -138,9 +138,10 @@ Testing the hypothesis cost one session and changed a headline number by an orde
 magnitude. The same treatment should be applied to the remaining Phase 2 assumptions
 before any adapter is built:
 
-- `microdata_event` (Divan): 225 items confirmed, but **how many are at Divan vs sibling
-  venues?** Not yet measured. Simple Calendar renders a shared Google Calendar, so the
-  same precision question applies.
+- `microdata_event` (Divan): **measured — see `divan/DIVAN_ATTRIBUTION_AUDIT.md`.** Of 221
+  items (the 225 did not reproduce), 175 are at the mapped venue, 36 at Divan's second
+  building, 10 ambiguous: map precision 79.2%, organisation precision 95.5%. The source is
+  now `qualified_with_filter`, not `qualified` — extraction works, raw publication does not.
 - `jsonld_event` (Lettrétage): one event per page, so precision is structurally 100%.
   Low risk.
 

@@ -121,7 +121,7 @@ PYTHONPATH=./pipelines/src python -m kiez_atlas.divan_fixture --repo .
 PYTHONPATH=./pipelines/src python -m kiez_atlas.cli validate --repo .
 ```
 
-All four exit 0 on a clean checkout. Expected: 126 tests passed, and 41/41
+All four exit 0 on a clean checkout. Expected: 137 tests passed, and 46/46
 validation checks.
 
 The suite used to be unrunnable from a fresh clone: `pytest`, `jsonschema` and
@@ -152,14 +152,31 @@ represented as its own venue; human review of the 46 flagged records; recurrence
 series; expired occurrences filtered; a stable event identity strategy, which this source
 cannot supply.
 
-The registry entry (`p2-006`, still `source_status: qualified`, still citing 225) has **not**
-been updated in this branch: `qualified_with_filter` is a new status value and the registry has
-no schema enforcing its vocabulary. Adopting it is an owner decision, recorded as open below.
+The registry entry (`p2-006`) **is** updated to `qualified_with_filter` in both
+`PHASE2_SOURCE_REGISTRY.json` and `.csv`, with its `evidence` rewritten to the audited 221 and
+`last_checked` moved to 2026-11-16.
+
+That correction was previously deferred on the grounds that `qualified_with_filter` was a new
+value and nothing enforced the registry's vocabulary — adding an unenforced label would have
+been a second unvalidated claim next to the first. The right fix was the enforcement, not the
+deferral: `vocab.EVENT_SOURCE_STATUS` now defines the value, and `kiez_atlas.cli validate`
+rejects any `source_status` outside that vocabulary, any duplicate `source_id`, and any
+disagreement between the JSON and CSV copies. A status no code can interpret now fails the run
+instead of sitting quietly among valid ones.
+
+`p2-006`'s `evidence` still names 225 — deliberately, in the clause explaining that the figure
+**did not reproduce**. Deleting the superseded number would remove the audit trail that shows
+the claim was checked rather than merely replaced, so the validation check targets the claim
+phrasing (`"225 schema.org/Event items"`) instead of banning the digits.
 
 ## 8. Open items
 
-- Registry status and the 225 figure in `PHASE2_TECHNICAL_FINDINGS.md` / `PHASE2_NEXT_STEPS.md`
-  still carry the pre-audit claim.
+- ~~Registry status and the 225 figure still carry the pre-audit claim.~~ **Resolved:**
+  `p2-006` is `qualified_with_filter` in both registry files, and the 225 in
+  `PHASE2_TECHNICAL_FINDINGS.md`, `PHASE2_NEXT_STEPS.md` and `PHASE2_SOURCE_DISCOVERY.md` is
+  annotated as a superseded probe observation rather than left standing as a live claim. The
+  status-distribution table in `PHASE2_SOURCE_DISCOVERY.md` now splits `qualified` (1) from
+  `qualified_with_filter` (1) so it no longer contradicts the registry.
 - Second building needs its own venue record before its 36 events can be shown at all.
 - Recurrence/series model is not yet implemented — see `EVENT_ATTRIBUTION_DESIGN.md`.
 - **This audit does not make the Atlas production-ready.** It corrects one source's yield.

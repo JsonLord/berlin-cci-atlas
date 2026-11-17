@@ -60,20 +60,32 @@ request within the same minute. That is a hard constraint for any future design.
 
 | status | count |
 |---|---|
-| `qualified` | **2** |
+| `qualified` | **1** |
+| `qualified_with_filter` | **1** |
 | `candidate` | 22 |
 | `temporarily_unavailable` | 2 |
 | `not_suitable` | 1 |
+
+Counts reflect the Divan audit of 2026-11-16, which moved `p2-006` from `qualified` to
+`qualified_with_filter`. At discovery time both Divan and Lettrétage were `qualified`; the
+audit found Divan's records are extractable but not raw-publishable. `PHASE2_SOURCE_REGISTRY.json`
+is the machine-readable source of truth for these values, and `kiez_atlas.cli validate` now
+rejects any status outside `vocab.EVENT_SOURCE_STATUS` and any JSON/CSV disagreement.
 
 **Only 2 of 27 sources met the qualification bar** — a dated, usable event record
 actually extracted and sampled. This is the headline, and it is deliberately strict.
 `candidate` is not a euphemism for "probably works": it means a plausible URL exists and
 extraction was *not* demonstrated.
 
-### 2.2 The two qualified sources
+### 2.2 The two sources that passed extraction
 
 **Interkulturelles Stadtteilzentrum Divan** — `simcal_microdata`
 `https://nachbarschaftszentrum-divan.de/kalender/`
+
+**Superseded 2026-11-16:** 225 items were recorded at probe time and the figure did not
+reproduce — the live page yields **221**, and the original extraction artefact was never
+committed, so it could not be inspected. See `divan/DIVAN_ATTRIBUTION_AUDIT.md`. The
+observation below is kept as recorded.
 
 225 `schema.org/Event` microdata items with ISO-8601 `startDate`/`endDate` in `content`
 attributes. Samples:

@@ -96,9 +96,9 @@
   "source_type": "simcal_microdata",
   "parser_type": "simcal_microdata",
   "extraction_method": "http_html_microdata",
-  "source_status": "qualified",
-  "evidence": "225 schema.org/Event items (li.simcal-event) with startDate/endDate content attrs; 3 dated samples extracted",
-  "last_checked": "2026-11-14",
+  "source_status": "qualified_with_filter",
+  "evidence": "221 schema.org/Event items (li.simcal-event) with ISO-8601 startDate/endDate content attrs, reconstructed 2026-11-16 and reproducible from the frozen fixture (sha256 d8806e77...); 175 at Nehringstr. 8 (map precision 79.2%), 36 at the second building Nehringstr. 26, 10 ambiguous; 58 distinct titles, 220/221 recurring, 0 per-event permalinks. The earlier 225 figure did not reproduce and the original extraction artefact was not preserved. NOT raw-publishable: requires exact physical-venue attribution and a recurrence/series model. See docs/phase2/divan/DIVAN_ATTRIBUTION_AUDIT.md.",
+  "last_checked": "2026-11-16",
   "probes_count": 8
  },
  {

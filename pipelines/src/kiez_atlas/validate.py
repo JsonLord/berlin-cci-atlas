@@ -7,6 +7,7 @@ application, and that claim must be machine-enforced rather than promised.
 
 from __future__ import annotations
 
+import csv
 import json
 import subprocess
 from pathlib import Path
@@ -208,6 +209,68 @@ def run(repo: Path) -> Check:
     c.add("metadata lists the LOR publication blocker",
           any("LOR" in b for b in metadata["attribution"].get("publication_blockers", [])),
           "")
+
+    # ---- deploy boundary is executable, not advisory ----
+    # ---- Phase 2 source registry ----
+    # The registry is the only place a source's status is recorded, and until now
+    # nothing read it back. `source_status` drives what a later pipeline may do
+    # with a source, so an unrecognised value is not a typo to be tolerated: it is
+    # a status no code can interpret, silently sitting among valid ones. The Divan
+    # audit is the reason this exists — it downgraded p2-006 to a new status value,
+    # and a vocabulary that nothing validates would have let that value drift, or
+    # let the downgrade be recorded in prose while the field still said `qualified`.
+    reg_json = repo / "docs" / "phase2" / "PHASE2_SOURCE_REGISTRY.json"
+    reg_csv = repo / "docs" / "phase2" / "PHASE2_SOURCE_REGISTRY.csv"
+    if reg_json.exists() and reg_csv.exists():
+        registry = _load(reg_json)
+        ids = [r["source_id"] for r in registry]
+        c.add("source registry has unique source_ids",
+              len(ids) == len(set(ids)),
+              f"{len(ids)} records, {len(ids) - len(set(ids))} duplicate ids")
+
+        from kiez_atlas import vocab as _vocab
+        bad_status = [(r["source_id"], r["source_status"]) for r in registry
+                      if r["source_status"] not in _vocab.EVENT_SOURCE_STATUS]
+        c.add("every registry source_status exists in the vocabulary",
+              not bad_status,
+              f"{len(bad_status)} unknown"
+              + (f"; e.g. {bad_status[:3]}" if bad_status else ""))
+
+        # The two files are written by hand in parallel; agreement is asserted,
+        # not assumed. A status changed in one and not the other means whichever
+        # reader picks the stale copy gets the opposite answer.
+        with reg_csv.open(newline="", encoding="utf-8") as fh:
+            csv_rows = list(csv.DictReader(fh))
+        csv_status = {r["source_id"]: r["source_status"] for r in csv_rows}
+        json_status = {r["source_id"]: r["source_status"] for r in registry}
+        disagree = sorted(k for k in set(csv_status) | set(json_status)
+                          if csv_status.get(k) != json_status.get(k))
+        c.add("registry JSON and CSV agree on every source_status",
+              not disagree,
+              f"{len(disagree)} disagree" + (f": {disagree[:5]}" if disagree else ""))
+
+        # The audited correction must be present in the machine-readable field,
+        # not only in the audit document. If this fails, the audit's verdict was
+        # written as prose and the registry still advertises the old claim.
+        divan = next((r for r in registry if r["source_id"] == "p2-006"), None)
+        c.add("p2-006 carries the audited status",
+              divan is not None
+              and divan["source_status"] == "qualified_with_filter",
+              f"status={divan['source_status'] if divan else 'record missing'}")
+        # The record must cite the audited count and must no longer advertise the
+        # superseded one as its yield. A bare "225 not in evidence" would be both
+        # too strict and too loose: too strict, because a historical mention
+        # explaining that 225 failed to reproduce is exactly the audit trail a
+        # reviewer needs; too loose, because it would pass while the record still
+        # led with 225. So the check targets the claim phrasing itself.
+        c.add("p2-006 evidence cites the audited 221 and no longer claims 225 items",
+              divan is not None
+              and "221" in divan["evidence"]
+              and "225 schema.org/Event items" not in divan["evidence"],
+              (divan["evidence"][:60] if divan else "record missing"))
+    else:
+        c.add("Phase 2 source registry files exist", False,
+              f"json={reg_json.exists()} csv={reg_csv.exists()}")
 
     # ---- deploy boundary is executable, not advisory ----
     from kiez_atlas.deploy import (DeployBoundaryError, assert_no_internal_leak,
