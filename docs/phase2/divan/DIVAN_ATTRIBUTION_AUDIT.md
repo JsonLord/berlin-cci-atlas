@@ -103,12 +103,33 @@ this source.
 
 ## 6. Reproducibility
 
+Setup — every command below needs the pipeline's dependencies, which are not
+part of a bare Python install:
+
+```
+python -m venv .venv
+source .venv/bin/activate                # Windows: .venv\Scripts\activate
+python -m pip install -r requirements-dev.txt
+```
+
+Then, from the repository root:
+
 ```
 PYTHONPATH=./pipelines/src python -m pytest pipelines/tests -v
 PYTHONPATH=./pipelines/src python -m kiez_atlas.divan_audit --repo .
 PYTHONPATH=./pipelines/src python -m kiez_atlas.divan_fixture --repo .
 PYTHONPATH=./pipelines/src python -m kiez_atlas.cli validate --repo .
 ```
+
+All four exit 0 on a clean checkout. Expected: 126 tests passed, and 41/41
+validation checks.
+
+The suite used to be unrunnable from a fresh clone: `pytest`, `jsonschema` and
+`shapely` were all imported but none were declared anywhere, so `requirements-dev.txt`
+is what makes the commands above work on someone else's machine. `jsonschema` and
+`shapely` are imported from `pipelines/src`, not from tests, so they are needed by
+`cli validate` itself — a pytest-only install still cannot run the 41-check
+validation command.
 
 `divan_audit` regenerates the summary **from** the results file and verifies the fixture digest.
 `divan_fixture` does the different, harder job: it re-extracts all 221 records from the frozen

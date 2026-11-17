@@ -1,0 +1,24 @@
+# Development and validation dependencies for the kiez_atlas pipeline.
+#
+# Nothing here ships: the deployed site is index.html + config.js + data/public,
+# and data/deploy-allowlist.txt lists only static files. All Python in this
+# repository is development tooling — the build, validation and audit commands.
+# So there is one requirements file, and it must install everything those
+# commands need, not just the test runner: `python -m kiez_atlas.cli validate`
+# imports jsonschema and shapely directly from pipelines/src, so a
+# pytest-only install leaves the 41-check validation command unrunnable.
+#
+# Setup:
+#
+#   python -m venv .venv
+#   source .venv/bin/activate                # Windows: .venv\Scripts\activate
+#   python -m pip install -r requirements-dev.txt
+#
+# Verified with Python 3.11.2: jsonschema 4.26.0, shapely 2.2.0, pytest 9.2.0
+# (numpy 2.4.6 pulled in by shapely). Bounds are lower bounds rather than pins
+# because shapely and numpy ship platform-specific binary wheels; record a
+# version here only once a run has actually been verified against it.
+
+jsonschema>=4.0        # validate.py — schema checks for venues.json and the inventory
+shapely>=2.0           # geo.py — LOR/Bezirksregion point-in-polygon lookups
+pytest>=8.0            # test runner for pipelines/tests
