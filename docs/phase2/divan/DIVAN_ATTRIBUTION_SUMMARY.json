@@ -1,0 +1,70 @@
+{
+ "audit_timestamp": "2026-11-16T10:04:00Z",
+ "methodology_version": "1.1",
+ "source_url": "https://nachbarschaftszentrum-divan.de/kalender/",
+ "venue_id": "interkulturelles-stadtteilzentrum-divan",
+ "generated_by": "kiez_atlas.divan_audit",
+ "generated_from": "docs/phase2/divan/DIVAN_ATTRIBUTION_RESULTS.json",
+ "original_claim": {
+  "records": 225,
+  "status": "qualified",
+  "note": "Phase 2 registry claim. Live page yields 221 items, not 225."
+ },
+ "audited_population": {
+  "records_reconstructed": 221,
+  "reconstruction_method": "live page fetch 2026-11-16, full HTML archived; the original 225-record extraction artefact was NOT preserved in the repo",
+  "complete_population": true
+ },
+ "classification": {
+  "divan_hosted_total": 211,
+  "divan_hosted_mapped_venue": 175,
+  "divan_hosted_other_building": 36,
+  "divan_organised_elsewhere": 0,
+  "divan_partnered": 0,
+  "external_event": 0,
+  "ambiguous": 10,
+  "insufficient_data": 0
+ },
+ "metrics": {
+  "map_precision": 0.7919,
+  "map_precision_pct": 79.2,
+  "map_precision_definition": "events attributable to the specific building the Atlas marker represents / all audited records",
+  "organisation_precision": 0.9548,
+  "organisation_precision_pct": 95.5,
+  "organisation_precision_definition": "events associated with any Divan building / all audited records",
+  "venue_precision": 0.7919,
+  "venue_precision_deprecated": "alias of map_precision, kept for older readers; use map_precision or organisation_precision explicitly",
+  "uncertainty_ambiguous_pct": 4.5,
+  "uncertainty_insufficient_pct": 0.0
+ },
+ "data_quality": {
+  "expiry_cutoff": "2026-11-16T10:04:00+00:00",
+  "usable_dates": 221,
+  "explicit_locations": 221,
+  "individual_event_urls": 0,
+  "recurring_records": 220,
+  "distinct_titles_all": 58,
+  "distinct_titles_mapped_venue": 46,
+  "current_mapped": 90,
+  "expired_mapped": 85,
+  "distinct_titles_current_mapped": 40,
+  "records_requiring_human_review": 46,
+  "date_range": {
+   "earliest": "2026-11-01T12:00:00+01:00",
+   "latest": "2026-11-30T19:30:00+01:00"
+  }
+ },
+ "source_qualification": {
+  "previous": "qualified",
+  "revised": "qualified_with_filter",
+  "distinction": "Technically qualified: extraction works and per-event location is present. NOT eligible for raw publication: 36 records belong to a second building with no Atlas marker, and 220/221 are recurring instances.",
+  "raw_instance_count_is_misleading": true
+ },
+ "fixture": {
+  "path": "docs/phase2/divan/fixtures/divan_kalender_snapshot.html.gz",
+  "sha256": "d8806e7749ef439624ff1d69092f0f1cfb5814daa4fc2bc86b7376d151eda23e",
+  "sha256_matches_recorded": true,
+  "raw_bytes": 676682,
+  "gz_bytes": 85701
+ }
+}

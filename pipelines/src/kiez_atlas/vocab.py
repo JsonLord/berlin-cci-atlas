@@ -130,4 +130,15 @@ EVENT_SOURCE_STATUS: dict[str, str] = {
     "qualified": "A source was fetched and yielded usable, dated events.",
     "temporarily_unavailable": "Source unreachable at last check (DNS, 404, outage).",
     "not_suitable": "The known URL publishes no usable event data.",
+    # Added by the Divan audit. `qualified` means extraction works, and that is
+    # true of Divan; what it does not say is that only 79.2% of the extracted
+    # records belong to the building the Atlas marker represents. Recording that
+    # as `qualified` with a caveat in free text is how the 225-event yield
+    # survived review — the status field is what downstream code reads, and it
+    # said "usable" without saying "not raw-publishable".
+    "qualified_with_filter": (
+        "Extraction works and records are usable, but they must be filtered "
+        "before publication. Not eligible for raw publication. The filter is "
+        "specified, not necessarily implemented."
+    ),
 }

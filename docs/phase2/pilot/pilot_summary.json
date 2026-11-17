@@ -1,0 +1,21 @@
+{
+ "berlin_de_venues_total": 110,
+ "tested": 86,
+ "tested_pct": 78.2,
+ "status_404": 1,
+ "v_ort_present": 13,
+ "v_ort_pct": 15.1,
+ "c_only_present": 22,
+ "c_only_pct": 25.6,
+ "neither": 51,
+ "neither_pct": 59.3,
+ "extrapolated_v_ort": 17,
+ "extrapolated_c_only": 28,
+ "extrapolated_neither": 65,
+ "v_ort_precision_observed": [
+  74,
+  56,
+  10
+ ],
+ "v_ort_precision_mean": 46.7
+}
