@@ -6,20 +6,23 @@ Collects and exports structured metrics from the built data products.
 from __future__ import annotations
 
 import json
+import re
 from collections import Counter
 from dataclasses import dataclass, asdict
 from pathlib import Path
 from typing import Any
 
-from .vocab import (
-    VENUE_TYPES,
-    COMMUNITY_RELEVANCE,
-    PRODUCT_STATUS,
-    EVENT_SOURCE_STATUS,
-)
-from .websites import WEBSITE_KINDS, VERIFICATION_STATUSES, DIRECTORY_HOSTS
+from .vocab import PRODUCT_STATUS
+from .websites import DIRECTORY_HOSTS
 from .geo import LorIndex
 from .extract_embedded import load_atlas
+
+# The two Divan buildings, matched on the location text rather than on the
+# audit's own `location_site` label: the label is not produced by any code in
+# this repository, so counting it would only restate the audit. Matching the
+# addresses instead is an independent read of the same evidence.
+_NEHRINGSTR_8 = re.compile(r"Nehringstr(?:aße|\.)\s*8\b")
+_NEHRINGSTR_26 = re.compile(r"Nehringstr(?:aße|\.)\s*26\b")
 
 
 @dataclass
@@ -147,10 +150,16 @@ def collect_lor_metrics(repo: Path) -> LorMetrics:
         inherited = v.get("inherited", {})
         lor_id = inherited.get("lor_plr")
         coords = inherited.get("coords")
-        
-        if lor_id and lor_id in lor.bzr_by_id:
+
+        # `lor_plr` is an 8-digit Planungsraum id, so it is looked up in
+        # `plr_by_id`; the 6-digit Bezirksregion id is derived from its prefix.
+        # Looking an 8-digit id up in `bzr_by_id` never matches and silently
+        # reported every venue as unlocated.
+        if lor_id and lor_id in lor.plr_by_id:
             with_lor += 1
-            bzr_counts[lor_id[:6]] += 1
+            bzr_id = lor.bzr_of_plr(lor_id)
+            if bzr_id:
+                bzr_counts[bzr_id] += 1
             plr_counts[lor_id] += 1
         else:
             without_lor += 1
@@ -197,7 +206,11 @@ def collect_website_metrics(repo: Path) -> WebsiteMetrics:
     # Check for official claims (should be 0)
     official_claims = sum(1 for v in venues if v["website"]["verification"] == "verified_official")
 
-    directory_hosts = list(DIRECTORY_HOSTS)
+    # Sorted, not `list(DIRECTORY_HOSTS)`: the source is a frozenset, so its
+    # iteration order varies between processes and the JSON output changed
+    # bytes on every run. An exporter whose output cannot be diffed cannot be
+    # committed, compared or reviewed.
+    directory_hosts = sorted(DIRECTORY_HOSTS)
 
     return WebsiteMetrics(
         total_venues=len(venues),
@@ -241,7 +254,13 @@ def collect_divan_audit_metrics(repo: Path) -> DivanAuditMetrics:
     attribution_counter = Counter(e["attribution"] for e in events)
     evidence_type_counter = Counter(e["evidence_type"] for e in events)
     publishable = sum(1 for e in events if e["attribution_site"] == "mapped_venue" and not e["requires_human_review"])
-    multi_venue = sum(1 for e in events if e["location"] and "Nehringstr. 8" in e["location"] and "Nehringstraße 26" in e["location"])
+    multi_venue = sum(
+        1
+        for e in events
+        if e.get("location")
+        and _NEHRINGSTR_8.search(e["location"])
+        and _NEHRINGSTR_26.search(e["location"])
+    )
 
     # Fixture info
     from . import divan_fixture as dfx
@@ -271,16 +290,19 @@ def collect_all_metrics(repo: Path) -> AllMetrics:
     )
 
 
-def main() -> None:
-    """CLI entry point for metrics collection."""
+def main(argv: list[str] | None = None) -> int:
+    """CLI entry point for metrics collection.
+
+    Takes `argv` explicitly so `kiez_atlas.cli metrics` can forward its own
+    arguments without rewriting `sys.argv`, and returns a process exit code.
+    """
     import argparse
-    import sys
 
     ap = argparse.ArgumentParser(prog="kiez_atlas.metrics")
     ap.add_argument("--repo", default=".", help="Repository root")
     ap.add_argument("--output", help="Output file (default: stdout)")
     ap.add_argument("--format", choices=["json", "summary"], default="json")
-    args = ap.parse_args()
+    args = ap.parse_args(argv)
 
     repo = Path(args.repo).resolve()
     metrics = collect_all_metrics(repo)
@@ -335,7 +357,8 @@ def main() -> None:
         Path(args.output).write_text(output, encoding="utf-8")
     else:
         print(output)
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

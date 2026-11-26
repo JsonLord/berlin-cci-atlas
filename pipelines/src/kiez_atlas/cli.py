@@ -37,20 +37,16 @@ def main(argv: list[str] | None = None) -> int:
             return 1
 
     if args.cmd == "metrics":
-        # Reconstruct argv for metrics module
+        # Reconstruct argv for the metrics module and pass it explicitly.
+        # Swapping `sys.argv` would work, but it mutates process-global state
+        # that a caller (a test, a nested invocation) may be relying on, and it
+        # hides the arguments from anyone reading this function.
         metrics_argv = ["--repo", str(repo)]
         if args.output:
             metrics_argv += ["--output", args.output]
         if args.format:
             metrics_argv += ["--format", args.format]
-        # Call metrics main with modified sys.argv
-        old_argv = sys.argv
-        sys.argv = ["kiez_atlas.metrics"] + metrics_argv
-        try:
-            run_metrics()
-        finally:
-            sys.argv = old_argv
-        return 0
+        return run_metrics(metrics_argv)
 
     return 0
 

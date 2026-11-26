@@ -1,19 +1,22 @@
 # Architecture design — organisation, venue, series, occurrence
 
-**Status: proposal. Nothing here is implemented.** No code, data, frontend, CI or
-deployment file was changed to produce it. Design only, awaiting owner review.
+**Status: proposal index. Nothing here is implemented, and none of the four
+documents below has been written yet.** No code, data, frontend, CI or
+deployment file depends on this directory. Design only, awaiting owner review.
 
 Base: `main` at `31ed7e3611e63f9146a113a17b80dd3b6ec6dbdc`, verified 2026-11-25 from a
 clean clone (137 tests passed, `cli validate` 46/46, worktree clean).
 
-Read in this order:
+The design is intended to be four documents, read in this order. They are listed
+here so the scope is reviewable before anyone writes them; **they do not exist
+yet**, and no link is offered that would 404.
 
-| file | what it decides |
+| planned document | what it will decide |
 |---|---|
-| [ORGANISATION_VENUE_MODEL.md](ORGANISATION_VENUE_MODEL.md) | Organisation vs Venue as separate entities; the relationship entity; evidence and verification rules; cardinality. |
-| [EVENT_SERIES_OCCURRENCE_MODEL.md](EVENT_SERIES_OCCURRENCE_MODEL.md) | Series vs Occurrence; identity and deduplication; recurrence; lifecycle and status transitions. |
-| [DATA_MODEL_MIGRATION.md](DATA_MODEL_MIGRATION.md) | Current-to-proposed mapping, backward compatibility, migration stages, risks and rollback. |
-| [ARCHITECTURE_DECISIONS.md](ARCHITECTURE_DECISIONS.md) | Each decision, the alternatives considered, the trade-off, and what stays unresolved. |
+| `ORGANISATION_VENUE_MODEL.md` | Organisation vs Venue as separate entities; the relationship entity; evidence and verification rules; cardinality. |
+| `EVENT_SERIES_OCCURRENCE_MODEL.md` | Series vs Occurrence; identity and deduplication; recurrence; lifecycle and status transitions. |
+| `DATA_MODEL_MIGRATION.md` | Current-to-proposed mapping, backward compatibility, migration stages, risks and rollback. |
+| `ARCHITECTURE_DECISIONS.md` | Each decision, the alternatives considered, the trade-off, and what stays unresolved. |
 
 ## Ground rules this design keeps
 
