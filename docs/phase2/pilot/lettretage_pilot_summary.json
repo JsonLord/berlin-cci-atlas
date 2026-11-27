@@ -1,0 +1,18 @@
+{
+  "source_id": "p2-020",
+  "venue_id": "lettretage",
+  "audit_date": "2026-11-27",
+  "total_events_sampled": 30,
+  "events_at_mapped_venue": 26,
+  "events_at_other_site": 4,
+  "map_precision_pct": 86.7,
+  "organisation_precision_pct": 100.0,
+  "stable_permalinks_count": 30,
+  "distinct_titles": 28,
+  "recurring_series_identified": 2,
+  "structured_pricing_present": false,
+  "meta_prose_free_count": 20,
+  "meta_prose_donation_count": 4,
+  "meta_prose_paid_under_20_eur": 3,
+  "meta_prose_unspecified": 3
+}
