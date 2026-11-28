@@ -1,8 +1,8 @@
 # Architecture Design: Organisation, Venue, Event Series & Occurrence Data Model
 
-**Status: Proposed Architecture Blueprint (Under Review)**  
+**Status: Proposed Architecture Blueprint**  
 **Target Repository:** `JsonLord/berlin-cci-atlas`  
-**Base Commit:** `31ed7e3611e63f9146a113a17b80dd3b6ec6dbdc` (`main`)  
+**Base:** `main` (including Gateway auth & metrics exporter)  
 **Working Branch:** `architecture/organisation-venue-event-model`  
 **Scope:** Architecture and data model design only. No production code, data, frontend, CI, or deployment configuration is modified.
 
@@ -17,11 +17,13 @@ In Phase 1, the atlas established an auditable 303-venue classification model wi
 In Phase 2, two empirical investigations proved that the current data model cannot publish events without systemic misattribution:
 1. **The Berlin.de RSS Pilot (`docs/phase2/pilot/BERLIN_DE_RSS_PILOT.md`):** Testing the assumption of broad calendar coverage refuted the claimed ~110-venue reach. Only 15% (13/86) of library/community venue pages expose a venue-scoped `v_ort` feed, and those feeds exhibit only ~47% venue precision (half the records take place elsewhere).
 2. **The Divan Attribution Audit (`docs/phase2/divan/DIVAN_ATTRIBUTION_AUDIT.md`):** Testing source `p2-006` (Interkulturelles Stadtteilzentrum Divan) proved that the claimed 225-event yield did not reproduce (the true count is 221 records across 58 distinct titles). Crucially, Divan operates **two physical buildings** (Nehringstr. 8 and Nehringstr. 26). While 95.5% of events are Divan-organised, only 79.2% (175/221) take place at the mapped building. A model that conflates an organisation with a venue marker inevitably publishes sibling-building events (16.3%) and ambiguous multi-venue events (4.1%) at the wrong physical pin.
+3. **The Lettrétage JSON-LD Pilot (`docs/phase2/pilot/LETTRETAGE_JSONLD_PILOT.md`):** Auditing 30 live events from `p2-020` proved that event detail pages do not guarantee 100% precision: 13.3% (4/30) take place off-site in Schöneberg (*K26, Kolonnenstraße 26*), with a CMS template conflict that our pre-match ambiguity guard caught and quarantined.
 
 ### The Architectural Thesis
 **An organisation is not a place, a place is not a programme, and a programme is not a date.**
 
-This architecture formally decouples the four fundamental concerns:
+Four entities where the repository currently has one (`PLACES`) plus an unimplemented event schema, with a relationship entity between organisation and place because the Divan and Lettrétage audits proved that collapsing them publishes events at the wrong marker:
+
 ```mermaid
 flowchart LR
     Org[Organisation<br/><i>Entity that runs, hosts, or curates</i>]
