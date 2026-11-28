@@ -14,3 +14,4 @@ CONTRIBUTORS.md
 data/public/venues.json
 data/public/neighbourhoods.geojson
 data/public/metadata.json
+data/public/events.json

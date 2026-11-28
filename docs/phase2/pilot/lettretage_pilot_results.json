@@ -1,0 +1,1232 @@
+[
+  {
+    "slug": "/programm/alias-alice",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Alias Alice",
+      "description": "Alias Alice \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/alias-alice",
+      "startDate": "2026-12-06T17:00:00.000Z",
+      "endDate": "2026-12-06T20:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "frei",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "18:00 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6aec54df112372040472041d_Bildschirmfoto%202026-10-31%20um%2012.31.10.jpeg",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Dec 06, 2026 18:00 Uhr | Eintritt: frei | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/befreundete-bucher",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Befreundete B\u00fccher",
+      "description": "Befreundete B\u00fccher \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/befreundete-bucher",
+      "startDate": "2026-12-17T18:30:00.000Z",
+      "endDate": "2026-12-17T22:55:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "frei",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "19:30 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6abf8cf1b7ec124d039893c5_Veranstaltungsbild%20Befreundete%20B%C3%BCcher.webp",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Dec 17, 2026 19:30 Uhr | Eintritt: frei | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/bitte--setzen-1-zer-setzen",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "bitte-setzen! #1: zer-setzen",
+      "description": "bitte -setzen! #1: zer-setzen \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/bitte--setzen-1-zer-setzen",
+      "startDate": "2026-11-30T18:30:00.000Z",
+      "endDate": "2026-11-30T19:40:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "frei",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "19:30 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6ad72f92d195528e7c9884d4_titelbild1HD.webp",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Nov 30, 2026 19:30 Uhr | Eintritt: frei | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch, Englisch"
+  },
+  {
+    "slug": "/programm/bodies-carry-borders",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Bodies Carry Borders",
+      "description": "Bodies Carry Borders \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/bodies-carry-borders",
+      "startDate": "2026-12-10T18:00:00.000Z",
+      "endDate": "2026-12-10T19:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "on a donation basis",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "19:00 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6abf84c85d90fca3bd91c7c0_poster.webp",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Dec 10, 2026 19:00 Uhr | Eintritt: on a donation basis | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: English, Italian,Yiddish"
+  },
+  {
+    "slug": "/programm/boom-boom-room-queere-lesung-und-konzert",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "BOOM BOOM ROOM \ue089 Queere Lesung und Konzert",
+      "description": "BOOM BOOM ROOM \u2013 Queere Lesung und Konzert \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/boom-boom-room-queere-lesung-und-konzert",
+      "startDate": "2027-01-21T18:30:00.000Z",
+      "endDate": "2027-01-21T22:30:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": " Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "frei",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "19:30 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6af323873a54a4370381a3ed_BOOM-BOOM-ROOM-Querformat_bestQuali.jpg",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Jan 21, 2027 19:30 Uhr | Eintritt: frei | Ort:  Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/dead-ladies-show-44",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Dead Ladies Show #44",
+      "description": "Dead Ladies Show #44 \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/dead-ladies-show-44",
+      "startDate": "2026-12-08T19:00:00.000Z",
+      "endDate": "2026-12-08T22:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://vvk.link/71xe02",
+        "price": "8.-/4.-",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "20:00 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6abf7e09a02feaf15779a39c_Logo.webp",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Dec 08, 2026 20:00 Uhr | Eintritt: 8.-/4.- | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch, Englisch"
+  },
+  {
+    "slug": "/programm/der-fregestein-verlag-stellt-sich-vor",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Der Fregestein Verlag stellt sich vor",
+      "description": "Der Fregestein Verlag stellt sich vor \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/der-fregestein-verlag-stellt-sich-vor",
+      "startDate": "2027-02-10T18:00:00.000Z",
+      "endDate": "2027-02-10T21:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://vvk.link/74d9ky",
+        "price": "5,-",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "19:00 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6b08180d6c41f725e93eda28_Fregestein-Veranstaltungsbild.webp",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Feb 10, 2027 19:00 Uhr | Eintritt: 5,- | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/ferner---berliner-buchpremiere-mit-elisa-weinkotz-und-performance",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Ferner \u2013 Berliner Buchpremiere mit Elisa Weink\u00f6tz und Performance",
+      "description": "Ferner \u2013 Berliner Buchpremiere mit Elisa Weink\u00f6tz und Performance \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/ferner---berliner-buchpremiere-mit-elisa-weinkotz-und-performance",
+      "startDate": "2026-12-04T18:30:00.000Z",
+      "endDate": "2026-12-04T20:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "nur Abendkasse, 5-15 \u20ac",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "19:30 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6ac76dc275f59687c096cf98_A%207%20Bild%2013_Nele%20S.%20Kaiser(2).jpg",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Dec 04, 2026 19:30 Uhr | Eintritt: nur Abendkasse, 5-15 \u20ac | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/fu-review-carry-issue-13-launch",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "FU Review: CARRY Issue 13 Launch",
+      "description": "FU Review: CARRY Issue 13 Launch \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/fu-review-carry-issue-13-launch",
+      "startDate": "2027-01-20T18:00:00.000Z",
+      "endDate": "2027-01-20T20:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "on a donation basis",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "19:00"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6b0418605fa0337334396f3b_FU%20REVIEW%20MAGAZINES-5.JPG",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Jan 20, 2027 19:00 | Eintritt: on a donation basis | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: English"
+  },
+  {
+    "slug": "/programm/gans-verlagsabend",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Gans Verlagsabend",
+      "description": "Gans Verlagsabend \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/gans-verlagsabend",
+      "startDate": "2026-12-16T18:00:00.000Z",
+      "endDate": "2026-12-16T21:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "frei",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "19:00 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6afc3230db4cf77a13250bbe_gans-independent_rgb_72_20cm.jpg",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Dec 16, 2026 19:00 Uhr | Eintritt: frei | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/ich-habe-die-geschichte-erfunden-um-zu-erzahlen-wie-es-war",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "\u201eIch habe die Geschichte erfunden, um zu erz\u00e4hlen, wie es war\u201c",
+      "description": "\u201eIch habe die Geschichte erfunden, um zu erz\u00e4hlen, wie es war\u201c \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/ich-habe-die-geschichte-erfunden-um-zu-erzahlen-wie-es-war",
+      "startDate": "2027-01-08T18:30:00.000Z",
+      "endDate": "2027-01-08T22:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "frei",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "19:30 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6afae2ac44d9c143b294adee_Gespraech_Der_Fall_Fechtner_.jpg",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Jan 08, 2027 19:30 Uhr | Eintritt: frei | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/jetzt-ist-sense",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Jetzt ist Sense!",
+      "description": "Jetzt ist Sense! \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/jetzt-ist-sense",
+      "startDate": "2026-12-09T18:30:00.000Z",
+      "endDate": "2026-12-09T21:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "frei",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "19:30 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6ac3a79350ffa97cab69129e_Plakat_RICAM_A4.webp",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Dec 09, 2026 19:30 Uhr | Eintritt: frei | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/kinky-soul-reading-night-47",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Kinky Soul Reading Night #47",
+      "description": "Kinky Soul Reading Night #47 \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/kinky-soul-reading-night-47",
+      "startDate": "2027-02-23T19:00:00.000Z",
+      "endDate": "2027-02-23T22:15:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "Early Birds &amp; Reader 10\u20ac / Master 15 / Sugar 20\u20ac",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "8 pm"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6b056efc5abd118ad31ed071_reading%20night%20image-11.png",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Feb 23, 2027 8 pm | Eintritt: Early Birds &amp; Reader 10\u20ac / Master 15 / Sugar 20\u20ac | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: English"
+  },
+  {
+    "slug": "/programm/kurze-kippen---die-short-stories-night-2",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Kurze Kippen \u2013 Die Short Stories Night",
+      "description": "Kurze Kippen \u2013 Die Short Stories Night \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/kurze-kippen---die-short-stories-night-2",
+      "startDate": "2027-01-10T18:30:00.000Z",
+      "endDate": "2027-01-10T19:30:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "frei",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "19:30 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6aec6a944ee2f778866e26bf_Buch%20ohne%20Frau.png",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Jan 10, 2027 19:30 Uhr | Eintritt: frei | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/leseabend-des-hochroth-verlagsnetzwerks",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Leseabend des hochroth Verlagsnetzwerks",
+      "description": "Leseabend des hochroth Verlagsnetzwerks \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/leseabend-des-hochroth-verlagsnetzwerks",
+      "startDate": "2027-01-09T18:00:00.000Z",
+      "endDate": "2027-01-09T21:30:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "frei",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "19:00 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6aec6277a07aff4b7a6dfda0_B%C3%BCchertisch_%C2%A9hochroth.jpg",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Jan 09, 2027 19:00 Uhr | Eintritt: frei | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/ort-des-schreibens",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "\u03a9rt des Schreibens",
+      "description": "\u03a9rt des Schreibens - Der Hunger \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/ort-des-schreibens",
+      "startDate": "2026-12-05T17:00:00.000Z",
+      "endDate": "2026-12-12T20:45:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "frei",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "18:00"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6aba3f124c9e3aa832b17076_%CE%A9rt%20des%20Schreibens%20-%20Der%20Hunger.webp",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Dec 05, 2026 18:00 | Eintritt: frei | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/reading-of-the-happiness-engine-with-anastasia-shevchenko",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Reading of the Happiness Engine with Anastasia Shevchenko",
+      "description": "Reading of the Happiness Engine with Anastasia Shevchenko \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/reading-of-the-happiness-engine-with-anastasia-shevchenko",
+      "startDate": "2027-02-24T17:00:00.000Z",
+      "endDate": "2027-02-24T18:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://vvk.link/74b4f6",
+        "price": "5.-",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "18:00"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6afec5fd68142165e81108ed_The%20Happiness%20Engine%20at%20Lettr%C3%A9tage.png",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Feb 24, 2027 18:00 | Eintritt: 5.- | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: English"
+  },
+  {
+    "slug": "/programm/senf---neue-texte-frisch-vom-blatt",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "SENF - neue Texte frisch vom Blatt",
+      "description": "SENF - neue Texte frisch vom Blatt \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/senf---neue-texte-frisch-vom-blatt",
+      "startDate": "2026-12-02T18:30:00.000Z",
+      "endDate": "2026-12-02T21:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "frei",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "19:30 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6accd361603e87338453f24d_senf_lettre.jpg",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Dec 02, 2026 19:30 Uhr | Eintritt: frei | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/silent-writing-die-offene-schreibgruppe-november-2026",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Silent Writing - Die offene Schreibgruppe November 2026",
+      "description": "Silent Writing - Die offene Schreibgruppe \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/silent-writing-die-offene-schreibgruppe-november-2026",
+      "startDate": "2026-11-28T13:00:00.000Z",
+      "endDate": "2026-11-28T17:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "frei ",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "14:00 - 18:00 Uhr "
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6ad1ef14545d9c5dac91e0ef_grafik.webp",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Nov 28, 2026 14:00 - 18:00 Uhr  | Eintritt: frei  | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/sonic-borderlines-2026-listening-series-teil-1-poetry-reading-und-listening-workshop",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Sonic Borderlines 2026 \u2013 Listening Series / Teil 1\ue092 Poetry Reading und Listening Workshop",
+      "description": "Sonic Borderlines 2026 \u2013 Listening Series / Teil 1: Poetry Reading und Listening Workshop \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/sonic-borderlines-2026-listening-series-teil-1-poetry-reading-und-listening-workshop",
+      "startDate": "2026-12-01T19:00:00.000Z",
+      "endDate": "2026-12-01T21:40:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.berlinschoolofsound.com/product/sonic-borderlines-2026-part-1-poetry-pipa-oud/",
+        "price": "10.-/7.-",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "20:00"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6af1940c1b958744e38ec335_field%20notes%202.1.webp",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Dec 01, 2026 20:00 | Eintritt: 10.-/7.- | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch, Englisch, Arabisch, Chinesisch"
+  },
+  {
+    "slug": "/programm/sonic-borderlines-2026-listening-series-teil-2-new-performance-practice-with-cross-listening",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Sonic Borderlines 2026 \ue089 Listening Series / Teil 2\ue092 New Performance Practice with Cross-Listening",
+      "description": "Sonic Borderlines 2026 \u2013 Listening Series / Teil 2: New Performance Practice with Cross-Listening \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/sonic-borderlines-2026-listening-series-teil-2-new-performance-practice-with-cross-listening",
+      "startDate": "2026-12-13T19:00:00.000Z",
+      "endDate": "2026-12-13T21:40:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.berlinschoolofsound.com/product/sonic-borderlines-part-2-cross-listening/",
+        "price": "10.-/7.-",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "20:00"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6af1940c1b958744e38ec335_field%20notes%202.1.webp",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Dec 13, 2026 20:00 | Eintritt: 10.-/7.- | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch, Englisch, Arabisch, Chinesisch"
+  },
+  {
+    "slug": "/programm/spoken-matter-radio-93tgj",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Spoken Matter Radio",
+      "description": "Spoken Matter Radio \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/spoken-matter-radio-93tgj",
+      "startDate": "2026-12-03T19:00:00.000Z",
+      "endDate": "2026-12-03T21:30:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://vvk.link/744oxu",
+        "price": "8,- / 5,-",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "20:00"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6adf307c7f82bacc77cb42a6_smr_logo.jpg",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Dec 03, 2026 20:00 | Eintritt: 8,- / 5,- | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/ueber-die-leerstellen",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "\u00bb\u00dcber die Leerstellen\u00ab",
+      "description": "\u00bb\u00dcber die Leerstellen\u00ab \u2013 Lesung und Diskussion im Rahmen der Projektwoche &quot;Armut und Literatur&quot; \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/ueber-die-leerstellen",
+      "startDate": "2027-01-22T18:30:00.000Z",
+      "endDate": "2027-01-22T21:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "1,- (Abendkasse)",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "19:30 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6b045eec13af6550ba868e98_LFB_Armut_Literatur_Wortmarke_01.webp",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Jan 22, 2027 19:30 Uhr | Eintritt: 1,- (Abendkasse) | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/und-die-preistraegerin-wird",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Und die Preistr\u00e4gerin wird\u2026!",
+      "description": "Und die Preistr\u00e4gerin wird\u2026! \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/und-die-preistraegerin-wird",
+      "startDate": "2026-12-09T18:00:00.000Z",
+      "endDate": "2026-12-09T21:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "K26 \u2013 Raum f\u00fcr Ideen, Kolonnenstr. 26, 1029 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "auf Spendenbasis",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "19:00 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6af1bb61b44e0516505f64cc_BF-Literaturpreis-Favoritinnentvorstellung_Lettretage20261209.webp",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Dec 09, 2026 19:00 Uhr | Eintritt: auf Spendenbasis | Ort: K26 \u2013 Raum f\u00fcr Ideen, Kolonnenstr. 26, 1029 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/vergangen-und-vergessen-oder-aus-der-geschichte-lernen-elisabeth-schneiders-roman-langergang-36",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Vergangen und Vergessen oder Aus der Geschichte lernen? Elisabeth Schneiders Roman \u201eLangergang 36\u201c",
+      "description": "Vergangen und Vergessen oder Aus der Geschichte lernen? Elisabeth Schneiders Roman \u201eLangergang 36\u201c \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/vergangen-und-vergessen-oder-aus-der-geschichte-lernen-elisabeth-schneiders-roman-langergang-36",
+      "startDate": "2027-01-13T18:30:00.000Z",
+      "endDate": "2027-01-13T20:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": " Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "auf Spendenbasis",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "19:30 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6aec6c731f0ab5fbc39091d4_E.Schneider_Lettretage.jpg",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Jan 13, 2027 19:30 Uhr | Eintritt: auf Spendenbasis | Ort:  Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/von-den-baumwollfeldern-anatoliens-bis-ins-berliner-parlament",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Von den Baumwollfeldern Anatoliens bis ins Berliner Parlament",
+      "description": "Von den Baumwollfeldern Anatoliens bis ins Berliner Parlament \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/von-den-baumwollfeldern-anatoliens-bis-ins-berliner-parlament",
+      "startDate": "2027-01-26T18:00:00.000Z",
+      "endDate": "2027-01-26T20:30:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://vvk.link/746u3m",
+        "price": "5.-",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "19:00 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6aec4ca3f2609e8b655cae70_Beamerfoto_26.1.27_4.jpg",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Jan 26, 2027 19:00 Uhr | Eintritt: 5.- | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/warum-passieren-solche-dinge-immer-am-freitagabend---mit-eunjoo-nam",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "\u201eWarum passieren solche Dinge immer am Freitagabend?\u201c \u2013 mit EunJoo Nam",
+      "description": "\u201eWarum passieren solche Dinge immer am Freitagabend?\u201c \u2013 mit EunJoo Nam \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/warum-passieren-solche-dinge-immer-am-freitagabend---mit-eunjoo-nam",
+      "startDate": "2027-01-15T17:00:00.000Z",
+      "endDate": "2027-01-16T01:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "auf Spendenbasis",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "18:00 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6b0560d892d738d1ae6147aa_Warum%20passieren.jpg",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Jan 15, 2027 18:00 Uhr | Eintritt: auf Spendenbasis | Ort: Lettr\u00e9tage, Veteranenstr. 21, 10119 Berlin | Sprache: Deutsch, verschiedene Sprachen"
+  },
+  {
+    "slug": "/programm/workshop-simultan-poesie-dezember-2026",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Workshop simultan(poesie Dezember 2026",
+      "description": "Workshop SIMULTAN(POESIE \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/workshop-simultan-poesie-dezember-2026",
+      "startDate": "2026-12-05T15:00:00.000Z",
+      "endDate": "2026-12-05T17:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "K26 Raum f\u00fcr Ideen, Kolonnenstr. 26, 10829 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "frei",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "16:00 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6a881ea4914909804ffbddeb_workshop%20simultan%20lettretageK26.avif",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Dec 05, 2026 16:00 Uhr | Eintritt: frei | Ort: K26 Raum f\u00fcr Ideen, Kolonnenstr. 26, 10829 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/workshop-simultan-poesie-juni-2027",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Workshop simultan(poesie Juni 2027",
+      "description": "Workshop SIMULTAN(POESIE \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/workshop-simultan-poesie-juni-2027",
+      "startDate": "2027-06-05T14:00:00.000Z",
+      "endDate": "2027-06-05T17:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "K26 Raum f\u00fcr Ideen, Kolonnenstr. 26, 10829 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "frei",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "16:00 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6a881ea4914909804ffbddeb_workshop%20simultan%20lettretageK26.avif",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Jun 05, 2027 16:00 Uhr | Eintritt: frei | Ort: K26 Raum f\u00fcr Ideen, Kolonnenstr. 26, 10829 Berlin | Sprache: Deutsch"
+  },
+  {
+    "slug": "/programm/workshop-simultan-poesie-maerz-2027",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Workshop simultan(poesie M\u00e4rz 2027",
+      "description": "Workshop SIMULTAN(POESIE \u2013 Literaturveranstaltung in der Lettr\u00e9tage",
+      "url": "https://www.lettretage.de/programm/workshop-simultan-poesie-maerz-2027",
+      "startDate": "2027-03-13T15:00:00.000Z",
+      "endDate": "2027-03-13T18:00:00.000Z",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "K26 Raum f\u00fcr Ideen, Kolonnenstr. 26, 10829 Berlin",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Veteranenstr. 21",
+          "addressLocality": "Berlin",
+          "postalCode": "10119",
+          "addressCountry": "DE"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Lettr\u00e9tage e.V.",
+        "url": "https://www.lettretage.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "",
+        "price": "frei",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "16:00 Uhr"
+      },
+      "image": "https://cdn.prod.website-files.com/69207413650d0ca9c10ee1d7/6a881ea4914909804ffbddeb_workshop%20simultan%20lettretageK26.avif",
+      "inLanguage": "de-DE"
+    },
+    "meta_description": "Mar 13, 2027 16:00 Uhr | Eintritt: frei | Ort: K26 Raum f\u00fcr Ideen, Kolonnenstr. 26, 10829 Berlin | Sprache: Deutsch"
+  }
+]

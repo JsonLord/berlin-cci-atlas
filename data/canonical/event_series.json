@@ -1,0 +1,744 @@
+{
+  "schema_version": "0.4.0",
+  "count": 82,
+  "series": [
+    {
+      "series_id": "srs_divan_melee_e_v_videospiel_turnier",
+      "canonical_title": "Melee e.V. Videospiel-Turnier",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_vhs_elternkurs_deutsch",
+      "canonical_title": "VHS Elternkurs Deutsch",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "language_exchange",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_familienwegweiser",
+      "canonical_title": "Familienwegweiser",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "ven_divan_nehring_26",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_gymnastik_f_r_frauen",
+      "canonical_title": "Gymnastik für Frauen",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "sport_outdoor",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_orientalischer_tanz_f_r_frauen_ab_50",
+      "canonical_title": "Orientalischer Tanz für Frauen ab 50",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_rechtsberatung",
+      "canonical_title": "Rechtsberatung",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "civic_participation",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_mo_einb_rgerungsberatung_nur_termin",
+      "canonical_title": "(Mo) Einbürgerungsberatung / nur Termin",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "civic_participation",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_spanischer_chor_capricho",
+      "canonical_title": "Spanischer Chor „Capricho“",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_w_ab_28_9_offene_meditationsgruppe",
+      "canonical_title": "(w. ab 28.9.!) Offene Meditationsgruppe",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_schachclub_eckbauer",
+      "canonical_title": "Schachclub Eckbauer",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_leichte_gymnastik_f_r_frauen",
+      "canonical_title": "Leichte Gymnastik für Frauen",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "ven_divan_nehring_26",
+      "default_category": "sport_outdoor",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_smartphone_co_einzelberatung",
+      "canonical_title": "Smartphone & Co. Einzelberatung",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "civic_participation",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_osteoporose_und_wirbels_ulengymnastik_1",
+      "canonical_title": "Osteoporose- und Wirbelsäulengymnastik 1",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "sport_outdoor",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_offenes_n_hatelier",
+      "canonical_title": "Offenes Nähatelier",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "ven_divan_nehring_26",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_spiel_krabbelzeit_0_3_jahre",
+      "canonical_title": "Spiel- & Krabbelzeit (0-3 Jahre)",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_schonende_leichtgymnastik",
+      "canonical_title": "Schonende Leichtgymnastik",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "sport_outdoor",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_deutsch_grammatik_a2_b1",
+      "canonical_title": "Deutsch Grammatik (A2/B1)",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "language_exchange",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_di_einb_rgerungsberatung_nur_termin",
+      "canonical_title": "(Di) Einbürgerungsberatung / nur Termin",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "civic_participation",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_power_dance",
+      "canonical_title": "Power Dance",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_feministische_frauentheatergruppe_berlin",
+      "canonical_title": "Feministische Frauentheatergruppe Berlin",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_nehring_ensemble",
+      "canonical_title": "Nehring Ensemble",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_osteoporose_und_wirbels_ulengymnastik_2",
+      "canonical_title": "Osteoporose- und Wirbelsäulengymnastik 2",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "sport_outdoor",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_kiezsuppe",
+      "canonical_title": "\"Kiezsuppe\"",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_b_rgerberatung",
+      "canonical_title": "Bürgerberatung",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "ven_divan_nehring_26",
+      "default_category": "civic_participation",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_soziales_schreibb_ro_agens",
+      "canonical_title": "Soziales Schreibbüro (agens)",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "ven_divan_nehring_26",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_bingo",
+      "canonical_title": "Bingo",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_skat_am_spielenachmittag",
+      "canonical_title": "Skat am Spielenachmittag",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "community_meal",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_mgh_verdi_kreisverband_charlottenburg_wilmersdorf",
+      "canonical_title": "MGH - Verdi Kreisverband Charlottenburg-Wilmersdorf",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "ven_divan_nehring_26",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_wieder_aktiv_ab_18_11_26_sprachcaf_auf_deutsch_a2_b1",
+      "canonical_title": "[*wieder aktiv ab 18.11.26*] Sprachcafé auf Deutsch A2/B1",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "community_meal",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_mudras_jinshin_jyutsu_selbsthilfe",
+      "canonical_title": "Mudras JinShin Jyutsu Selbsthilfe",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "civic_participation",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_yoga_auf_dem_stuhl",
+      "canonical_title": "Yoga auf dem Stuhl",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "sport_outdoor",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_kreativmaler_innen",
+      "canonical_title": "Kreativmaler*innen",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_offener_treff_f_r_m_tter_mit_kindern",
+      "canonical_title": "Offener Treff für Mütter mit Kindern",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "ven_divan_nehring_26",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_tablet_kurs",
+      "canonical_title": "Tablet-Kurs",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "participatory_workshop",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_offener_kieztreff_im_stadtteilzentrum",
+      "canonical_title": "Offener Kieztreff im Stadtteilzentrum",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_kiezpizza",
+      "canonical_title": "\"Kiezpizza\"",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_integrationslots_innen",
+      "canonical_title": "Integrationslots:innen",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_smash_brothers_retro_videospielgruppe",
+      "canonical_title": "Smash Brothers Retro-Videospielgruppe",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "ven_divan_nehring_26",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_kiezklezmer_musikgruppe",
+      "canonical_title": "KiezKlezmer Musikgruppe",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_mudras_jinshin_jyutsu_selbsthilfe_f_r_fortgeschrittene",
+      "canonical_title": "Mudras JinShin Jyutsu Selbsthilfe für Fortgeschrittene",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "civic_participation",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_lietzen_chor",
+      "canonical_title": "Lietzen-Chor",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_senioren_kabarettgruppe_pustekuchen",
+      "canonical_title": "Senioren-Kabarettgruppe „Pustekuchen“",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_fr_einb_rgerungsberatung_offene_sprechstunde",
+      "canonical_title": "(Fr) Einbürgerungsberatung / offene Sprechstunde",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "civic_participation",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_t_rkische_seniorinnengruppe",
+      "canonical_title": "Türkische Seniorinnengruppe",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "language_exchange",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_kiez_disco_im_divan",
+      "canonical_title": "Kiez-Disco im Divan!",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_seniorensprechstunde",
+      "canonical_title": "Seniorensprechstunde",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "civic_participation",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_spielenachmittag",
+      "canonical_title": "Spielenachmittag",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "community_meal",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_asiatischer_senior_innentreff_cha_cha",
+      "canonical_title": "Asiatischer Senior:innentreff \"Cha Cha\"",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_bulgarischer_literaturverein",
+      "canonical_title": "Bulgarischer Literaturverein",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_verein_d_vietnamesischen_pfadfinder",
+      "canonical_title": "Verein d. Vietnamesischen Pfadfinder",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_saal_sozialverband_charlottenburg_e_v",
+      "canonical_title": "SAAL - Sozialverband Charlottenburg e.V.",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_mgh_dgb_kreisverband_charlottenburg_wilmersdorf_vorstandssitzung",
+      "canonical_title": "MGH - DGB-Kreisverband Charlottenburg-Wilmersdorf Vorstandssitzung",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "ven_divan_nehring_26",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_saal_stimmsport_stimm_u_atemtraining_offenes_singen",
+      "canonical_title": "SAAL - Stimmsport, Stimm - u. Atemtraining / offenes Singen",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "sport_outdoor",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_saal_japanische_seniorinnen_u_senioren_offener_treff",
+      "canonical_title": "SAAL - Japanische Seniorinnen u. Senioren - offener Treff",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "ven_divan_nehring_26",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_kiezb_hne_der_kiezkulturwerkstadt",
+      "canonical_title": "Kiezbühne der Kiezkulturwerkstadt",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_divan_kameruner_kulturverein_bca_bali_nyonga_cultural_association",
+      "canonical_title": "Kameruner Kulturverein, BCA (Bali Nyonga Cultural Association)",
+      "organiser_id": "org_interkulturelles-stadtteilzentrum-divan",
+      "default_venue_id": "interkulturelles-stadtteilzentrum-divan",
+      "default_category": "neighbourhood_gathering",
+      "series_type": "weekly_group",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_alias_alice",
+      "canonical_title": "Alias Alice",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_befreundete_b_cher",
+      "canonical_title": "Befreundete Bücher",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_bitte_setzen_1_zer_setzen",
+      "canonical_title": "bitte-setzen! #1: zer-setzen",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_bodies_carry_borders",
+      "canonical_title": "Bodies Carry Borders",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_boom_boom_room_queere_lesung_und_konzert",
+      "canonical_title": "BOOM BOOM ROOM  Queere Lesung und Konzert",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_dead_ladies_show_44",
+      "canonical_title": "Dead Ladies Show #44",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_der_fregestein_verlag_stellt_sich_vor",
+      "canonical_title": "Der Fregestein Verlag stellt sich vor",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_ferner_berliner_buchpremiere_mit_elisa_weink_tz_und_performance",
+      "canonical_title": "Ferner – Berliner Buchpremiere mit Elisa Weinkötz und Performance",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_fu_review_carry_issue_13_launch",
+      "canonical_title": "FU Review: CARRY Issue 13 Launch",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_gans_verlagsabend",
+      "canonical_title": "Gans Verlagsabend",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_ich_habe_die_geschichte_erfunden_um_zu_erz_hlen_wie_es_war",
+      "canonical_title": "„Ich habe die Geschichte erfunden, um zu erzählen, wie es war“",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_jetzt_ist_sense",
+      "canonical_title": "Jetzt ist Sense!",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_kinky_soul_reading_night_47",
+      "canonical_title": "Kinky Soul Reading Night #47",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_kurze_kippen_die_short_stories_night",
+      "canonical_title": "Kurze Kippen – Die Short Stories Night",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_leseabend_des_hochroth_verlagsnetzwerks",
+      "canonical_title": "Leseabend des hochroth Verlagsnetzwerks",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_rt_des_schreibens",
+      "canonical_title": "Ωrt des Schreibens",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_reading_of_the_happiness_engine_with_anastasia_shevchenko",
+      "canonical_title": "Reading of the Happiness Engine with Anastasia Shevchenko",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_senf_neue_texte_frisch_vom_blatt",
+      "canonical_title": "SENF - neue Texte frisch vom Blatt",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_silent_writing_die_offene_schreibgruppe_november_2026",
+      "canonical_title": "Silent Writing - Die offene Schreibgruppe November 2026",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_sonic_borderlines_2026_listening_series_teil_1_poetry_reading_und_listening_workshop",
+      "canonical_title": "Sonic Borderlines 2026 – Listening Series / Teil 1 Poetry Reading und Listening Workshop",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_sonic_borderlines_2026_listening_series_teil_2_new_performance_practice_with_cross_listening",
+      "canonical_title": "Sonic Borderlines 2026  Listening Series / Teil 2 New Performance Practice with Cross-Listening",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_spoken_matter_radio",
+      "canonical_title": "Spoken Matter Radio",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_ber_die_leerstellen",
+      "canonical_title": "»Über die Leerstellen«",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_vergangen_und_vergessen_oder_aus_der_geschichte_lernen_elisabeth_schneiders_roman_langergang_36",
+      "canonical_title": "Vergangen und Vergessen oder Aus der Geschichte lernen? Elisabeth Schneiders Roman „Langergang 36“",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_von_den_baumwollfeldern_anatoliens_bis_ins_berliner_parlament",
+      "canonical_title": "Von den Baumwollfeldern Anatoliens bis ins Berliner Parlament",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    },
+    {
+      "series_id": "srs_lettretage_warum_passieren_solche_dinge_immer_am_freitagabend_mit_eunjoo_nam",
+      "canonical_title": "„Warum passieren solche Dinge immer am Freitagabend?“ – mit EunJoo Nam",
+      "organiser_id": "org_lettretage",
+      "default_venue_id": "lettretage",
+      "default_category": "arts_culture",
+      "series_type": "irregular_series",
+      "status": "active"
+    }
+  ]
+}
