@@ -52,7 +52,7 @@ def _infer_category(title: str, default: str = "neighbourhood_gathering") -> str
     return default
 
 
-def compile_events(repo: Path) -> dict[str, Any]:
+def compile_events(repo: Path, generated_at: str = "2026-11-27T12:00:00+01:00") -> dict[str, Any]:
     divan_path = repo / "docs" / "phase2" / "divan" / "DIVAN_ATTRIBUTION_RESULTS.json"
     lettretage_path = repo / "docs" / "phase2" / "pilot" / "lettretage_pilot_results.json"
 
@@ -232,7 +232,7 @@ def compile_events(repo: Path) -> dict[str, Any]:
 
     public_events_payload = {
         "schema_version": "0.1.0",
-        "generated_at": datetime.now(BERLIN_TZ).isoformat(),
+        "generated_at": generated_at,
         "count": len(occurrences),
         "events": occurrences,
     }
